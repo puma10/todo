@@ -1,0 +1,164 @@
+Tax 
+	get julian everything
+		
+		Call with Julian 
+		
+		Discuss Dubai setup
+		Discuss offsetting expenses 
+		Tax for Expats
+		distributions Harsha took out
+		where to put the crypto 
+		Tax write-off - You can claim this as a theft loss on your taxes (though recent tax law changes limit this)
+
+	Call the law firm against masud khan 
+
+
+	Admin 
+		
+
+
+
+ED 
+
+
+
+Tomorrow 
+======
+
+	ED
+		
+		Segement event for adding a connector 
+		Fix funnel for signup to add a conenctor 
+		Setup slack for Edge Delta
+		https://ahrefs.com/blog/ai-visibility/
+
+	Put the feature into serpwatch?
+
+	Artsmart
+		Get app running locally 
+
+	Document 
+	Multi File for worktrees
+
+	General
+		try 
+
+	Tax
+
+	Analytics - learn on FiWithAi
+
+	Submit Serpwatch
+		Artsmart is going down - sell serpwatch so we can cut costs
+			Put together criteria and give to 
+
+	Personal Finance
+		See Tasks below [needs thinking]
+
+
+
+LATER 
+======================
+Buy ahrefs ai visiblity 
+Get insurance when moving to Las Vegas 
+
+Admin 
+	Unfuck the headphones 
+	Genki health insurance 
+
+Tax first
+		
+
+		Ok refactored
+			- Actually do the tax now
+		https://accountants.intuit.com/community/proseries-tax-discussions/discussion/reclassifying-distributions-as-payroll/00/86637
+		What about other cost reduction options?  
+
+		Foreign Corp
+			Decide to file or not 
+
+
+Personal Finance App 
+	Get the output making more sense
+		Things you want to see
+			Whats the maximum you can save 
+			What other techniques do you want to setup for 2025?
+				BackDoor ROTH https://x.com/ankurnagpal/status/1982852546306945282
+				SEP 
+				others
+				IRA
+				QBI deduction limited by W-2 wage requirement at high income levels.
+					Code in the gotchas
+
+	Make it suggest solutions even if not hardcoded into the yaml
+	Look at megabackdoor roth
+
+
+
+ED 
+	Get the analytics for what the user did in app
+		Waiting Emrah
+
+	Create a sync function to pull everything down
+		Then push to staging with ssh.
+		All good push to production
+
+
+	
+Artsmart Goals
+		- openai deep research to fill missing information?
+		- build SEO module 
+		- CMS 
+			- Stick with wordpress
+
+		- Get App running 
+			
+		- Learn any cloudflare 
+		- Make Coupon Page 
+			[ ] rewrite with deep research from openai 
+			[ ] Get data from shalwa 
+			[ ] Go through site for any missing pages.
+			[ ] Try to port the data over from the other artsmart page
+			[ ] Might be able to port the db direct from the staging server
+			[ ] Add pop-ups 
+			[ ] Get Blog CTA's in place
+			[ ] Finish Homepage (conversion page)
+			[ ] Make a Usecase page based on your old template with 21st dev
+
+
+==== ADMIN ======
+
+	
+NEXT WEEK ====
+	
+	- Get Health Insurance 
+	- deploy crypto
+	- Adjust linkedin campaigns 
+
+=====
+
+Tax 
+- 962 tax  https://grok.com/c/df2a01d0-3323-47cb-bedb-530591fa383d
+		- learn subpart F 
+ - R and D tax credits
+ - Chat monday with big4 tax
+ 	- Learn these 8621 (PFIC), 8938 (FATCA)
+ 	- https://grok.com/c/df2a01d0-3323-47cb-bedb-530591fa383d
+ 		- Qualified Electing Fund (QEF)
+ 		- Exit Strategy: To access funds tax-efficiently, consider loans from the corp (non-taxable if arm's-length)
+ 		- Passive Foreign Investment Company (PFIC)
+ 			- need to bring more money in or it's a problem 
+ 		- Elect QEF (simplifies to pass-through reporting) or monitor de minimis—reassess in 6 months.
+ 		- what are my annual requirements 
+ 		- cpa said weird if you're living in portland but overseas corporation 
+ 	- Deepak has never been in australia 
+ 	- Crypto gains could be an issue (passive 75%)
+ 	- is there any issue with this
+ 	- suppose to go to dubai every 6 months 
+ 	- reclassify distributions 
+ 	- https://1040abroad.com/blog/category/business-us-expat-taxes/
+ 	- said it might be a little weird that your a US citizen 
+ 	- mortage interest is tax deductable? 
+ 	- cost seg 
+
+
+

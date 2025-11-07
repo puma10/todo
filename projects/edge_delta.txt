@@ -1,0 +1,132 @@
+Edge Delta:
+	Meeting Today 
+		Backend Access to the App 
+			Need to see if they are interacting overtime during the free trial
+	
+Postionioning 
+	- Who are we targeting 
+		- 
+
+Chats
+	- Sarah 
+		- Munni 
+	- Marketing Meeting 
+		- Ads coverage 
+
+Website 
+	- Raj use github 
+		- how do I pull most recent to my local? 
+		- how do we sync production content changes to staging then to local
+			- maybe makes sense to make an rysnc function to get production db 
+	- Edgedelta Website Todo 
+	- fix raj's buttons
+	- fix javascript issue 
+	- break one of raj's pages down 
+	- make a develoepr documentation
+	- make a make file for common utilities like our webm to
+		- github flow 
+	- Trigger in slack 
+		- file changes
+		- database 
+		- see whos onlines 
+	- Fix buttons
+	- Small includes and we just stick them where we want 
+	- Push from Staging to Live 
+	- Live users 
+		- marketing meeting 
+		- pop-up
+	- example with gokhan - pages for tom to work with 
+	- popups to route the SEO traffic to desired action 
+	- get micah avaialbe for fast design
+
+
+Nuture flow
+	- sequences 
+		- welcome email 
+			- general nuture 
+		- triggered emails 
+			- events
+			- emails opened 
+
+In Motion 
+	- Campaigns
+		- Webinar 
+
+
+Ads 
+	- Events
+		- Vibe Code
+	- Webinar 
+		- Prompt beginning promo code at the end 
+			- officehours20 
+			- put on the landing page 
+		- Discount
+		- Webinar specific code
+		- Ozan pump cool 
+
+
+	- Newsletters
+	- Later 
+		- Signups but didn't pay
+			- remarketing
+			- lifecycle campaigns
+
+Socials 
+	Sora Video Gen 
+
+
+
+Product Marketing 
+	traffic to signup 
+
+Raj 
+	Show him how to manage tasks in slack
+
+
+Bring raj to this meeting 
+	
+
+
+Community 
+	- Discord Emrah is working on it 
+		- created 
+
+
+Analytics 
+	GEO location Not working 
+		Recording Everyone as Oregon
+
+	Blind to whats happening post signup
+		Blocked by VPN
+
+	Screen Sessions
+		Get Pipelines out of there
+		Get Mobile out of there 
+
+	Check and Follow Up
+		Tag manager refactored 
+			- get tag manager 
+
+	Initial Page 
+		Doesn't seem accurate 
+	
+
+
+Later: 
+	- Discuss affiliates
+	- utm-parameters 
+
+Organic Social
+	- Reddit 
+		- 
+
+
+Tax Year 2024
+----------------------------------------
+  Status: ✓ QUALIFIES
+  Test Used: Physical Presence Test
+  Qualifying Days: 108
+  Max Exclusion: $126,500
+  Your Exclusion [prorated]: $37,430.14
+  Actual Savings: $xxxx
+
