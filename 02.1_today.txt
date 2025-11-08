@@ -1,0 +1,77 @@
+Admin 
+	Getmindful
+		Call rite aid 
+			Download the app
+			Done
+	Call the law firm against masud khan 
+	Document Multi File for worktrees
+	Adjust linkedin campaigns for Career
+		how can we start captilizing on this?
+	New Social Security Card
+
+Dev Utility
+	VS code should show the branch and time
+
+ED 
+	Fix funnel for signup to add a conenctor
+	Setup slack for Edge Delta
+	
+Artsmart
+	[x] Get app running locally 
+		start trying to migrate to next.js
+			try to make a canvas
+	does sandi know these technologies
+	why is it so big 
+	Can we merge marketing and app?
+
+Marketing
+	Test kling 2.5 for tiktok video creation
+	
+
+FiWithAi
+	plaid integration
+	resetup email on another aws account
+	Look at Todo 
+		backend didn't run
+			tried to setup a url for frontend / backend
+			realized claude code is broken
+
+Shotsmart 
+	Setup the engine
+		Try switch Next.js
+		See if you can do a real training run 
+	
+
+Serpwatch 
+	Set the billing for appsumo users popup 
+		Same Time Make the Docs to sell to vineet
+
+		AI changes 
+			https://lean-machine-group.slack.com/archives/C042Y6GS2MT/p1762528656185669
+			https://claude.ai/share/19832626-85da-4d08-8f93-4877ba96529d
+		
+		Scope the stretch goal 
+			Stripe Goal 
+			
+			Features 
+
+				Content Studio
+
+				Link Exchange
+				
+				Power Users
+					API Access
+
+				AI Visibility 
+
+
+
+
+
+
+
+
+
+
+
+
