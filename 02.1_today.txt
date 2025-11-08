@@ -1,56 +1,56 @@
 Admin 
-	Getmindful
-		Call rite aid 
+	Spam Airbnb for a place
+		https://www.airbnb.com/rooms/1252421394537012298?check_in=2025-11-08&check_out=2025-12-08&location=Portland%2C%20OR&search_mode=regular_search&source_impression_id=p3_1762571721_P3mG4X-Ekln576lx&previous_page_section_name=1001&federated_search_id=a375c101-6a53-46f0-9a3c-dd3ec8358a5b
+		https://mail.google.com/mail/u/0/#sent/FFNDWMGWxNJFmPvNjtQWNSvvXsTvxSnB
+	
+	Getmindfulhealth
+		Call riteaid 
 			Download the app
-			Done
-	Call the law firm against masud khan 
-	Document Multi File for worktrees
-	Adjust linkedin campaigns for Career
-		how can we start captilizing on this?
-	New Social Security Card
+			RiteAid Migrated to CVS - call them to see if they have perscription
 
-Dev Utility
-	VS code should show the branch and time
 
-ED 
-	Fix funnel for signup to add a conenctor
-	Setup slack for Edge Delta
 	
 Artsmart
-	[x] Get app running locally 
-		start trying to migrate to next.js
-			try to make a canvas
-	does sandi know these technologies
-	why is it so big 
-	Can we merge marketing and app?
+	Path to cash?
+		fun analysis 
+			improve the app quickly and integrate all new models
+			start trying to migrate to next.js - app setup locally
+				try to make a canvas
 
 Marketing
-	Test kling 2.5 for tiktok video creation
+	[x] Test kling 2.5 for tiktok video creation
+		pipeline for tiktok videos 
 	
 
 FiWithAi
-	plaid integration
-	resetup email on another aws account
+	Priortize for Launch - todo.md
+		plaid integration
+			sandbox working 
+				need to learn what else the api can do
 	Look at Todo 
-		backend didn't run
-			tried to setup a url for frontend / backend
-			realized claude code is broken
 
 Shotsmart 
+	Try switch Next.js (on a branch)
+		Maybe wait until gemini 3 with good css to rewriet less code
 	Setup the engine
-		Try switch Next.js
 		See if you can do a real training run 
 	
 
-Serpwatch 
+Serpwatch [Top]
+	Need to 
+		https://www.loom.com/share/440b5cbff04b4080a297fd15ca1fda00
 	Set the billing for appsumo users popup 
 		Same Time Make the Docs to sell to vineet
+
+		Build in outrank 
+		Human service is genius 
+
 
 		AI changes 
 			https://lean-machine-group.slack.com/archives/C042Y6GS2MT/p1762528656185669
 			https://claude.ai/share/19832626-85da-4d08-8f93-4877ba96529d
 		
-		Scope the stretch goal 
+		Scope the stretch Goal 
 			Stripe Goal 
 			
 			Features 
@@ -64,6 +64,7 @@ Serpwatch
 
 				AI Visibility 
 
+Unpile plumming 
 
 
 

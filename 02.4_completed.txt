@@ -1,0 +1,6 @@
+Artsmart
+	[2025-11-08] [x] Get app running locally 
+	[2025-11-08] [x] yes does sandi know these technologies
+
+Marketing
+	[2025-11-08] [x] Test kling 2.5 for tiktok video creation
