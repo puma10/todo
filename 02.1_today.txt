@@ -12,6 +12,8 @@ Admin
 	
 Artsmart
 	Path to cash?
+		signups [cta add]
+		open the product and give ads 
 		fun analysis 
 			improve the app quickly and integrate all new models
 			start trying to migrate to next.js - app setup locally
@@ -19,7 +21,7 @@ Artsmart
 
 Marketing
 	[x] Test kling 2.5 for tiktok video creation
-		pipeline for tiktok videos 
+		pipeline for ittiktok videos 
 	
 
 FiWithAi
