@@ -25,14 +25,10 @@ Marketing
 
 FiWithAi
 	Priortize for Launch - todo.md
-		plaid integration
-			sandbox working 
-				need to learn what else the api can do
-	Look at Todo 
+	plaid integration
+		[x] sandbox working 
 
 Shotsmart 
-	Try switch Next.js (on a branch)
-		Maybe wait until gemini 3 with good css to rewriet less code
 	Setup the engine
 		See if you can do a real training run 
 	

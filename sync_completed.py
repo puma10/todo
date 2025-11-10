@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Move checked tasks from daily and in-progress lists into 02.4_completed.txt.
+Move checked tasks from today, tomorrow, strategy, and in-progress lists into 02.4_completed.txt.
 """
 
 from __future__ import annotations
@@ -11,14 +11,20 @@ import re
 import sys
 from datetime import date
 from pathlib import Path
-from typing import Dict, List, Set, Tuple
+from typing import Dict, List, Sequence, Set, Tuple
 
 ROOT = Path(__file__).resolve().parent
 TODAY_FILE = ROOT / "02.1_today.txt"
+TOMORROW_FILE = ROOT / "02.2_tomorrow"
 IN_PROGRESS_FILE = ROOT / "03_in_progress"
 STRATEGY_FILE = ROOT / "strategy"
 COMPLETED_FILE = ROOT / "02.4_completed.txt"
-SOURCE_FILES = (TODAY_FILE, IN_PROGRESS_FILE, STRATEGY_FILE)
+SOURCE_FILES: Sequence[Path] = (
+    TODAY_FILE,
+    TOMORROW_FILE,
+    IN_PROGRESS_FILE,
+    STRATEGY_FILE,
+)
 
 TASK_REGEX = re.compile(r"\[x\]\s*(.*)", re.IGNORECASE)
 BULLET_PREFIX_REGEX = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+)")
@@ -99,23 +105,52 @@ def parse_checked_task(raw_line: str) -> str | None:
     return task_text or None
 
 
+def leading_indent(raw_line: str) -> int:
+    expanded = raw_line.expandtabs(4)
+    return len(expanded) - len(expanded.lstrip())
+
+
 def extract_tasks_from_lines(lines: List[str], file_path: Path) -> List[TaskEntry]:
     tasks: List[TaskEntry] = []
     current_section: str | None = None
+    context_stack: List[Tuple[int, str]] = []
 
     for idx, raw_line in enumerate(lines):
         stripped = raw_line.strip()
         if not stripped:
             continue
 
+        indent = leading_indent(raw_line)
         task_text = parse_checked_task(raw_line)
         if task_text:
+            while context_stack and indent <= context_stack[-1][0]:
+                context_stack.pop()
+
             section_name = current_section or file_path.stem
-            tasks.append(TaskEntry(section_name, task_text, file_path, idx))
+            if context_stack:
+                context_parts = [entry for _, entry in context_stack]
+                full_text = " / ".join(context_parts + [task_text])
+            else:
+                full_text = task_text
+            tasks.append(TaskEntry(section_name, full_text, file_path, idx))
             continue
 
         if raw_line.lstrip() == raw_line:
             current_section = stripped
+            context_stack.clear()
+            continue
+
+        context_text = stripped
+        bullet_match = BULLET_PREFIX_REGEX.match(context_text)
+        if bullet_match:
+            context_text = context_text[bullet_match.end():].lstrip()
+        context_text = normalize_task(context_text)
+        if not context_text:
+            continue
+
+        while context_stack and indent <= context_stack[-1][0]:
+            context_stack.pop()
+        context_stack.append((indent, context_text))
 
     return tasks
 
