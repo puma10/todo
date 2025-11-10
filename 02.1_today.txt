@@ -20,8 +20,7 @@ Artsmart
 				try to make a canvas
 
 Marketing
-	[x] Test kling 2.5 for tiktok video creation
-		pipeline for ittiktok videos 
+		evaluate the easiest distribution path
 	
 
 FiWithAi
@@ -66,15 +65,4 @@ Serpwatch [Top]
 
 				AI Visibility 
 
-Unpile plumming 
-
-
-
-
-
-
-
-
-
-
-
+Unpile plumming

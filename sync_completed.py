@@ -16,9 +16,12 @@ from typing import Dict, List, Set, Tuple
 ROOT = Path(__file__).resolve().parent
 TODAY_FILE = ROOT / "02.1_today.txt"
 IN_PROGRESS_FILE = ROOT / "03_in_progress"
+STRATEGY_FILE = ROOT / "strategy"
 COMPLETED_FILE = ROOT / "02.4_completed.txt"
+SOURCE_FILES = (TODAY_FILE, IN_PROGRESS_FILE, STRATEGY_FILE)
 
 TASK_REGEX = re.compile(r"\[x\]\s*(.*)", re.IGNORECASE)
+BULLET_PREFIX_REGEX = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+)")
 
 
 @dataclass(frozen=True)
@@ -72,6 +75,30 @@ def load_completed() -> Tuple[List[str], Dict[str, List[str]], Dict[str, Set[str
     return section_order, section_entries, section_tasks
 
 
+def parse_checked_task(raw_line: str) -> str | None:
+    stripped = raw_line.lstrip()
+    if not stripped:
+        return None
+
+    bullet_match = BULLET_PREFIX_REGEX.match(stripped)
+    if bullet_match:
+        stripped = stripped[bullet_match.end():].lstrip()
+
+    lowered = stripped.lower()
+    remainder: str | None = None
+
+    if lowered.startswith("[x]"):
+        remainder = stripped[3:]
+    elif lowered.startswith("x") and (len(stripped) == 1 or stripped[1] in {" ", "\t", "-", ":"}):
+        remainder = stripped[1:]
+    else:
+        return None
+
+    remainder = remainder.lstrip(" \t:-")
+    task_text = normalize_task(remainder)
+    return task_text or None
+
+
 def extract_tasks_from_lines(lines: List[str], file_path: Path) -> List[TaskEntry]:
     tasks: List[TaskEntry] = []
     current_section: str | None = None
@@ -81,11 +108,8 @@ def extract_tasks_from_lines(lines: List[str], file_path: Path) -> List[TaskEntr
         if not stripped:
             continue
 
-        match = TASK_REGEX.search(raw_line)
-        if match:
-            task_text = normalize_task(match.group(1))
-            if not task_text:
-                continue
+        task_text = parse_checked_task(raw_line)
+        if task_text:
             section_name = current_section or file_path.stem
             tasks.append(TaskEntry(section_name, task_text, file_path, idx))
             continue
@@ -103,7 +127,7 @@ def gather_source_tasks() -> Tuple[Dict[Path, List[str]], List[TaskEntry]]:
     if not TODAY_FILE.exists():
         raise FileNotFoundError(f"Could not find {TODAY_FILE}")
 
-    for file_path in (TODAY_FILE, IN_PROGRESS_FILE):
+    for file_path in SOURCE_FILES:
         if not file_path.exists():
             continue
         lines = file_path.read_text().splitlines()
@@ -148,20 +172,21 @@ def sync_completed() -> Tuple[int, int, List[Tuple[str, str, str]], Dict[Path, i
     tasks_added: List[Tuple[str, str, str]] = []
 
     for task in tasks:
+        source_label = task.file_path.stem
+        decorated_task_text = f"[{source_label}] {task.text}"
         section_name = task.section
-        task_text = task.text
         if section_name not in section_entries:
             section_order.append(section_name)
             section_entries[section_name] = []
             section_tasks[section_name] = set()
 
-        if task_text in section_tasks[section_name]:
+        if decorated_task_text in section_tasks[section_name]:
             continue
 
-        entry = f"\t[{today_str}] [x] {task_text}"
+        entry = f"\t[{today_str}] [x] {decorated_task_text}"
         section_entries[section_name].append(entry)
-        section_tasks[section_name].add(task_text)
-        tasks_added.append((section_name, task_text, task.file_path.name))
+        section_tasks[section_name].add(decorated_task_text)
+        tasks_added.append((section_name, decorated_task_text, task.file_path.name))
 
     if tasks_added:
         lines: List[str] = []
