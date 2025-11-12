@@ -1,64 +1,78 @@
+[d] = delegate 
+[i] = in progress
+[b] = blocked waiting 
+
+##### REMEMBER AiDHD ##### 
+
+Dev workflow
+	Try cursor worktrees on a standalone file
+	What's AISDK 5
+	Wyndsurf new model tree 
+
 Admin 
-	Spam Airbnb for a place
-		https://www.airbnb.com/rooms/1252421394537012298?check_in=2025-11-08&check_out=2025-12-08&location=Portland%2C%20OR&search_mode=regular_search&source_impression_id=p3_1762571721_P3mG4X-Ekln576lx&previous_page_section_name=1001&federated_search_id=a375c101-6a53-46f0-9a3c-dd3ec8358a5b
-		https://mail.google.com/mail/u/0/#sent/FFNDWMGWxNJFmPvNjtQWNSvvXsTvxSnB
-	
-	Getmindfulhealth
-		Call riteaid 
-			Download the app
-			RiteAid Migrated to CVS - call them to see if they have perscription
+	Social security card
+	Find wallet and credit card
+	insurance
+	hair 
+	mdm software 
 
+ED 
+	Gokahn - consider in the app 
 
+Reddit Bot [Top]
+	[i] Get it working and start promoting?
+		Expand value props to capture more reddit
+	Check the code on the llm judge
+	Learn evals with this
+		Assumption is I can take user feedback to adjust it.
+		what is this dspy package thing
 	
-Artsmart
-	Path to cash?
-		signups [cta add]
-		open the product and give ads 
-		fun analysis 
-			improve the app quickly and integrate all new models
-			start trying to migrate to next.js - app setup locally
-				try to make a canvas
+	Plan what to do with multilogin - kate's infra
+	It's still using guardrails 
 
-Marketing
-		evaluate the easiest distribution path
-	
+Serpwatch 
+	map strategy about network effect
+	[i] Scope the Link Exchange Feasiblity /linkexchange
+		real world use case small
+			rough idea of cost 
+			scrape a 100 sites and find cross relations
+			what is the actual outcome we need to be sure it works
+	[i] content strategy
+
 
 FiWithAi
-	Priortize for Launch - todo.md
-	plaid integration
-		[x] sandbox working 
+	Document all the test user functions in dev docs
+	Fix the mouse movement to be only in the dash
+	[i] Add Anomaly Detection
+		Didn't fire
 
-Shotsmart 
-	Setup the engine
-		See if you can do a real training run 
+	Actually use your Thesis 
+	Expand value props to capture more reddit
 	
+	plaid integration
+		[x] learn what it's capble of - meeting tomorrow to get dev access 
+		[b] waiting approval from plaid
 
-Serpwatch [Top]
-	Need to 
-		https://www.loom.com/share/440b5cbff04b4080a297fd15ca1fda00
-	Set the billing for appsumo users popup 
-		Same Time Make the Docs to sell to vineet
+	Run an overnight secruity check in cloud 
 
-		Build in outrank 
-		Human service is genius 
+	try setting up monitoring - hetzner doesn't have it
+		adjust to edge delta connectors 
+		https://claude.ai/share/f1c4683f-4837-4d1b-9ab0-9a73611caf92
+		prometheus and grafana
+		Node Exporter on your app server (collects CPU, memory, disk, network stats)
+		Prometheus to scrape and store metrics
+		Grafana for visualization/dashboards
+		Python: python-json-logger or structlog
+		Node.js: winston or pino
+		Then you either:
+		Ship logs to a service (Loki is popular for self-hosting, pairs with Grafana)
+		Use a log aggregator like Papertrail, Logtail, or Better Stack
 
 
-		AI changes 
-			https://lean-machine-group.slack.com/archives/C042Y6GS2MT/p1762528656185669
-			https://claude.ai/share/19832626-85da-4d08-8f93-4877ba96529d
-		
-		Scope the stretch Goal 
-			Stripe Goal 
-			
-			Features 
 
-				Content Studio
+Marketing 
+	Review ideas - evaluate the easiest distribution path
 
-				Link Exchange
-				
-				Power Users
-					API Access
 
-				AI Visibility 
-
-Unpile plumming
+Dev workflow 
+	Does cursor agent auto read console? Can use codex to do it?

@@ -1,3 +1,6 @@
+Admin
+    Rename Airpods for clarity of connection
+
 Education 
     https://forum.openai.com/home
 
@@ -9,12 +12,31 @@ Tax
 			Distributions Harsha took out 
 
 Organize Tax file in thi folder
+
+FiwithAI
+    Priortize for Launch - todo.md
     
 
 ED 
+    Do some posthog hacking
     Meeting to get aligned on webiste switch to next.js
+    Test full funnel flow 
     Fix funnel for signup to add a connector 
     Setup slack for Edge Delta
+    How do we feel about switching content management system
+    https://www.qualified.com/
 
 Insurance 
     Las Vegas vs Flordia
+
+Claude keeps happening: Exit code 126
+		/Users/joshwardini/.claude/shell-snapshots/snapshot-zsh-1762907192344-5jt8ih.sh:75: parse error near `\n'
+
+
+Shotsmart 
+	Setup the engine
+		SSH into the server to see how things really work and get a full idea of the architecture
+		See if you can do a real training run 
+
+Digilit 
+	Unfook it and get your resume up

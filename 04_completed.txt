@@ -8,3 +8,6 @@ Marketing
 
 Admin
 	[2025-11-10] [x] Headphones: https://getsupport.apple.com/repair/confirmation?locale=en_US
+
+FiWithAi
+	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Move checked tasks from today, tomorrow, strategy, and in-progress lists into 02.4_completed.txt.
+Move checked tasks from today, tomorrow, strategy, and in-progress lists into 04_completed.txt.
 """
 
 from __future__ import annotations
@@ -18,7 +18,7 @@ TODAY_FILE = ROOT / "02.1_today.txt"
 TOMORROW_FILE = ROOT / "02.2_tomorrow"
 IN_PROGRESS_FILE = ROOT / "03_in_progress"
 STRATEGY_FILE = ROOT / "strategy"
-COMPLETED_FILE = ROOT / "02.4_completed.txt"
+COMPLETED_FILE = ROOT / "04_completed.txt"
 SOURCE_FILES: Sequence[Path] = (
     TODAY_FILE,
     TOMORROW_FILE,
@@ -252,7 +252,7 @@ def main() -> int:
         return 0
 
     if added_count == 0:
-        print("No new entries added to 02.4_completed.txt (all tasks already logged).")
+        print("No new entries added to 04_completed.txt (all tasks already logged).")
     else:
         print(f"Added {added_count} task(s) to {COMPLETED_FILE.name}:")
         for section_name, task_text, source_name in additions:
