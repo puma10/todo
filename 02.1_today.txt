@@ -31,24 +31,8 @@ Reddit Bot
 		Think what the best repsonse would be
 		
 		Harness 
-			[x] Created your "harness"
-			[x] learn about evals 
-			[x] code as judge v0
-				[x] Expanded Metrics 
-					[x] Accuracy 
-					[x] Grounding
-					[x] Tone
-					[x] Value Prop Fit 
-					[x] CTA
-					[x] Risk 
-					[x] Brevity
-					[x] Overall Score
-		
-		Improve Metrics for Evaluation
-
 		Try a Fine Tune to Improve Response
 		Add LLM Inspection
-	
 		Investigate How it Works Current 
 			Keyword 
 			Guardrails
@@ -60,14 +44,11 @@ Reddit Bot
 			Grounding?
 
 		Expand docs and value props to capture more relvant response
-		Check the code on the llm judge
+		[x] Check the code on the llm judge
 		Learn evals with this
 		what is this dspy package thing
 
 	Wire it streaming to slack and Auto Posts to Reddit 
-
-	
-	
 	Plan what to do with multilogin - kate's infra
 
 

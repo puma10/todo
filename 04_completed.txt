@@ -18,5 +18,17 @@ FiWithAi
 	[2025-11-12] [x] [02.1_today] setup monitoring / add loggers
 	[2025-11-12] [x] [02.1_today] setup monitoring / ship logs Loki is popular for self-hosting, pairs with Grafana
 
-Reddit Bot [Top]
+Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Created your "harness"
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / learn about evals
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / code as judge v0
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Expanded Metrics
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Accuracy
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Grounding
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Tone
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Value Prop Fit
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / CTA
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Risk
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Brevity
+	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Overall Score
