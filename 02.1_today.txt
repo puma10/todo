@@ -7,7 +7,11 @@
 Dev workflow
 	Try cursor worktrees on a standalone file
 	What's AISDK 5
-	Wyndsurf new model tree 
+	Wyndsurf new model tree
+	Try Turntable in Illustrator  
+
+Todo workflow
+	add tasks you can work between the ai and a legend flag
 
 Admin 
 	Social security card
@@ -16,13 +20,18 @@ Admin
 	hair 
 	mdm software 
 
+	can you use atlas for task follow up?
+
 ED 
 	Gokahn - consider in the app 
 
 Reddit Bot [Top]
 	[i] Get it working and start promoting?
 		Expand value props to capture more reddit
+	[x] create a UI to understands what's happening streamlit
+	
 	Check the code on the llm judge
+
 	Learn evals with this
 		Assumption is I can take user feedback to adjust it.
 		what is this dspy package thing
@@ -31,6 +40,7 @@ Reddit Bot [Top]
 	It's still using guardrails 
 
 Serpwatch 
+	hard problem really have to think
 	map strategy about network effect
 	[i] Scope the Link Exchange Feasiblity /linkexchange
 		real world use case small
@@ -55,20 +65,21 @@ FiWithAi
 
 	Run an overnight secruity check in cloud 
 
-	try setting up monitoring - hetzner doesn't have it
-		adjust to edge delta connectors 
+	setup monitoring 
+		how do you easily integrate for debugging from ide?
+		[x] prometheus
+		[x] grafana
+		[x] Node Exporter on your app server (collects CPU, memory, disk, network stats)
+		[x] add loggers 
+			[x] ship logs Loki is popular for self-hosting, pairs with Grafana
+		
+		setup traces 
+		setup alerts - in grafana
+			not sure what kind - crash alerts?
+
+		add edge delta connectors 
 		https://claude.ai/share/f1c4683f-4837-4d1b-9ab0-9a73611caf92
-		prometheus and grafana
-		Node Exporter on your app server (collects CPU, memory, disk, network stats)
-		Prometheus to scrape and store metrics
-		Grafana for visualization/dashboards
-		Python: python-json-logger or structlog
-		Node.js: winston or pino
-		Then you either:
-		Ship logs to a service (Loki is popular for self-hosting, pairs with Grafana)
-		Use a log aggregator like Papertrail, Logtail, or Better Stack
-
-
+		
 
 Marketing 
 	Review ideas - evaluate the easiest distribution path

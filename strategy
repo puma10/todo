@@ -1,6 +1,7 @@
 Helps all Projects 
 	email newsletters 
 		sw and artsmart = 70k
+        gpt-5.1 is really good, it's time
 
 Serpwatch
     Outrank
@@ -50,12 +51,22 @@ Artsmart
     
 
 Shotsmart
+    Reminder 
+        It does the training on fal and then offloads it elsewhere 
+
     Appsumo 
         To launch it we need to run the engine to understand costs 
         calculate the value
     
     Run own ltd? 
         We have the page - run ads?
+        https://fal.ai/models/fal-ai/image-apps-v2/headshot-photo
+        https://fal.ai/models/fal-ai/seedvr/upscale/image
+
+    
+    Might need to install comfy or figure out runpod with scripting 
+
+    What is 
 
     Try switch Next.js (on a branch)
         Kind of worked - do iterations of the UI.
@@ -66,3 +77,4 @@ Cost Segregation
     see where they are getting their traffic 
     plays the real estate side
     can see if we get distribution before too much app
+
