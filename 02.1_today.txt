@@ -1,18 +1,21 @@
 [1] = priority 1
+[2] = priortiy 2
+[3] = priority 3
+
 [d] = delegate 
 [i] = in progress
 [b] = blocked waiting 
+[w] = waiting
 
 ##### REMEMBER AiDHD ##### 
-
 Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
 Dev workflow
+	improved keyboard shortcut tool
+	Auto Review Code request with codex cloud 
 	Synchronize Todos and Keep them clean - how to make this usable across the platform
-	Try cursor worktrees on a standalone file
-	What's AISDK 5
 	Wyndsurf new model tree
-	[x] Turntable in Illustrator - couldn't get working because corporate adobe account and not beta
+	Can you use atlas for task follow up? Try on In Progress
 
 
 Todo workflow
@@ -20,23 +23,27 @@ Todo workflow
 
 Admin 
 	Social security card
-	Find wallet and credit card
+	[x] Find wallet
+	credit card
 	insurance
-		live without until Brazil
+		live without until Brazil?
 	hair 
 		take pics 
 		https://drpittella.com/en/quotation-felipe-pittella/
+	
 	full mac backup 
-		https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
-	Can you use atlas for task follow up?
+		[x] but SSD - arrives monday https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
+	
 
 ED 
-	Add edge delta connectors 
+	Kate realisic linkedin images
+	Add edge delta connectors with grafana
 	Gokahn - consider in the app 
 
 
 Reddit Bot
 	[1] Improve Quality of Response 
+			Learn Arize and how model tracing and evals works 
 			Think what the best repsonse would be
 			
 			Harness 
@@ -61,34 +68,38 @@ Reddit Bot
 
 
 Serpwatch 
-	hard problem really have to think
-	map strategy about network effect
-	[i] Scope the Link Exchange Feasiblity /linkexchange
-		real world use case small
-			rough idea of cost 
-			scrape a 100 sites and find cross relations
-			what is the actual outcome we need to be sure it works
-	[i] content strategy
+	New Features
+		map strategy about network effect
+		[i] Scope the Link Exchange Feasiblity /linkexchange
+			real world use case small
+				rough idea of cost 
+				scrape a 100 sites and find cross relations
+				what is the actual outcome we need to be sure it works
+		[i] content strategy
 
 
 FiWithAi
 	[1] Consider Working with the other providers
-	[i] Add Anomaly Detection
-		Didn't fire 
+	[2] Add Anomaly Detection
+		Didn't fire a unique item
 	[b] plaid integration
 		[b] waiting approval from plaid
-
 	[i] Run an overnight secruity check in cloud 
 
 	monitoring
 		integrate for debugging from ide?
 		setup alerts in grafana
-			logs
-			metrics 
-			traces 
-
-Marketing 
-	Review ideas - evaluate the easiest distribution path
+			[x] initial setup done and scripted via ssh w/ composer 
+			[x] setup slack for monitoring 
+			
+			Create/edit/delete one manually and get it firing
+				logs
+				metrics 
+				traces 
+			
+			alerts are failing
+		
+		get the whole system to really work
 
 
 Dev workflow 

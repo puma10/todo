@@ -35,3 +35,6 @@ Reddit Bot
 	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Brevity
 	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Harness / Overall Score
 	[2025-11-12] [x] [02.1_today] Improve Quality of Response / Check the code on the llm judge
+
+Dev workflow
+	[2025-11-12] [x] [02.1_today] Turntable in Illustrator - couldn't get working because corporate adobe account and not beta
