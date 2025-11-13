@@ -1,8 +1,10 @@
+[1] = priority 1
 [d] = delegate 
 [i] = in progress
 [b] = blocked waiting 
 
 ##### REMEMBER AiDHD ##### 
+
 Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
 Dev workflow
@@ -10,7 +12,7 @@ Dev workflow
 	Try cursor worktrees on a standalone file
 	What's AISDK 5
 	Wyndsurf new model tree
-	Try Turntable in Illustrator 
+	[x] Turntable in Illustrator - couldn't get working because corporate adobe account and not beta
 
 
 Todo workflow
@@ -29,29 +31,30 @@ Admin
 	Can you use atlas for task follow up?
 
 ED 
+	Add edge delta connectors 
 	Gokahn - consider in the app 
 
 
 Reddit Bot
-	Improve Quality of Response 
-		Think what the best repsonse would be
-		
-		Harness 
-		Try a Fine Tune to Improve Response
-		Add LLM Inspection
-		Investigate How it Works Current 
-			Keyword 
-			Guardrails
-			Different Models 
-			Different embeddings
-			Improve Value Props
-			Improve LLM as Judge 
-			Evaluation 
-			Grounding?
+	[1] Improve Quality of Response 
+			Think what the best repsonse would be
+			
+			Harness 
+			Try a Fine Tune to Improve Response
+			Add LLM Inspection
+			Investigate How it Works Current 
+				Keyword 
+				Guardrails
+				Different Models 
+				Different embeddings
+				Improve Value Props
+				Improve LLM as Judge 
+				Evaluation 
+				Grounding?
 
-		Expand docs and value props to capture more relvant response
-		Learn evals with this
-		what is this dspy package thing
+			Expand docs and value props to capture more relvant response
+			Learn evals with this
+			what is this dspy package thing
 
 	Wire it streaming to slack and Auto Posts to Reddit 
 	Plan what to do with multilogin - kate's infra
@@ -69,33 +72,20 @@ Serpwatch
 
 
 FiWithAi
-	Consider Working with the other providers
-	Document all the test user functions in dev docs
-	Fix the mouse movement to be only in the dash
+	[1] Consider Working with the other providers
 	[i] Add Anomaly Detection
-		Didn't fire
-
-	Actually use your Thesis 
-	Expand value props to capture more reddit
-	
-	plaid integration
+		Didn't fire 
+	[b] plaid integration
 		[b] waiting approval from plaid
 
-	Run an overnight secruity check in cloud 
+	[i] Run an overnight secruity check in cloud 
 
-	setup monitoring 
-		how do you easily integrate for debugging from ide?
-		
-		[x] setup traces 
-			[x] traces buggy 
-		
+	monitoring
+		integrate for debugging from ide?
 		setup alerts in grafana
 			logs
 			metrics 
 			traces 
-
-		add edge delta connectors 
-		
 
 Marketing 
 	Review ideas - evaluate the easiest distribution path
