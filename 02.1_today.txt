@@ -6,10 +6,12 @@
 Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
 Dev workflow
+	Synchronize Todos and Keep them clean - how to make this usable across the platform
 	Try cursor worktrees on a standalone file
 	What's AISDK 5
 	Wyndsurf new model tree
-	Try Turntable in Illustrator  
+	Try Turntable in Illustrator 
+
 
 Todo workflow
 	add tasks you can work between the ai and a legend flag
@@ -18,9 +20,13 @@ Admin
 	Social security card
 	Find wallet and credit card
 	insurance
+		live without until Brazil
 	hair 
-	mdm software 
-	can you use atlas for task follow up?
+		take pics 
+		https://drpittella.com/en/quotation-felipe-pittella/
+	full mac backup 
+		https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
+	Can you use atlas for task follow up?
 
 ED 
 	Gokahn - consider in the app 
@@ -44,7 +50,6 @@ Reddit Bot
 			Grounding?
 
 		Expand docs and value props to capture more relvant response
-		[x] Check the code on the llm judge
 		Learn evals with this
 		what is this dspy package thing
 
@@ -81,11 +86,13 @@ FiWithAi
 	setup monitoring 
 		how do you easily integrate for debugging from ide?
 		
-		setup traces 
-			traces buggy 
+		[x] setup traces 
+			[x] traces buggy 
 		
 		setup alerts in grafana
-			not sure what kind - crash alerts?
+			logs
+			metrics 
+			traces 
 
 		add edge delta connectors 
 		
