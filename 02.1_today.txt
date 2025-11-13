@@ -3,6 +3,7 @@
 [b] = blocked waiting 
 
 ##### REMEMBER AiDHD ##### 
+Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
 Dev workflow
 	Try cursor worktrees on a standalone file
@@ -19,25 +20,56 @@ Admin
 	insurance
 	hair 
 	mdm software 
-
 	can you use atlas for task follow up?
 
 ED 
 	Gokahn - consider in the app 
 
-Reddit Bot [Top]
-	[i] Get it working and start promoting?
-		Expand value props to capture more reddit
-	[x] create a UI to understands what's happening streamlit
-	
-	Check the code on the llm judge
 
-	Learn evals with this
-		Assumption is I can take user feedback to adjust it.
+Reddit Bot
+	Improve Quality of Response 
+		Think what the best repsonse would be
+		
+		Harness 
+			[x] Created your "harness"
+			[x] learn about evals 
+			[x] code as judge v0
+				[x] Expanded Metrics 
+					[x] Accuracy 
+					[x] Grounding
+					[x] Tone
+					[x] Value Prop Fit 
+					[x] CTA
+					[x] Risk 
+					[x] Brevity
+					[x] Overall Score
+		
+		Improve Metrics for Evaluation
+
+		Try a Fine Tune to Improve Response
+		Add LLM Inspection
+	
+		Investigate How it Works Current 
+			Keyword 
+			Guardrails
+			Different Models 
+			Different embeddings
+			Improve Value Props
+			Improve LLM as Judge 
+			Evaluation 
+			Grounding?
+
+		Expand docs and value props to capture more relvant response
+		Check the code on the llm judge
+		Learn evals with this
 		what is this dspy package thing
+
+	Wire it streaming to slack and Auto Posts to Reddit 
+
+	
 	
 	Plan what to do with multilogin - kate's infra
-	It's still using guardrails 
+
 
 Serpwatch 
 	hard problem really have to think
@@ -51,6 +83,7 @@ Serpwatch
 
 
 FiWithAi
+	Consider Working with the other providers
 	Document all the test user functions in dev docs
 	Fix the mouse movement to be only in the dash
 	[i] Add Anomaly Detection
@@ -60,25 +93,20 @@ FiWithAi
 	Expand value props to capture more reddit
 	
 	plaid integration
-		[x] learn what it's capble of - meeting tomorrow to get dev access 
 		[b] waiting approval from plaid
 
 	Run an overnight secruity check in cloud 
 
 	setup monitoring 
 		how do you easily integrate for debugging from ide?
-		[x] prometheus
-		[x] grafana
-		[x] Node Exporter on your app server (collects CPU, memory, disk, network stats)
-		[x] add loggers 
-			[x] ship logs Loki is popular for self-hosting, pairs with Grafana
 		
 		setup traces 
-		setup alerts - in grafana
+			traces buggy 
+		
+		setup alerts in grafana
 			not sure what kind - crash alerts?
 
 		add edge delta connectors 
-		https://claude.ai/share/f1c4683f-4837-4d1b-9ab0-9a73611caf92
 		
 
 Marketing 
