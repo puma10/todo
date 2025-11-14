@@ -10,8 +10,10 @@
 ##### REMEMBER AiDHD ##### 
 Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
+
+
 Dev workflow
-	improved keyboard shortcut tool
+	neimproved keyboard shortcut tool
 	Auto Review Code request with codex cloud 
 	Synchronize Todos and Keep them clean - how to make this usable across the platform
 	Wyndsurf new model tree
@@ -23,7 +25,6 @@ Todo workflow
 
 Admin 
 	Social security card
-	[x] Find wallet
 	credit card
 	insurance
 		live without until Brazil?
@@ -31,8 +32,7 @@ Admin
 		take pics 
 		https://drpittella.com/en/quotation-felipe-pittella/
 	
-	full mac backup 
-		[x] but SSD - arrives monday https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
+	
 	
 
 ED 
@@ -42,6 +42,23 @@ ED
 
 
 Reddit Bot
+	recommends langfuse 
+	Important to Try - https://youtu.be/a3SMraZWNNs?t=2688 
+	https://www.youtube.com/watch?v=a3SMraZWNNs
+	This is your video 
+	Maybe make your own stack trace ui based on otel?
+	https://github.com/mlflow/mlflow
+
+	LLM Unit Tests
+		Verify Correct Categorey - research more
+			Solves the problem of if the router is incorrect 
+
+	Consider Chroma DB
+	https://github.com/openai/evals
+	
+	post hog
+	Arize 
+
 	[1] Improve Quality of Response 
 			Learn Arize and how model tracing and evals works 
 			Think what the best repsonse would be
@@ -67,18 +84,10 @@ Reddit Bot
 	Plan what to do with multilogin - kate's infra
 
 
-Serpwatch 
-	New Features
-		map strategy about network effect
-		[i] Scope the Link Exchange Feasiblity /linkexchange
-			real world use case small
-				rough idea of cost 
-				scrape a 100 sites and find cross relations
-				what is the actual outcome we need to be sure it works
-		[i] content strategy
-
 
 FiWithAi
+	[x] Had our first security breack - harderned our system by installing some standard server packages and changing ssh to key only 
+	[1] Do all secruity hardening 
 	[1] Consider Working with the other providers
 	[2] Add Anomaly Detection
 		Didn't fire a unique item
@@ -89,8 +98,6 @@ FiWithAi
 	monitoring
 		integrate for debugging from ide?
 		setup alerts in grafana
-			[x] initial setup done and scripted via ssh w/ composer 
-			[x] setup slack for monitoring 
 			
 			Create/edit/delete one manually and get it firing
 				logs
