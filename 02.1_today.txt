@@ -10,35 +10,37 @@
 ##### REMEMBER AiDHD ##### 
 Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your stuff  
 
-
-
 Dev workflow
-	neimproved keyboard shortcut tool
+	improved keyboard shortcut tool
 	Auto Review Code request with codex cloud 
 	Synchronize Todos and Keep them clean - how to make this usable across the platform
 	Wyndsurf new model tree
 	Can you use atlas for task follow up? Try on In Progress
 
-
 Todo workflow
 	add tasks you can work between the ai and a legend flag
 
+Journal
+	[x] Journal Done
+	Journal Done
+
 Admin 
+	Book apartment 
 	Social security card
 	credit card
 	insurance
 		live without until Brazil?
 	hair 
+		get meds supply again 
 		take pics 
 		https://drpittella.com/en/quotation-felipe-pittella/
-	
-	
-	
+
+Tax 
+	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create. 
 
 ED 
-	Kate realisic linkedin images
+	Kate realisic linkedin imagesCleanShot 2025-11-14 at 09.31.03.pngCleanShot 2025-11-14 at 09.31.03.png
 	Add edge delta connectors with grafana
-	Gokahn - consider in the app 
 
 
 Reddit Bot
@@ -86,13 +88,14 @@ Reddit Bot
 
 
 FiWithAi
-	[x] Had our first security breack - harderned our system by installing some standard server packages and changing ssh to key only 
 	[1] Do all secruity hardening 
+	[1] Remove Brex for the other providers 
 	[1] Consider Working with the other providers
 	[2] Add Anomaly Detection
 		Didn't fire a unique item
-	[b] plaid integration
-		[b] waiting approval from plaid
+	plaid integration - get real data working 
+	[x] plaid integration
+		[x] waiting approval from plaid
 	[i] Run an overnight secruity check in cloud 
 
 	monitoring
