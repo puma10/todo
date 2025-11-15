@@ -36,6 +36,9 @@ FiWithAi
 	[2025-11-14] [x] [02.1_today] monitoring / organize launch list
 	[2025-11-14] [x] [02.1_today] monitoring / fix cpu over clocking on app issue using grafna
 	[2025-11-15] [x] [02.1_today] How to version and roll back our observability - code is handled in git. This will be an ongoing task.
+	[2025-11-15] [x] [02.1_today] I think git branches are out of sync
+	[2025-11-15] [x] [02.1_today] Tell it to look through your git history to see if anyhting needs to be added to the architecutural changes
+	[2025-11-15] [x] [02.1_today] [1] Plaid integration - get real data working / Get real data connection working / create prd
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit

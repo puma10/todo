@@ -54,9 +54,7 @@ Tax
 
 
 FiWithAi
-	[x] I think git branches are out of sync 
-	[x] Tell it to look through your git history to see if anyhting needs to be added to the architecutural changes 
-	
+	https://dashboard.plaid.com/assets/Plaid_Designated_Institutions_FIs_March_2025-BLzbm1AF.pdf
 	Opentelemetry thing you did really slowed things down 
 	
 	[I] Add Anomaly Detection - testing for the observability stack
@@ -72,8 +70,10 @@ FiWithAi
 
 	
 	[1] Plaid integration - get real data working
-		Get real data connection working 
-			[x] create prd 
+		You're connecting bank information.  Make sure it's read only so it's safe
+		Refine the Plaid UI to show more banks be default
+		
+		[x] Get real data connection working 
 			Only showed us bank
 				For real accounts, log into dashboard.plaid.com → Team Settings
 					→ Integrations (or the Products/Access tab) and request access
@@ -92,5 +92,4 @@ FiWithAi
 
 Reddit Bot
 	Improve Quality of Response 
-		steerable agents
-	
+		steerable agents - see doc 
