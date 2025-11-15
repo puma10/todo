@@ -10,6 +10,7 @@ Admin
 	[2025-11-10] [x] Headphones: https://getsupport.apple.com/repair/confirmation?locale=en_US
 	[2025-11-13] [x] [02.1_today] Find wallet
 	[2025-11-13] [x] [02.1_today] full mac backup / but SSD - arrives monday https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
+	[2025-11-14] [x] [02.1_today] hair / get meds supply again
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -33,6 +34,7 @@ FiWithAi
 	[2025-11-14] [x] [02.1_today] run overnight code optimization
 	[2025-11-14] [x] [02.1_today] monitoring / setup alerts in grafana
 	[2025-11-14] [x] [02.1_today] monitoring / organize launch list
+	[2025-11-14] [x] [02.1_today] monitoring / fix cpu over clocking on app issue using grafna
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit
