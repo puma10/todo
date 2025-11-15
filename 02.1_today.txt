@@ -72,15 +72,12 @@ FiWithAi
 	[1] Plaid integration - get real data working
 		You're connecting bank information.  Make sure it's read only so it's safe
 		Refine the Plaid UI to show more banks be default
-		
-			[x] Only showed us bank: Fixed hidden the UI
-			
-			In production 
-				check usage 
-			Fix the Database no populating the data correctly 
-			
-			May cause a full database refactor
 
+		[x] Fix the Database no populating the data correctly
+			May cause a full database refactor 
+
+		[x] How to check usage: Easy to find in plaid 
+			
 	Document all the Test User stuff
 		Load assets 
 		Test swings 
