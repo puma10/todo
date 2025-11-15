@@ -26,6 +26,8 @@ FiWithAi
 	[2025-11-13] [x] [02.1_today] Had our first security breack - harderned our system by installing some standard server packages and changing ssh to key only
 	[2025-11-14] [x] [02.1_today] plaid integration
 	[2025-11-14] [x] [02.1_today] waiting approval from plaid
+	[2025-11-14] [x] [02.1_today] Consider Working with the other providers - got plaid, good enough for now
+	[2025-11-14] [x] [02.1_today] Run an overnight secruity check in cloud
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit
@@ -48,3 +50,6 @@ Dev workflow
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
+
+ED
+	[2025-11-14] [x] [02.1_today] Kate realisic linkedin images
