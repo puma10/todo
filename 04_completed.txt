@@ -28,6 +28,11 @@ FiWithAi
 	[2025-11-14] [x] [02.1_today] waiting approval from plaid
 	[2025-11-14] [x] [02.1_today] Consider Working with the other providers - got plaid, good enough for now
 	[2025-11-14] [x] [02.1_today] Run an overnight secruity check in cloud
+	[2025-11-14] [x] [02.1_today] Do all secruity hardening - phase 1 done
+	[2025-11-14] [x] [02.1_today] Remove Brex for the other providers - fast patch - removed api key still in code
+	[2025-11-14] [x] [02.1_today] run overnight code optimization
+	[2025-11-14] [x] [02.1_today] monitoring / setup alerts in grafana
+	[2025-11-14] [x] [02.1_today] monitoring / organize launch list
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit

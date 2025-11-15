@@ -25,7 +25,7 @@ Admin
 	insurance
 		live without until Brazil?
 	hair 
-		[i] get meds supply again 
+		[x] get meds supply again 
 		take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
 Tax 
@@ -34,12 +34,12 @@ Tax
 
 
 Reddit Bot
-	Simple version first 
-	https://www.youtube.com/watch?v=Wg1HrNxVDo0
-	https://kiln.tech/ - no observability 
+	Simple version first Kiln - doesn't have llm observability | not production ready
+		https://www.youtube.com/watch?v=Wg1HrNxVDo0
+		https://kiln.tech/ 
 
+	Organize the below resources and your learning 
 
-	https://medium.com/agenticai-the-autonomous-intelligence/agentic-ai-architecture-a-practical-production-ready-guide-2b2aa6d16118
 	recommends langfuse 
 	Important to Try - https://youtu.be/a3SMraZWNNs?t=2688 
 	https://www.youtube.com/watch?v=a3SMraZWNNs
@@ -81,23 +81,17 @@ Reddit Bot
 	Wire it streaming to slack and Auto Posts to Reddit 
 	Plan what to do with multilogin - kate's infra
 
-
-
 FiWithAi
 	How to version and roll back our observability - code is handled in git 
-	[x] Do all secruity hardening - phase 1 done 
-	[x] Remove Brex for the other providers - fast patch - removed api key still in code
-	[I] Add Anomaly Detection
+	
+	[I] Add Anomaly Detection - testing for the observability stack
 		Didn't fire a unique item
-	plaid integration - get real data working 
-	[x] run overnight code optimization 
+	
+	plaid integration - get real data working
+		experiment with getting your real data
+		create prd 
+		may cause a full database refactor
+
 
 	monitoring
-		integrate for debugging from ide?
-		[x] setup alerts in grafana
-			Create/edit/delete one manually and get it firing
-				logs
-				metrics 
-				traces 
-		[x] organize launch list 
-
+		[x] fix cpu over clocking on app issue using grafna

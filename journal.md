@@ -1,5 +1,20 @@
 Journal 
-	1/13
+	1/14
+        work
+            mad dash sprint to get fiwit.ai launched
+                feeling more confident now that we have some observability
+                    today cpu was was running at 140% - was able to get in and fix the issue
+            
+            issues firing at random, need to continously work on the grafana setup
+
+        life
+            friday night staying in to work, investment for future - but seems bad timing given 40
+            decided to have a direct discussion with masud
+            booked an apartment can't take staying at the parents anymore
+            decided to go to brazil - still 20% hesitant as it will kill productivity but dating is fooked here
+
+    
+    1/13
         work 
             frustrating day
                 Can't get alerts working in grafana correclty
