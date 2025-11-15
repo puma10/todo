@@ -75,16 +75,12 @@ Socials
 	Sora Video Gen 
 
 
-
 Product Marketing 
 	traffic to signup 
 
 Raj 
 	Show him how to manage tasks in slack
 
-
-Bring raj to this meeting 
-	
 
 
 Community 
@@ -118,15 +114,5 @@ Later:
 
 Organic Social
 	- Reddit 
-		- 
-
-
-Tax Year 2024
-----------------------------------------
-  Status: ✓ QUALIFIES
-  Test Used: Physical Presence Test
-  Qualifying Days: 108
-  Max Exclusion: $126,500
-  Your Exclusion [prorated]: $37,430.14
-  Actual Savings: $xxxx
+	
 

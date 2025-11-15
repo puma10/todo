@@ -1,0 +1,51 @@
+Tools To Consider
+    Eval Frameworks 
+        Openai Evals 
+            https://github.com/openai/evals
+        Posthog - https://posthog.com/tutorials/llm-ab-tests
+        Arize - 
+            tried, couldn't bring the data back in
+        Kiln: https://kiln.tech/ 
+            simple just to understand ops but no observability so can't understand how routing gets lost 
+                Just eval process and developing an LLM as judge
+            https://www.youtube.com/watch?v=Wg1HrNxVDo0
+        Langfuse 
+            recommended by the dutch guy
+        Mlflow - https://github.com/mlflow/mlflow
+            Looks simple, self hosted, has tracing 
+        Built your own "Harness"
+            but don't understand how the full sytem works
+
+    Vector DBs
+        Consider Chroma DB
+
+Strategies 
+    Components
+        How does Finentuing improve outputs?
+            Maybe you take top upvoted posts and downvoted posts and tune good and bad.  Maybe there's a certain moxy or voice that steers towards good and bad outcomes. 
+    OPs
+        LLM Unit Tests - dutch guy 
+            Verify Correct Categorey - research more
+                Solves the problem of if the router is incorrect 
+
+
+Good Resources 
+    Dutch Guy
+        Explains full stack and major gotchas
+        https://youtu.be/a3SMraZWNNs?t=2688 - this time is something important
+    See the stack in notion
+        Add what's used where 
+            dspy package thing
+
+Current Reddit 
+    AI added all these techniques - scrape it?
+    Investigate How it Works Current 
+        Keyword 
+        Guardrails: one tutorial said it's outdated
+        Different Models 
+        Different embeddings
+        Improve Value Props
+        Improve LLM as Judge 
+        Evaluation 
+        Grounding?
+

@@ -19,14 +19,28 @@ Todo Workflow Improvement
 	cross project todos - scattered now 
 
 Journal
-	Journal 
-		9:00 - 10:00: Started fixing grafana issues fiwith. Wrote tweet about eductation.  Testing waters for twitter growth
+	11/15
+		Work 
+			9:00 - 10:00: Started fixing grafana issues fiwith. Wrote tweet about eductation.  Testing waters for twitter growth
+			10:00 - 12:00
+				updated architecture log as I'm starting to not understand what's going on and system is getting quite complex. 
+				Started plaid integration but stuck understaning how gitworktrees on cursor work. 
+					Sorted after a reddit post then figuring it out on my own, hidden in the UI.
+					App now wont launch in the worktree  
+			12:00 - 12:30 
+				breakthrough: got worktrees in cursor working with custom rules for the app in the worktrees
 
 Admin 
-	Do comp backup when you leave 
-	Social security card
-	credit card
-		might be at river pig 
+	On exit 
+		Do comp backup when you leave
+		Credit card
+			might be at river pig
+	Realtime translation airpods 
+		Get mac big headphones - two pairs 
+		Social security card
+
+	Try Google Pixel with AI - burner phone. 
+
 	insurance
 		live without until Brazil?
 		check what it costs to extend genki - is there one without cancellation terms
@@ -34,26 +48,21 @@ Admin
 	hair 
 		take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
-	canel outrank
-
 Tax 
 	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
-	Check america mailbox daily
-	[x] signed paperwork for julian 
+	[b] Check america mailbox daily
 
 
 FiWithAi
-	I think git branches are out of sync 
-
-	Tell it to look through your git history to see if anyhting needs to be added to the architecutural changes 
+	[x] I think git branches are out of sync 
+	[x] Tell it to look through your git history to see if anyhting needs to be added to the architecutural changes 
 	
 	Opentelemetry thing you did really slowed things down 
-
-	[x] How to version and roll back our observability - code is handled in git.  This will be an ongoing task.
 	
 	[I] Add Anomaly Detection - testing for the observability stack
 		Didn't fire a unique item
-			Not sure if hourly checks are working 
+			Not sure if hourly checks are working
+				Seems to be working  
 		
 		Add your final quality of life updates 
 			Generate a one-time code, send it to @fiwithaidemo, and we’ll connect this account to Telegram.
@@ -63,64 +72,25 @@ FiWithAi
 
 	
 	[1] Plaid integration - get real data working
-			experiment with getting your real data
-			create prd 
-			may cause a full database refactor
-
-	Add posthog feature flags or research
-		you want roll out 
-		you want specific users 
+		Get real data connection working 
+			[x] create prd 
+			Only showed us bank
+				For real accounts, log into dashboard.plaid.com → Team Settings
+					→ Integrations (or the Products/Access tab) and request access
+					for the additional institutions you need. Once Plaid approves
+					them, Link will automatically display them.
+			
+			In production 
+				check usage 
+			Fix the Database no populating the data correctly 
+			
+			May cause a full database refactor
 
 	Document all the Test User stuff
 		Load assets 
 		Test swings 
 
 Reddit Bot
-	Clean up your research 
-	Simple version first Kiln - doesn't have llm observability | not production ready
-		https://www.youtube.com/watch?v=Wg1HrNxVDo0
-		https://kiln.tech/ 
-
-	Organize the below resources and your learning 
-
-	recommends langfuse 
-	Important to Try - https://youtu.be/a3SMraZWNNs?t=2688 
-	https://www.youtube.com/watch?v=a3SMraZWNNs
-	This is your video 
-	Maybe make your own stack trace ui based on otel?
-	https://github.com/mlflow/mlflow
-
-	LLM Unit Tests
-		Verify Correct Categorey - research more
-			Solves the problem of if the router is incorrect 
-
-	Consider Chroma DB
-	https://github.com/openai/evals
+	Improve Quality of Response 
+		steerable agents
 	
-	post hog
-	Arize 
-
-	[1] Improve Quality of Response 
-			Learn Arize and how model tracing and evals works 
-			Think what the best repsonse would be
-			
-			Harness 
-			Try a Fine Tune to Improve Response
-			Add LLM Inspection
-			Investigate How it Works Current 
-				Keyword 
-				Guardrails
-				Different Models 
-				Different embeddings
-				Improve Value Props
-				Improve LLM as Judge 
-				Evaluation 
-				Grounding?
-
-			Expand docs and value props to capture more relvant response
-			Learn evals with this
-			what is this dspy package thing
-
-	Wire it streaming to slack and Auto Posts to Reddit 
-	Plan what to do with multilogin - kate's infra
-

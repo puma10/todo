@@ -35,6 +35,7 @@ FiWithAi
 	[2025-11-14] [x] [02.1_today] monitoring / setup alerts in grafana
 	[2025-11-14] [x] [02.1_today] monitoring / organize launch list
 	[2025-11-14] [x] [02.1_today] monitoring / fix cpu over clocking on app issue using grafna
+	[2025-11-15] [x] [02.1_today] How to version and roll back our observability - code is handled in git. This will be an ongoing task.
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit
@@ -60,3 +61,6 @@ Journal
 
 ED
 	[2025-11-14] [x] [02.1_today] Kate realisic linkedin images
+
+Tax
+	[2025-11-15] [x] [02.1_today] signed paperwork for julian

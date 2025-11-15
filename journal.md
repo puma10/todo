@@ -1,3 +1,6 @@
+Staregy: 
+    for self and for social media - log realtime but with 3 month delay for competition (and edge delta)
+
 Journal 
 	1/14
         work
