@@ -73,12 +73,7 @@ FiWithAi
 		You're connecting bank information.  Make sure it's read only so it's safe
 		Refine the Plaid UI to show more banks be default
 		
-		[x] Get real data connection working 
-			Only showed us bank
-				For real accounts, log into dashboard.plaid.com → Team Settings
-					→ Integrations (or the Products/Access tab) and request access
-					for the additional institutions you need. Once Plaid approves
-					them, Link will automatically display them.
+			[x] Only showed us bank: Fixed hidden the UI
 			
 			In production 
 				check usage 
@@ -92,4 +87,4 @@ FiWithAi
 
 Reddit Bot
 	Improve Quality of Response 
-		steerable agents - see doc 
+		steerable agents - see doc
