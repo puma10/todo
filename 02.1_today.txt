@@ -63,11 +63,10 @@ FiWithAi
 		You're connecting bank information.  Make sure it's read only so it's safe
 		Refine the Plaid UI to show more banks be default
 
-		How is the data structured and how do we integrate into the app
+		[x] How is the data structured and how do we integrate into the app
+
 
 	[I] Add Anomaly Detection - testing for the observability stack
-		[x] Didn't fire a unique item
-		[x] Not sure if hourly checks are working | Seems to be working
 
 		Refine messaging and cadence - sends 3 of the same message  
 		
