@@ -2,6 +2,11 @@ Staregy:
     for self and for social media - log realtime but with 3 month delay for competition (and edge delta)
 
 Journal 
+    11/16
+        Personal 
+			Stop drinking: Went out last night and drank too much - got into a pointless debate with my sister. Lost half of the next day
+
+Journal 
     11/15
 		Work 
 			9:00 - 10:00: Started fixing grafana issues fiwith. Wrote tweet about eductation.  Testing waters for twitter growth

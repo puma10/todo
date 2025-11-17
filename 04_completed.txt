@@ -11,6 +11,7 @@ Admin
 	[2025-11-13] [x] [02.1_today] Find wallet
 	[2025-11-13] [x] [02.1_today] full mac backup / but SSD - arrives monday https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
 	[2025-11-14] [x] [02.1_today] hair / get meds supply again
+	[2025-11-16] [x] [02.1_today] Realtime translation airpods / Apple Intelligence - update ios 26
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
