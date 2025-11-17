@@ -19,6 +19,7 @@ STATUS_TAGS = {
     "w": "waiting",
     "d": "delegated",
     "x": "done",
+    "t": "transfer",
 }
 
 STATUS_LABELS = {
@@ -27,10 +28,11 @@ STATUS_LABELS = {
     "waiting": "Waiting",
     "delegated": "Delegated",
     "done": "Completed",
+    "transfer": "Transfer",
 }
 
 STATUS_ORDER = ["blocked", "in-progress", "waiting", "delegated", "done"]
-STATUS_PATTERN = re.compile(r"^\s*\[([bdwix])\]\s*(.*)$", re.IGNORECASE)
+STATUS_PATTERN = re.compile(r"^\s*\[([bdwixt])\]\s*(.*)$", re.IGNORECASE)
 LEGEND_PATTERN = re.compile(r"^\[[^\]]+\]\s*=", re.IGNORECASE)
 
 STATUS_ALIASES = {
@@ -53,6 +55,8 @@ STATUS_ALIASES = {
     "done": "done",
     "complete": "done",
     "completed": "done",
+    "t": "transfer",
+    "transfer": "transfer",
 }
 
 DEFAULT_SOURCES = [
@@ -108,22 +112,27 @@ def load_config(config_path: Path) -> Dict[str, Any]:
             "extra_files": [],
             "glob_patterns": [],
             "status_outputs": default_status_outputs(),
+            "import_targets": [],
         }
 
     data = json.loads(config_path.read_text())
     extra_files = data.get("extra_files", [])
     glob_patterns = data.get("glob_patterns", [])
     status_outputs = data.get("status_outputs", default_status_outputs())
+    import_targets = data.get("import_targets", [])
 
     if not isinstance(extra_files, list) or not isinstance(glob_patterns, list):
         raise ValueError("Config file must define lists for 'extra_files' and 'glob_patterns'.")
     if not isinstance(status_outputs, list):
         raise ValueError("Config file must define a list for 'status_outputs'.")
+    if not isinstance(import_targets, list):
+        raise ValueError("Config file must define a list for 'import_targets'.")
 
     return {
         "extra_files": list(extra_files),
         "glob_patterns": list(glob_patterns),
         "status_outputs": status_outputs or default_status_outputs(),
+        "import_targets": import_targets or [],
     }
 
 

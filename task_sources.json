@@ -1,5 +1,7 @@
 {
-  "extra_files": [],
+  "extra_files": [
+    "/Users/joshwardini/Documents/dev/admin/admin.txt"
+  ],
   "glob_patterns": [],
   "status_outputs": [
     {
@@ -11,6 +13,14 @@
       "path": "03_blocked.txt",
       "title": "Blocked",
       "statuses": ["blocked"]
+    }
+  ],
+  "import_targets": [
+    {
+      "name": "admin",
+      "source": "/Users/joshwardini/Documents/dev/admin/admin.txt",
+      "use_source_section": true,
+      "statuses": ["transfer"]
     }
   ]
 }

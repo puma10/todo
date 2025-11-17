@@ -39,35 +39,12 @@ Todo Workflow Improvement
 	Cross project todos - scattered now 
 
 Journal
-	11/16
+	11/17
 		Work
 		Personal 
 
 Admin 
-	Monitor setup for new place 
-		order once you get in
-	Keyboard key is broken 
-	Lean Ventures - already paid
-
-	On exit 
-		Do comp backup when you leave
-		Credit card
-			might be at river pig
 	
-	Credit Card
-		order more backups for brazil
-	
-	[b] Social security card
-		phone number not working 
-
-	[i] Label airpods - buy some markers on amazon 
-
-	insurance
-		live without until Brazil?
-		check what it costs to extend genki - is there one without cancellation terms
-	
-	hair 
-		take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
 Tax 
 	Setup meeting with Julian for international 
@@ -80,8 +57,7 @@ Tax
 
 
 ED 
-	Organize 
-		what is the event schedule 
+	Organize  
 		Add edge delta connectors with grafana
 		Human Eval - https://youtu.be/a3SMraZWNNs
 		https://github.com/traceloop/openllmetry
@@ -122,7 +98,6 @@ FiWithAi
 			What do they mean 
 
 	observability
-		[x] upgrade grafana 
 		Opentelemetry thing you did really slowed things down 
 
 	Document all the Test User stuff
