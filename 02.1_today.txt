@@ -24,6 +24,7 @@ IRL
 Investing 
 	How to get exposure on robotics
 
+
 Todo Workflow Improvement
 	set weekly goals to stay focused
 	in progress
@@ -72,10 +73,11 @@ Admin
 		take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
 
+	Monitor setup for new place
+
 Tax 
 	[i] Setup meeting with Julian for international 
 	[i] Do end of the year contributions
-	[x] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
 		Send $10k to brex 
 		If brex doesn't resolve account creation by tuesday send to brex
 	[b] Check america mailbox daily
@@ -93,7 +95,7 @@ ED
 		How do we feel about switching content management system
 		https://www.qualified.com/
 
-FiWithAi
+FIwith.ai 
 	Think through feature fences 
 		usage 
 		# of institutions added 
@@ -124,9 +126,6 @@ FiWithAi
 	observability
 		Opentelemetry thing you did really slowed things down on local  
 
-	[x] Document all the Test User stuff
-		[x] Load assets 
-		[x] Test swings 
 
 	Clean up
 		database

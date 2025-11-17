@@ -1,6 +1,7 @@
 {
   "extra_files": [
-    "/Users/joshwardini/Documents/dev/admin/admin.txt"
+    "/Users/joshwardini/Documents/dev/admin/admin.txt",
+    "/Users/joshwardini/Documents/dev/fiwithai/todo.md"
   ],
   "glob_patterns": [],
   "status_outputs": [
@@ -20,6 +21,12 @@
       "name": "admin",
       "source": "/Users/joshwardini/Documents/dev/admin/admin.txt",
       "section": "Admin",
+      "statuses": ["transfer"]
+    },
+    {
+      "name": "fiwithai",
+      "source": "/Users/joshwardini/Documents/dev/fiwithai/todo.md",
+      "section": "FIwith.ai",
       "statuses": ["transfer"]
     }
   ]
