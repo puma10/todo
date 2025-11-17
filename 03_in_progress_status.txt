@@ -3,10 +3,6 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Admin — 02.1_today.txt
-  	[i] Label airpods - buy some markers on amazon
-  
-
 FiWithAi — 02.1_today.txt
   	[I] Plaid integration - get real data working
   		Data is currently held in the positions table in the meta data - maybe we need a balance
@@ -45,16 +41,24 @@ Social — projects/marketing
           [i] Reddit Bot
   
 
-Blocked
--------
-Admin — 02.1_today.txt
-  	[b] Social security card
-  		phone number not working
+Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
+  	[i] Label airpods - buy some markers on amazon
+  
   
 
+Blocked
+-------
 Tax — 02.1_today.txt
   	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
   		Send $10k to brex
   		If brex doesn't resolve account creation by tuesday send to brex
   	[b] Check america mailbox daily
   		no letter
+  
+  
+
+Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
+  	[b] Social security card
+  		phone number not working
+  
+      [b] Test blocked
