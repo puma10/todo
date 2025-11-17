@@ -41,25 +41,45 @@ Todo Workflow Improvement
 Journal
 	11/17
 		Work
+			improved the todo list to sync with external files 
 		Personal 
+			carlee messaged 
 
 Admin 
+	Monitor setup for new place 
+		order once you get in
+	Keyboard key is broken 
+	Lean Ventures - already paid
 
-	Monitor setup for new place
-		[t] test
+	On exit 
+		Do comp backup when you leave
+		Credit card
+			might be at river pig
+	
+	Credit Card
+		order more backups for brazil
+	
+	[b] Social security card
+		phone number not working 
 
-		[t] today test
+	[i] Label airpods - buy some markers on amazon 
+
+	Insurance
+		live without until Brazil?
+		check what it costs to extend genki - is there one without cancellation terms
+	
+	hair 
+		take pics - https://drpittella.com/en/quotation-felipe-pittella/
+
 
 Tax 
-	Setup meeting with Julian for international 
-	Do end of the year contributions
-	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
+	[i] Setup meeting with Julian for international 
+	[i] Do end of the year contributions
+	[x] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
 		Send $10k to brex 
 		If brex doesn't resolve account creation by tuesday send to brex
 	[b] Check america mailbox daily
 		no letter 
-
-
 ED 
 	Organize  
 		Add edge delta connectors with grafana
@@ -102,11 +122,11 @@ FiWithAi
 			What do they mean 
 
 	observability
-		Opentelemetry thing you did really slowed things down 
+		Opentelemetry thing you did really slowed things down on local  
 
-	Document all the Test User stuff
-		Load assets 
-		Test swings 
+	[x] Document all the Test User stuff
+		[x] Load assets 
+		[x] Test swings 
 
 	Clean up
 		database
