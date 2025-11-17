@@ -7,6 +7,7 @@ sync:
 		git push; \
 	fi
 	python3 sync_completed.py
+	python3 task_status_view.py --write-files --quiet
 
 priority:
 	python3 filter_priority.py

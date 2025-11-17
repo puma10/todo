@@ -1,0 +1,16 @@
+Blocked
+=======
+
+Blocked
+-------
+Admin — 02.1_today.txt
+  	[b] Social security card
+  		phone number not working
+  
+
+Tax — 02.1_today.txt
+  	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
+  		Send $10k to brex
+  		If brex doesn't resolve account creation by tuesday send to brex
+  	[b] Check america mailbox daily
+  		no letter

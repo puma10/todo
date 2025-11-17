@@ -1,5 +1,16 @@
 {
   "extra_files": [],
-  "glob_patterns": []
+  "glob_patterns": [],
+  "status_outputs": [
+    {
+      "path": "03_in_progress_status.txt",
+      "title": "In Progress (incl. Blocked)",
+      "statuses": ["in-progress", "blocked"]
+    },
+    {
+      "path": "03_blocked.txt",
+      "title": "Blocked",
+      "statuses": ["blocked"]
+    }
+  ]
 }
-

@@ -1,0 +1,116 @@
+what is the event schedule 
+		Add edge delta connectors with grafana
+		Human Eval - https://youtu.be/a3SMraZWNNs
+		https://github.com/traceloop/openllmetry
+		Do some posthog hacking
+		Meeting to get aligned on webiste switch with astro 
+		Test full funnel flow 
+		Fix funnel for signup to add a connector 
+		Setup slack for Edge Delta
+		How do we feel about switching content management system
+		
+
+
+Meeting This Week 
+	Marketing Meeting 
+		Dog fooding 
+		Status of Ads
+		Website 
+			Gokhan wants to use contentful because hosted service
+				simplifies
+				if they go down our site goes down
+			Pop-ups
+			Website - need documentation ex popup
+			Utilities for devops 
+				see devops
+		Analytics 
+			Product 
+				Raj help with product analytics 
+		
+		PLG 
+			Newsletters
+			Backend Access to the App 
+			Need to see if they are interacting overtime during the free trial
+			Email sequences 
+			Dog fooding
+				Grafana, Loki 
+			slack plan
+			discuss evals 
+				currently user chats are only in logs 
+			Pop-ups 
+			Website 
+				feels like we should stay on wordpress 
+	
+	Lead Gen 
+		https://www.qualified.com/
+		Work on reddit
+
+Website 
+	Devops
+		Raj single person
+		Raj use github
+		whos on wordpress
+		what changes made
+		Trigger in slack
+		Database diff management
+		
+		Utilities
+			webm conversion
+	
+	Tasks 
+		[i] fix raj's buttons
+		[i] break one of raj's pages down 
+		[i] make a develoepr documentation
+
+PLG 
+	Community 
+		Slack channel - start promoting
+	
+	Traffic 
+		Socials 
+			Linkeidn 
+			Reddit
+			Tiktok
+				Sora Video Gen  
+
+	Analyitics 
+		[1] Signups but didn't pay
+			remarketing
+			lifecycle campaigns
+		GEO location Not working 
+			Recording Everyone as Oregon given our VPN?
+
+		Blind to whats happening post signup
+			Blocked by VPN
+
+		Screen Sessions
+			Get Pipelines out of there
+			Get Mobile out of there 
+
+		Check and Follow Up
+			Tag manager refactored 
+				- get tag manager 
+
+		Initial Page 
+			Doesn't seem accurate
+
+	Nuture flow
+		sequences 
+			welcome email 
+				general nuture 
+			triggered emails 
+				events
+				emails opened 
+
+
+
+Experiments 
+	Webinar - failed
+		only two people showed up
+
+
+Later: 
+	Discuss affiliates
+	utm-parameters 
+	
+
