@@ -315,8 +315,9 @@ def run_single_import(spec: ImportSpec, *, dry_run: bool, quiet: bool) -> int:
         today_lines = insert_into_section(today_lines, section, block_lines)
     TODAY_FILE.write_text("\n".join(today_lines).rstrip() + "\n")
 
+    inserted_total = sum(len(entries) for group in section_groups.values() for entries in group.values())
+
     if not quiet:
-        inserted_total = sum(len(entries) for group in section_groups.values() for entries in group.values())
         print(f"[{spec.name}] Inserted {inserted_total} task(s) into sections: {', '.join(section_order)}.")
         if duplicates:
             print(f"[{spec.name}] Skipped {duplicates} duplicate block(s).")
