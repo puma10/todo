@@ -45,6 +45,7 @@ FiWithAi
 	[2025-11-15] [x] [02.1_today] [1] Plaid integration - get real data working / How to check usage: Easy to find in plaid
 	[2025-11-15] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Didn't fire a unique item
 	[2025-11-15] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Not sure if hourly checks are working | Seems to be working
+	[2025-11-15] [x] [02.1_today] [1] Plaid integration - get real data working / How is the data structured and how do we integrate into the app
 
 Reddit Bot
 	[2025-11-12] [x] [02.1_today] create a UI to understands what's happening streamlit

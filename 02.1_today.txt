@@ -13,31 +13,38 @@ Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your 
 Dev workflow
 	Terminus 
 	Fix the bash issue with claude code 
+	Robotics - https://arxiv.org/abs/2406.09246
+
+Investing 
+	How to get exposure on robotics 
 
 Todo Workflow Improvement
 	in progress - add a way to better view it 
 	cross project todos - scattered now 
 
 Journal
-	11/15
-		Work 
-			9:00 - 10:00: Started fixing grafana issues fiwith. Wrote tweet about eductation.  Testing waters for twitter growth
-			10:00 - 12:00
-				updated architecture log as I'm starting to not understand what's going on and system is getting quite complex. 
-				Started plaid integration but stuck understaning how gitworktrees on cursor work. 
-					Sorted after a reddit post then figuring it out on my own, hidden in the UI.
-					App now wont launch in the worktree  
-			12:00 - 12:30 
-				breakthrough: got worktrees in cursor working with custom rules for the app in the worktrees
+	11/16
+		Work
+
+		Personal 
+			Stop drinking: Went out last night and drank too much - got into a pointless debate with my sister. Lost half of the next day
 
 Admin 
 	On exit 
 		Do comp backup when you leave
 		Credit card
 			might be at river pig
+	
+	Credit Card
+		order more backups for brazil
+	
+	Social security card
+	
 	Realtime translation airpods 
+		Label airpods - buy some markers on amazon 
+		[x] Apple Intelligence - update ios 26
 		Get mac big headphones - two pairs 
-		Social security card
+		
 
 	Try Google Pixel with AI - burner phone. 
 
@@ -55,29 +62,34 @@ Tax
 
 FiWithAi
 
-	https://dashboard.plaid.com/assets/Plaid_Designated_Institutions_FIs_March_2025-BLzbm1AF.pdf
 	Opentelemetry thing you did really slowed things down 
 	
-	[1] Plaid integration - get real data working
-		data is currently held in the positions table in the meta data - maybe we need a balance
+	[I] Plaid integration - get real data working
+		Data is currently held in the positions table in the meta data - maybe we need a balance
+		
 		You're connecting bank information.  Make sure it's read only so it's safe
+		
 		Refine the Plaid UI to show more banks be default
-
-		[x] How is the data structured and how do we integrate into the app
-
+		
+		Try to connect robinhood
 
 	[I] Add Anomaly Detection - testing for the observability stack
 
-		Refine messaging and cadence - sends 3 of the same message  
+		[I] Refine messaging and cadence - sends 3 of the same message  
 		
-		Add your final quality of life updates 
+		Add your final quality of life updates for connecting telegram
 			Generate a one-time code, send it to @fiwithaidemo, and we’ll connect this account to Telegram.
 			Add a Link
 			Remove the Login and Logout from telegram
 			Add to docs - track on the go from mobile web or telegram. Chat with it
 
+		Grafan 
+			A few of the dashboards aren't working 
+			What do they mean 
 
-			
+	observability
+		upgrade grafana 
+
 	Document all the Test User stuff
 		Load assets 
 		Test swings 
