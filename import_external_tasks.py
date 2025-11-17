@@ -135,6 +135,12 @@ def gather_tasks(source_path: Path, statuses: Sequence[str]) -> List[TaskEntry]:
     for entry in entries:
         if entry.status not in statuses:
             continue
+        if not entry.lines:
+            continue
+        primary_line = entry.lines[0].strip()
+        if not primary_line:
+            continue
+        entry.lines = [primary_line]
         block_text = "\n".join(entry.lines).strip()
         if not block_text or block_text in seen_blocks:
             continue
@@ -168,13 +174,31 @@ def find_section_indices(lines: List[str], section: str) -> tuple[int, int]:
     return section_idx, insert_idx
 
 
-def build_block_lines(tasks: List[TaskEntry]) -> List[str]:
-    block: List[str] = []
-    for idx, entry in enumerate(tasks):
-        block.extend(entry.lines)
-        if idx != len(tasks) - 1:
-            block.append("")
-    return block
+def canonicalize_lines(lines: List[str]) -> str:
+    normalized = [line.strip() for line in lines if line.strip()]
+    return "\n".join(normalized)
+
+
+def reindent_entry_lines(lines: List[str], indent_prefix: str) -> List[str]:
+    adjusted: List[str] = []
+    for line in lines:
+        stripped = line.strip()
+        if not stripped:
+            adjusted.append("")
+        else:
+            adjusted.append(f"{indent_prefix}{stripped}")
+    return adjusted
+
+
+def build_heading_block(heading: str, entries: List[TaskEntry]) -> List[str]:
+    lines: List[str] = [f"\t{heading}"]
+    for idx, entry in enumerate(entries):
+        lines.extend(reindent_entry_lines(entry.lines, "\t\t"))
+        if idx != len(entries) - 1 and (not lines or lines[-1] != ""):
+            lines.append("")
+    if lines and lines[-1] != "":
+        lines.append("")
+    return lines
 
 
 def determine_section(spec: ImportSpec, entry: TaskEntry) -> str:
@@ -227,53 +251,76 @@ def run_single_import(spec: ImportSpec, *, dry_run: bool, quiet: bool) -> int:
         return 0
 
     today_text = TODAY_FILE.read_text()
+    try:
+        today_entries = parse_file(TODAY_FILE)
+    except FileNotFoundError:
+        today_entries = []
+    existing_keys = {
+        canonicalize_lines(entry.lines)
+        for entry in today_entries
+        if entry.status in spec.statuses
+    }
     unique_tasks: List[TaskEntry] = []
     duplicates = 0
 
     for entry in tasks:
-        block_text = "\n".join(entry.lines)
-        if not spec.allow_duplicates and block_text in today_text:
+        block_key = canonicalize_lines(entry.lines)
+        if not block_key:
+            continue
+        if not spec.allow_duplicates and block_key in existing_keys:
             duplicates += 1
             continue
         unique_tasks.append(entry)
+        existing_keys.add(block_key)
 
     if not unique_tasks:
         if not quiet:
             print(f"[{spec.name}] Nothing new to import (all duplicates).")
         return 0
 
-    section_groups: Dict[str, List[TaskEntry]] = {}
+    section_groups: Dict[str, Dict[str, List[TaskEntry]]] = {}
     section_order: List[str] = []
+    heading_order: Dict[str, List[str]] = {}
     for entry in unique_tasks:
         target_section = determine_section(spec, entry)
+        heading = entry.section.strip() or target_section
         if target_section not in section_groups:
-            section_groups[target_section] = []
+            section_groups[target_section] = {}
             section_order.append(target_section)
-        section_groups[target_section].append(entry)
+            heading_order[target_section] = []
+        if heading not in section_groups[target_section]:
+            section_groups[target_section][heading] = []
+            heading_order[target_section].append(heading)
+        section_groups[target_section][heading].append(entry)
 
     if dry_run:
         if not quiet:
-            total = sum(len(group) for group in section_groups.values())
-            print(f"[{spec.name}] Dry run — would insert {total} task(s) into:", end=" ")
-            print(", ".join(f"'{sec}'" for sec in section_order))
+            total = sum(len(entries) for group in section_groups.values() for entries in group.values())
+            print(f"[{spec.name}] Dry run — would insert {total} task(s) into sections: {', '.join(section_order)}")
             for section in section_order:
                 print(f"\n  Section: {section}")
-                for line in build_block_lines(section_groups[section]):
-                    print(line)
+                for heading in heading_order[section]:
+                    preview_block = build_heading_block(heading, section_groups[section][heading])
+                    for line in preview_block:
+                        print(line)
         return 0
 
     today_lines = today_text.splitlines()
     for section in section_order:
-        block_lines = build_block_lines(section_groups[section])
+        block_lines: List[str] = []
+        for heading in heading_order[section]:
+            block_lines.extend(build_heading_block(heading, section_groups[section][heading]))
+        while block_lines and block_lines[-1] == "":
+            block_lines.pop()
         today_lines = insert_into_section(today_lines, section, block_lines)
     TODAY_FILE.write_text("\n".join(today_lines).rstrip() + "\n")
 
     if not quiet:
-        inserted_total = sum(len(group) for group in section_groups.values())
+        inserted_total = sum(len(entries) for group in section_groups.values() for entries in group.values())
         print(f"[{spec.name}] Inserted {inserted_total} task(s) into sections: {', '.join(section_order)}.")
         if duplicates:
             print(f"[{spec.name}] Skipped {duplicates} duplicate block(s).")
-    return sum(len(group) for group in section_groups.values())
+    return inserted_total
 
 
 def parse_args() -> argparse.Namespace:

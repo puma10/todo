@@ -45,7 +45,10 @@ Journal
 
 Admin 
 
+	Monitor setup for new place
+		[t] test
 
+		[t] today test
 
 Tax 
 	Setup meeting with Julian for international 
