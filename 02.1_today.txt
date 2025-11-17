@@ -114,5 +114,3 @@ FiWithAi
 Reddit Bot
 	Improve Quality of Response 
 		steerable agents - see doc
-
-Monitor setup for new place

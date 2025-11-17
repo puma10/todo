@@ -16,14 +16,14 @@
 - `python3 task_status_view.py --write-files` &mdash; regenerate the persisted files (still prints to the terminal unless you add `--quiet`).
 
 ## Importing external tasks into today
-Use `import_external_tasks.py` whenever you want to pull tagged tasks from an external file (anything you added in `extra_files`) into `02.1_today.txt`. Targets listed under `import_targets` in `task_sources.json` run automatically as part of `make sync`. Mark any line in an external file with `[t]` (“transfer”) and the importer will move that block into the matching section inside `02.1_today.txt` (using the closest section header unless you override it in the config).
+Use `import_external_tasks.py` whenever you want to pull tagged tasks from an external file (anything you added in `extra_files`) into `02.1_today.txt`. Targets listed under `import_targets` in `task_sources.json` run automatically as part of `make sync`. Mark any line in an external file with `[t]` (“transfer”) and the importer will move that block into the configured parent section (defaulting to `section`, or, if you enable `use_source_section`, the closest heading in the source file optionally remapped via `section_map`).
 
 Examples:
 - `python3 import_external_tasks.py /Users/joshwardini/Documents/dev/admin/admin.txt --section "Admin"` &mdash; copy `[i]` and `[b]` tasks from that file into the existing **Admin** section.
 - `python3 import_external_tasks.py admin --section "Admin" --status transfer --dry-run` &mdash; treat `admin` as the alias (matches entries in `extra_files`), limit to `[t]` tasks, and preview the block without editing the file.
 - `python3 import_external_tasks.py --all-configured` &mdash; run every entry defined under `import_targets` (same as `make sync`).
 
-By default the script imports `[i]` + `[b]` items, skips duplicates already present in `02.1_today.txt`, and appends the tasks to the target section (creating it if needed). Set `use_source_section: true` in `import_targets` to drop each `[t]` task under the matching header (or provide a `section_map` to translate names), and add `--allow-duplicates` if you intentionally want repeated items. This gives you a quick way to promote work from other repositories into the main “today” plan.
+By default the script imports `[i]` + `[b]` items, skips duplicates already present in `02.1_today.txt`, and appends the tasks to the target section (creating it if needed). Set `section` in each import target to force all `[t]` tasks from that file into a specific top-level area, use `use_source_section: true` when you want to respect the source headings, and provide a `section_map` to remap names (e.g., “Finance” → “Tax”). Add `--allow-duplicates` if you intentionally want repeated items. This gives you a quick way to promote work from other repositories into the main “today” plan.
 
 ## Syncing project-specific todos (and outputs)
 If other repos already have their own `todo.md`, add them to `task_sources.json`:
@@ -53,10 +53,9 @@ If other repos already have their own `todo.md`, add them to `task_sources.json`
     {
       "name": "admin",
       "source": "/Users/joshwardini/Documents/dev/admin/admin.txt",
-      "use_source_section": true,
+      "section": "Admin",
       "statuses": ["transfer"],
       "section_map": {
-        "Admin": "Admin",
         "Finance": "Tax"
       }
     }

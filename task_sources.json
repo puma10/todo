@@ -19,7 +19,7 @@
     {
       "name": "admin",
       "source": "/Users/joshwardini/Documents/dev/admin/admin.txt",
-      "use_source_section": true,
+      "section": "Admin",
       "statuses": ["transfer"]
     }
   ]
