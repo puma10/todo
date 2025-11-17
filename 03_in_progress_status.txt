@@ -44,7 +44,6 @@ Social — projects/marketing
 Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
   	[i] Label airpods - buy some markers on amazon
   
-  
 
 Blocked
 -------
@@ -60,5 +59,3 @@ Tax — 02.1_today.txt
 Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
   	[b] Social security card
   		phone number not working
-  
-      [b] Test blocked
