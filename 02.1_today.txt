@@ -14,9 +14,15 @@ Setup Ultimate Goals - $25k MRR, freedom to live anywhere and work on only your 
 https://x.com/Davidjpark96/status/1789773192435060737
 
 Dev workflow
-	Terminus 
+	code rabbit 
+	Mobile development
+		Terminus 
+		Code from telegram 
+			https://youtu.be/j2tI3YGVEz0?t=1097
+				consider setting up a staging env
 	Fix the bash issue with claude code 
 	Robotics - https://arxiv.org/abs/2406.09246
+	open webui https://github.com/open-webui/open-webui
 
 IRL
 	Move to new place
@@ -72,6 +78,11 @@ Admin
 	hair 
 		take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
+	Monitor setup for new place
+		[t] test
+
+		[t] today test
+
 Tax 
 	[i] Setup meeting with Julian for international 
 	[i] Do end of the year contributions
@@ -103,8 +114,6 @@ FIwith.ai
 		You're connecting bank information.  Make sure it's read only so it's safe
 		
 		Refine the Plaid UI to show more banks be default
-		
-		Try to connect robinhood
 
 	[I] Add Anomaly Detection - testing for the observability stack
 
@@ -131,6 +140,14 @@ FIwith.ai
 			portfolio same q
 
 
+	## Product
+		### Features
+			#### Chat
+				[t] How to use chat to get and return data from the database
+
 Reddit Bot
 	Improve Quality of Response 
 		steerable agents - see doc
+
+	Got a ruff idea of how langfuse observabiliy works 
+	Switch to pydantic ai and logfire 

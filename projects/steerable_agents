@@ -1,3 +1,6 @@
+End to end agents
+    https://www.youtube.com/watch?v=i5kwX7jeWL8
+
 Tools To Consider
     Eval Frameworks 
         Openai Evals 
@@ -37,6 +40,108 @@ Good Resources
         Add what's used where 
             dspy package thing
 
+Security Guardrails 
+    https://www.guardrailsai.com/
+    Synk - https://snyk.io/
+        MCP server 
+
+References
+    Pydantic AI - single agent
+        Multi for pydantic ai graphs
+    Langraph - multi agent
+    Instant access
+        https://www.arcade.dev/
+
+Rag
+    https://www.youtube.com/watch?v=tLMViADvSNE
+    https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies
+    
+    3 strategies he recommends together
+        Reranking
+        Agentic Rag 
+        Context aware chunking 
+
+    Tools he recommends
+        file extraction and chunking Docling
+        Website - crawl4AI
+        Postgres (w/ pgvector) - slower then dedicated.  Needs a regular database as well
+        Mem0 - Longterm Memory. Just a different type of Rag
+        Knowledge Graph (2 parts): https://youtu.be/21_k2St8bBI?t=974
+            good for link builder                
+            Neo 4J Graph Database - not totally open source for commercial. 
+                where store and visualize the data 
+                Alternatives falkorDB and Memgraph
+                
+            
+            Graphiti Knowledge Graph Framework
+                where we create the entities 
+                insert and search our data
+                    different entities and maps how they relate 
+                    needs an llm to extract 
+        
+        Ragas for Rag Evals
+            For eval pipelines 
+            automated test generation 
+        
+        Web search 
+            brave
+
+deployment platform - Infrastructe as Code in a Yaml file
+    https://render.com/pricing | conterized with docker https://www.youtube.com/watch?v=2Ai7_5G70xY
+    
+    Query strategies 
+        renanker - pull relevant chunks: 
+        Agentic rag - chose between retrevial tools 
+            chunks, semantic search, full doc
+            flexible, adapts to query automatically 
+            more complex - less predicatlbe behavior
+        Knowledge graph - graphiti
+            graph database - great for interconnected data
+            more expnesive 
+        Contextual retrieval
+            adds context to the chunk 
+            35-50% improvement
+            expensive 
+        Query Expansion
+            expand the query more specific 
+            one llm call per search so slower 
+        Multi Query Rag 
+            Comperehensive coverage, better recall on ambigious queries 
+            4x databae queries though in parallel (though parallized), higher cost
+    
+    Data Preperation 
+        Context Aware Chunking 
+            to find the natural boundries 
+            free, fast, maintains document structure
+            slightly more complex than naive chunking
+            use docling 
+        Late Chunking 
+            complex - need to watch more if it's a problem
+
+        Hiearchical Rag
+            Oarent-child chunk relationships 
+                Search small chunks for precision, terurn large parent chunks for context
+        
+        Self reflective rag
+            Self-correcting search loop:
+                Perform initial search - llm grades relevance 1-5
+                If less then 3 refine query and search again 
+                costs more llm calls
+
+        Fine-tuned embeddings
+            Train an embedding modls on domain specific query-document pais to improve retrieeval accuracy for specailized domains (legal, finance etc)
+            5-10% accuracy gains, smaller models can outperform larger generic ones
+            requires training data, infrastructure, ongoing maintenance
+            example - can align sentiment more https://cln.sh/hpdjDbW8
+                pretraind: shipping was fast and orders was late is similar 
+                fintuned: shipping was fast, order arrived on time (positive sentiment)
+                     
+    
+
+
+    tools
+        postgrest with pg-vector and neon 
+
 Current Reddit 
     AI added all these techniques - scrape it?
     Investigate How it Works Current 
@@ -49,3 +154,5 @@ Current Reddit
         Evaluation 
         Grounding?
 
+Deployment 
+    Docker

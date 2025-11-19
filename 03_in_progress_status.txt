@@ -3,15 +3,23 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-FiWithAi — 02.1_today.txt
+Admin — 02.1_today.txt
+  	[i] Label airpods - buy some markers on amazon
+  
+
+Tax — 02.1_today.txt
+  	[i] Setup meeting with Julian for international
+  	[i] Do end of the year contributions
+  		Send $10k to brex
+  		If brex doesn't resolve account creation by tuesday send to brex
+
+FIwith.ai — 02.1_today.txt
   	[I] Plaid integration - get real data working
   		Data is currently held in the positions table in the meta data - maybe we need a balance
   
   		You're connecting bank information.  Make sure it's read only so it's safe
   
   		Refine the Plaid UI to show more banks be default
-  
-  		Try to connect robinhood
   
   	[I] Add Anomaly Detection - testing for the observability stack
   
@@ -45,16 +53,24 @@ Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
   	[i] Label airpods - buy some markers on amazon
   
 
+## Product — /Users/joshwardini/Documents/dev/fiwithai/todo.md
+              [i] Before launch you really need to go through this
+                  might want a feature flag to easily kill these if they get wild
+  
+              [i] Need to set thresholds - see how grafana does it and simplify
+                  Set notification frequency
+  
+
 Blocked
 -------
+Admin — 02.1_today.txt
+  	[b] Social security card
+  		phone number not working
+  
+
 Tax — 02.1_today.txt
-  	[b] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
-  		Send $10k to brex
-  		If brex doesn't resolve account creation by tuesday send to brex
   	[b] Check america mailbox daily
   		no letter
-  
-  
 
 Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
   	[b] Social security card

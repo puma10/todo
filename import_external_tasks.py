@@ -135,13 +135,7 @@ def gather_tasks(source_path: Path, statuses: Sequence[str]) -> List[TaskEntry]:
     for entry in entries:
         if entry.status not in statuses:
             continue
-        if not entry.lines:
-            continue
-        primary_line = entry.lines[0].strip()
-        if not primary_line:
-            continue
-        entry.lines = [primary_line]
-        block_text = "\n".join(entry.lines).strip()
+        block_text = canonicalize_lines(entry.lines)
         if not block_text or block_text in seen_blocks:
             continue
         seen_blocks.add(block_text)
@@ -179,6 +173,26 @@ def canonicalize_lines(lines: List[str]) -> str:
     return "\n".join(normalized)
 
 
+def heading_level(label: str) -> int | None:
+    stripped = label.lstrip()
+    if not stripped.startswith("#"):
+        return None
+    count = len(stripped) - len(stripped.lstrip("#"))
+    return count
+
+
+def normalize_heading_chain(chain: List[str]) -> List[str]:
+    cleaned = [label.strip() for label in chain if label.strip()]
+    if not cleaned:
+        return []
+    levels = [heading_level(label) for label in cleaned]
+    if any(level is not None and level >= 2 for level in levels):
+        for idx, level in enumerate(levels):
+            if level is not None and level >= 2:
+                return cleaned[idx:]
+    return cleaned
+
+
 def reindent_entry_lines(lines: List[str], indent_prefix: str) -> List[str]:
     adjusted: List[str] = []
     for line in lines:
@@ -190,11 +204,15 @@ def reindent_entry_lines(lines: List[str], indent_prefix: str) -> List[str]:
     return adjusted
 
 
-def build_heading_block(heading: str, entries: List[TaskEntry]) -> List[str]:
-    lines: List[str] = [f"\t{heading}"]
+def build_heading_block(heading_chain: List[str], entries: List[TaskEntry]) -> List[str]:
+    lines: List[str] = []
+    if heading_chain:
+        for level, heading in enumerate(heading_chain, start=1):
+            lines.append(f"{'\t' * level}{heading}")
+    entry_indent = "\t" * (len(heading_chain) + 1 if heading_chain else 1)
     for idx, entry in enumerate(entries):
-        lines.extend(reindent_entry_lines(entry.lines, "\t\t"))
-        if idx != len(entries) - 1 and (not lines or lines[-1] != ""):
+        lines.extend(reindent_entry_lines(entry.lines, entry_indent))
+        if idx != len(entries) - 1:
             lines.append("")
     if lines and lines[-1] != "":
         lines.append("")
@@ -278,20 +296,24 @@ def run_single_import(spec: ImportSpec, *, dry_run: bool, quiet: bool) -> int:
             print(f"[{spec.name}] Nothing new to import (all duplicates).")
         return 0
 
-    section_groups: Dict[str, Dict[str, List[TaskEntry]]] = {}
+    section_groups: Dict[str, Dict[tuple[str, ...], List[TaskEntry]]] = {}
     section_order: List[str] = []
-    heading_order: Dict[str, List[str]] = {}
+    heading_order: Dict[str, List[tuple[str, ...]]] = {}
     for entry in unique_tasks:
         target_section = determine_section(spec, entry)
-        heading = entry.section.strip() or target_section
+        heading_chain = normalize_heading_chain(entry.headings.copy())
+        fallback_heading = entry.section.strip() or target_section
+        if not heading_chain:
+            heading_chain = [fallback_heading]
+        heading_key = tuple(heading_chain)
         if target_section not in section_groups:
             section_groups[target_section] = {}
             section_order.append(target_section)
             heading_order[target_section] = []
-        if heading not in section_groups[target_section]:
-            section_groups[target_section][heading] = []
-            heading_order[target_section].append(heading)
-        section_groups[target_section][heading].append(entry)
+        if heading_key not in section_groups[target_section]:
+            section_groups[target_section][heading_key] = []
+            heading_order[target_section].append(heading_key)
+        section_groups[target_section][heading_key].append(entry)
 
     if dry_run:
         if not quiet:
@@ -300,7 +322,7 @@ def run_single_import(spec: ImportSpec, *, dry_run: bool, quiet: bool) -> int:
             for section in section_order:
                 print(f"\n  Section: {section}")
                 for heading in heading_order[section]:
-                    preview_block = build_heading_block(heading, section_groups[section][heading])
+                    preview_block = build_heading_block(list(heading), section_groups[section][heading])
                     for line in preview_block:
                         print(line)
         return 0
@@ -309,7 +331,7 @@ def run_single_import(spec: ImportSpec, *, dry_run: bool, quiet: bool) -> int:
     for section in section_order:
         block_lines: List[str] = []
         for heading in heading_order[section]:
-            block_lines.extend(build_heading_block(heading, section_groups[section][heading]))
+            block_lines.extend(build_heading_block(list(heading), section_groups[section][heading]))
         while block_lines and block_lines[-1] == "":
             block_lines.pop()
         today_lines = insert_into_section(today_lines, section, block_lines)

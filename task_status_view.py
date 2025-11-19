@@ -8,7 +8,7 @@ import json
 import os
 import re
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from glob import glob
 from pathlib import Path
 from typing import Any, Dict, List, Sequence, Tuple
@@ -34,6 +34,7 @@ STATUS_LABELS = {
 STATUS_ORDER = ["blocked", "in-progress", "waiting", "delegated", "done"]
 STATUS_PATTERN = re.compile(r"^\s*\[([bdwixt])\]\s*(.*)$", re.IGNORECASE)
 LEGEND_PATTERN = re.compile(r"^\[[^\]]+\]\s*=", re.IGNORECASE)
+HEADING_PATTERN = re.compile(r"^\s*(#+)\s*(.+?)\s*$")
 
 STATUS_ALIASES = {
     "b": "blocked",
@@ -76,6 +77,7 @@ class TaskEntry:
     section: str
     file_path: Path
     lines: List[str]
+    headings: List[str] = field(default_factory=list)
 
 
 @dataclass
@@ -267,6 +269,7 @@ def parse_file(file_path: Path) -> List[TaskEntry]:
     tasks: List[TaskEntry] = []
     section = "Uncategorized"
     idx = 0
+    heading_stack: List[str] = []
 
     while idx < len(lines):
         line = lines[idx]
@@ -277,6 +280,20 @@ def parse_file(file_path: Path) -> List[TaskEntry]:
             continue
 
         if LEGEND_PATTERN.match(stripped):
+            idx += 1
+            continue
+
+        heading_match = HEADING_PATTERN.match(line)
+        if heading_match:
+            hashes = heading_match.group(1)
+            heading_text = heading_match.group(2).strip()
+            level = len(hashes)
+            heading_label = f"{'#' * level} {heading_text}"
+            while len(heading_stack) >= level:
+                heading_stack.pop()
+            heading_stack.append(heading_label)
+            if line.lstrip() == line and stripped:
+                section = stripped
             idx += 1
             continue
 
@@ -323,7 +340,7 @@ def parse_file(file_path: Path) -> List[TaskEntry]:
             block.append(next_line.rstrip())
             idx += 1
 
-        tasks.append(TaskEntry(status, section, file_path, block))
+        tasks.append(TaskEntry(status, section, file_path, block, list(heading_stack)))
 
     return tasks
 
