@@ -49,10 +49,6 @@ Social — projects/marketing
           [i] Reddit Bot
   
 
-Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
-  	[i] Label airpods - buy some markers on amazon
-  
-
 ## Product — /Users/joshwardini/Documents/dev/fiwithai/todo.md
               [i] Before launch you really need to go through this
                   might want a feature flag to easily kill these if they get wild
@@ -71,7 +67,3 @@ Admin — 02.1_today.txt
 Tax — 02.1_today.txt
   	[b] Check america mailbox daily
   		no letter
-
-Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
-  	[b] Social security card
-  		phone number not working

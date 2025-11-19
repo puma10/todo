@@ -11,7 +11,3 @@ Admin — 02.1_today.txt
 Tax — 02.1_today.txt
   	[b] Check america mailbox daily
   		no letter
-
-Monitor setup for new place — /Users/joshwardini/Documents/dev/admin/admin.txt
-  	[b] Social security card
-  		phone number not working
