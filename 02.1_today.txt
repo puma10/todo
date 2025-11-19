@@ -25,7 +25,6 @@ Dev workflow
 IRL
 	 
 		
-	[x] Move to new place
 
 Investing 
 	How to get exposure on robotics
@@ -41,11 +40,9 @@ Todo Workflow Improvement
 
 	templates for daily 
 
-	[x] add closing task from in progress, blocked, tomorrow and next week
 
 	journal 
 		add to the journal 
-	[x] Cross project todos - scattered now 
 
 Journal
 	11/17
@@ -55,24 +52,18 @@ Journal
 			carlee messaged 
 
 Admin 
-	[x] work station 
-		[x] Monitor setup for new place 
-			[x] order once you get in
+	small 
 		[i] Keyboard key is broken 
-	
-	Get monitor from jenny for work 
-	
-	return stuff on amazon 
-
-	Lean Ventures - already paid
-
-	On exit 
+		[i]	Get monitor from jenny for work 
+		return stuff on amazon
 		Do comp backup when you leave
-		Credit card
+
+	medium 
+		Lean Ventures - already paid
+		Credit Card
+			order more backups for brazil
 			might be at river pig
-	
-	Credit Card
-		order more backups for brazil
+			
 	
 	[b] Social security card
 		phone number not working 
@@ -84,21 +75,31 @@ Admin
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
-		take pics - https://drpittella.com/en/quotation-felipe-pittella/
+		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
+			retake might have stuff in it istill
 
 	
 
 Tax 
 	[i] Setup meeting with Julian for international 
 	[i] Do end of the year contributions
-		Send $10k to brex 
-		If brex doesn't resolve account creation by tuesday send to brex
+		[x] Send $10k to brex 
+			[x] If brex doesn't resolve account creation by tuesday send to brex
 	[b] Check america mailbox daily
-		no letter 
+		11/19 nothing 
 ED 
-	Organize  
+	[x] Organize  
+
+Reddit Bot
+	Improve Quality of Response 
+		steerable agents - see doc
+
+	Got a ruff idea of how langfuse observabiliy works 
+	Switch to pydantic ai and logfire
 
 FIwith.ai 
+	test gemin cli for 3.0 to fix issues 
+
 	Think through feature fences 
 		usage 
 		# of institutions added 
@@ -140,9 +141,4 @@ FIwith.ai
 			#### Chat
 				[t] How to use chat to get and return data from the database
 
-Reddit Bot
-	Improve Quality of Response 
-		steerable agents - see doc
 
-	Got a ruff idea of how langfuse observabiliy works 
-	Switch to pydantic ai and logfire 

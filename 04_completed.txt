@@ -12,6 +12,9 @@ Admin
 	[2025-11-13] [x] [02.1_today] full mac backup / but SSD - arrives monday https://claude.ai/share/d6882bf2-8338-42bd-ae01-846bd09f320b
 	[2025-11-14] [x] [02.1_today] hair / get meds supply again
 	[2025-11-16] [x] [02.1_today] Realtime translation airpods / Apple Intelligence - update ios 26
+	[2025-11-19] [x] [02.1_today] work station
+	[2025-11-19] [x] [02.1_today] Monitor setup for new place
+	[2025-11-19] [x] [02.1_today] order once you get in
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -80,3 +83,10 @@ ED
 Tax
 	[2025-11-15] [x] [02.1_today] signed paperwork for julian
 	[2025-11-17] [x] [02.1_today] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
+
+IRL
+	[2025-11-19] [x] [02.1_today] Move to new place
+
+Todo Workflow Improvement
+	[2025-11-19] [x] [02.1_today] add closing task from in progress, blocked, tomorrow and next week
+	[2025-11-19] [x] [02.1_today] Cross project todos - scattered now
