@@ -8,9 +8,6 @@
 [w] = waiting
 
 
- 
-
-https://x.com/Davidjpark96/status/1789773192435060737
 
 Dev workflow
 	code rabbit 
@@ -20,41 +17,20 @@ Dev workflow
 			https://youtu.be/j2tI3YGVEz0?t=1097
 			consider setting up a staging env
 	Fix the bash issue with claude code 
-	Robotics - https://arxiv.org/abs/2406.09246
 
 IRL
-	 
-		
 
 Investing 
-	How to get exposure on robotics
-	Important sell all software stock
-		puts microsoft?
+	carve out time
 
 
 Todo Workflow Improvement
-	set weekly goals to stay focused
-	in progress
-		add a way to better view it 
-	blocked 
-
-	templates for daily 
-
-
-	journal 
-		add to the journal 
 
 Journal
-	11/17
-		Work
-			improved the todo list to sync with external files 
-		Personal 
-			carlee messaged 
 
 Admin 
 	small 
 		[i] Keyboard key is broken 
-		[i]	Get monitor from jenny for work 
 		return stuff on amazon
 		Do comp backup when you leave
 
@@ -90,12 +66,25 @@ Tax
 ED 
 	[x] Organize  
 
+Resume 
+	Add links to projects 
+	Make top nav /uplink say "contact" for clarity
+	[x] Add career history
+	Add skill summary - just summarize the aggregated skills
+	Add domain name
+	Add top nav to live chat josh.ai 
+	remove media assets where not relevant
+	check on mobile 
+
 Reddit Bot
+	Might just use google to get it working 
 	Improve Quality of Response 
 		steerable agents - see doc
 
 	Got a ruff idea of how langfuse observabiliy works 
 	Switch to pydantic ai and logfire
+
+Artsmart - time to rebuild it
 
 FIwith.ai 
 	test gemin cli for 3.0 to fix issues 

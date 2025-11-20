@@ -79,10 +79,13 @@ Journal
 
 ED
 	[2025-11-14] [x] [02.1_today] Kate realisic linkedin images
+	[2025-11-19] [x] [02.1_today] Organize
 
 Tax
 	[2025-11-15] [x] [02.1_today] signed paperwork for julian
 	[2025-11-17] [x] [02.1_today] Create Brex Checking Account Segements so Julian Can Pay. Brex can't create.
+	[2025-11-19] [x] [02.1_today] [i] Do end of the year contributions / Send $10k to brex
+	[2025-11-19] [x] [02.1_today] [i] Do end of the year contributions / If brex doesn't resolve account creation by tuesday send to brex
 
 IRL
 	[2025-11-19] [x] [02.1_today] Move to new place

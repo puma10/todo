@@ -1,6 +1,14 @@
 Staregy: 
     for self and for social media - log realtime but with 3 month delay for competition (and edge delta)
 
+
+Journal 
+    11/17
+		Work
+			[x] improved the todo list to sync with external files 
+		Personal 
+			carlee messaged 
+
 Journal 
     11/16
         Personal 

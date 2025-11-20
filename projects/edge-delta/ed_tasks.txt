@@ -13,22 +13,60 @@ what is the event schedule
 
 Meeting This Week 
 	Marketing Meeting 
-		Dog fooding 
-		Status of Ads
-		Website 
-			Gokhan wants to use contentful because hosted service
-				simplifies
-				if they go down our site goes down
+		Dog fooding
+	Installed Grafana on demo app
+		Promtheus for Metrics 
+		Loki with Logtail
+		Tempo for Traces
+
+	Status of Ads
+		Raj and Tom have finalized pages and can begin running ads
+			Kickoff after marketing meeting tomorrow 
+
+	Slack: 
+		Setup and ready for promotion 
+
+	Website 
+		Gokhan wants to use contentful because hosted service
+			I disagree - we'll be stuck with no customization
 			Pop-ups
-			Website - need documentation ex popup
+			SEO optimization 
 			Utilities for devops 
-				see devops
+		Feels like pace has calmed down so not as many issues anymore
+
+		Route all blog traffic to commercial page
+			created pop up on scroll depth
+			created pop up on exit
+			created in content add 
+			flexible and ready for any CTA 
+				Webinars, Event's Push to Purchase 
+		
+		Reddit 
+			Priming the reddit effort
+				Streaming related reddit comments based on our docs
+					Researched how to embed our docs into vector store
+				
+				Goal
+					Human in the loop marketing effort to jump in on relevant posts
+
+		Ozgur
+			Spoke with ozgur about our ai tech
+				How we are tracing agents/prompts. 
+					No solution yet just logging as of now
+					Suggested investigating
+						https://arize.com/
+						https://langfuse.com/
+
+				LLM as Judge 
+					Probably need to think about evals with synthetic data 
+
+
 		Analytics 
 			Product 
 				Raj help with product analytics 
 		
 		PLG 
-			Newsletters
+			Newsletters - have 50k users on artsmart
 			Backend Access to the App 
 			Need to see if they are interacting overtime during the free trial
 			Email sequences 

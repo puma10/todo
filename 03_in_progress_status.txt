@@ -5,15 +5,18 @@ In Progress
 -----------
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
-  
+  		[i]	Get monitor from jenny for work
   	[i] Label airpods - buy some markers on amazon
+  
+  		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
+  			retake might have stuff in it istill
+  
+  
   
 
 Tax — 02.1_today.txt
   	[i] Setup meeting with Julian for international
   	[i] Do end of the year contributions
-  		Send $10k to brex
-  		If brex doesn't resolve account creation by tuesday send to brex
 
 FIwith.ai — 02.1_today.txt
   	[I] Plaid integration - get real data working
@@ -68,4 +71,4 @@ Admin — 02.1_today.txt
 
 Tax — 02.1_today.txt
   	[b] Check america mailbox daily
-  		no letter
+  		11/19 nothing
