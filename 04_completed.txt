@@ -93,3 +93,6 @@ IRL
 Todo Workflow Improvement
 	[2025-11-19] [x] [02.1_today] add closing task from in progress, blocked, tomorrow and next week
 	[2025-11-19] [x] [02.1_today] Cross project todos - scattered now
+
+Resume
+	[2025-11-20] [x] [02.1_today] Add career history

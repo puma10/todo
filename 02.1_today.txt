@@ -8,8 +8,20 @@
 [w] = waiting
 
 
+who’s building the infrastructure where models actually learn?
+
+Super High Priority 
+	[i] tax - mailbox stuff 
+	[] do books 
+	[] expat taxes 
+	[] get julian harsha's doc 
+	[] maybe a good idea to look over travel expenses in get brandosme
+	[] get him harsha's accounting doc for improv 
+
+Buy bitcoin 
 
 Dev workflow
+	audio for rapid long post understanding 
 	code rabbit 
 	Mobile development
 		Terminus 
@@ -22,6 +34,8 @@ IRL
 
 Investing 
 	carve out time
+	sell adobe 
+		what are real world value stocks that are realizing ai gains 
 
 
 Todo Workflow Improvement
@@ -44,10 +58,13 @@ Admin
 	[b] Social security card
 		phone number not working 
 
-	[i] Label airpods - buy some markers on amazon 
+	[x] Label airpods - buy some markers on amazon 
 
 	Insurance
-		live without until Brazil?
+		[x] Longterm will be in US
+			Ask if ED minds paying off open market 
+			Find plan with internatonal 
+
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
@@ -57,22 +74,24 @@ Admin
 	
 
 Tax 
-	[i] Setup meeting with Julian for international 
+	todo all follow ups from julian 
+	[x] Setup meeting with Julian for international 
 	[i] Do end of the year contributions
-		[x] Send $10k to brex 
-			[x] If brex doesn't resolve account creation by tuesday send to brex
-	[b] Check america mailbox daily
+	[i] Check america mailbox daily
 		11/19 nothing 
 ED 
-	[x] Organize  
+	Check if posthog setting changed worked to get analytics data 
 
 Resume 
+	Add about section 
+	[x] test gemin 3.0 issue fix ability / good for design not good for code quality
+	[1] Add domain name
 	Add links to projects 
-	Make top nav /uplink say "contact" for clarity
-	[x] Add career history
+	[i] Make top nav /uplink say "contact" for clarity
+	[i] Refine Content
 	Add skill summary - just summarize the aggregated skills
-	Add domain name
 	Add top nav to live chat josh.ai 
+	add relevant media assets
 	remove media assets where not relevant
 	check on mobile 
 
@@ -84,11 +103,11 @@ Reddit Bot
 	Got a ruff idea of how langfuse observabiliy works 
 	Switch to pydantic ai and logfire
 
-Artsmart - time to rebuild it
+Artsmart
+	time to rebuild it
+	needs 1 week
 
 FIwith.ai 
-	test gemin cli for 3.0 to fix issues 
-
 	Think through feature fences 
 		usage 
 		# of institutions added 
@@ -130,4 +149,5 @@ FIwith.ai
 			#### Chat
 				[t] How to use chat to get and return data from the database
 
-
+Youtube Plugin 
+	Asses the market / obsidian 

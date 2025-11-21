@@ -1,22 +1,24 @@
 what is the event schedule 
-		Add edge delta connectors with grafana
-		Human Eval - https://youtu.be/a3SMraZWNNs
-		https://github.com/traceloop/openllmetry
-		Do some posthog hacking
-		Meeting to get aligned on webiste switch with astro 
-		Test full funnel flow 
-		Fix funnel for signup to add a connector 
-		Setup slack for Edge Delta
-		How do we feel about switching content management system
+	Add edge delta connectors with grafana
+	Human Eval - https://youtu.be/a3SMraZWNNs
+	https://github.com/traceloop/openllmetry
+	Do some posthog hacking
+	Meeting to get aligned on webiste switch with astro 
+	Test full funnel flow 
+	Fix funnel for signup to add a connector 
+	Setup slack for Edge Delta
+	How do we feel about switching content management system
 		
 
 
 Meeting This Week 
+	[1] AI visibility tool 
+
 	Marketing Meeting 
 		Dog fooding
 	Installed Grafana on demo app
 		Promtheus for Metrics 
-		Loki with Logtail
+		Loki and (logtail?)
 		Tempo for Traces
 
 	Status of Ads
@@ -24,10 +26,10 @@ Meeting This Week
 			Kickoff after marketing meeting tomorrow 
 
 	Slack: 
-		Setup and ready for promotion 
+		[1] Setup and ready for promotion 
 
-	Website 
-		Gokhan wants to use contentful because hosted service
+	[1] Website 
+		[1] Gokhan wants to use contentful because hosted service
 			I disagree - we'll be stuck with no customization
 			Pop-ups
 			SEO optimization 
@@ -79,7 +81,7 @@ Meeting This Week
 			Website 
 				feels like we should stay on wordpress 
 	
-	Lead Gen 
+	[1] Lead Gen 
 		https://www.qualified.com/
 		Work on reddit
 
@@ -132,11 +134,12 @@ PLG
 		Initial Page 
 			Doesn't seem accurate
 
-	Nuture flow
+	[x] Nuture flow
 		sequences 
 			welcome email 
-				general nuture 
-			triggered emails 
+				general nuture
+
+			[1] triggered emails 
 				events
 				emails opened 
 
