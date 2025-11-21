@@ -3,10 +3,11 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
+Super High Priority — 02.1_today.txt
+  	[i] tax - mailbox stuff
+
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
-  	[i] Label airpods - buy some markers on amazon
-  
   		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
   			retake might have stuff in it istill
   
@@ -14,8 +15,13 @@ Admin — 02.1_today.txt
   
 
 Tax — 02.1_today.txt
-  	[i] Setup meeting with Julian for international
   	[i] Do end of the year contributions
+  	[i] Check america mailbox daily
+  		11/19 nothing
+
+Resume — 02.1_today.txt
+  	[i] Make top nav /uplink say "contact" for clarity
+  	[i] Refine Content
 
 FIwith.ai — 02.1_today.txt
   	[I] Plaid integration - get real data working
@@ -54,9 +60,6 @@ Social — projects/marketing
   
 
 ## Product — /Users/joshwardini/Documents/dev/fiwithai/todo.md
-              [i] Before launch you really need to go through this
-                  might want a feature flag to easily kill these if they get wild
-  
               [i] Need to set thresholds - see how grafana does it and simplify
                   Set notification frequency
   
@@ -66,8 +69,3 @@ Blocked
 Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
-  
-
-Tax — 02.1_today.txt
-  	[b] Check america mailbox daily
-  		11/19 nothing

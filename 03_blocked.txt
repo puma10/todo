@@ -6,8 +6,3 @@ Blocked
 Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
-  
-
-Tax — 02.1_today.txt
-  	[b] Check america mailbox daily
-  		11/19 nothing

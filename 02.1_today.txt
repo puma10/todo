@@ -10,18 +10,16 @@
 
 who’s building the infrastructure where models actually learn?
 
-Super High Priority 
-	[i] tax - mailbox stuff 
-	[] do books 
-	[] expat taxes 
-	[] get julian harsha's doc 
-	[] maybe a good idea to look over travel expenses in get brandosme
-	[] get him harsha's accounting doc for improv 
-
 Buy bitcoin 
 
 Dev workflow
+	[x] google voice text forwrding 
+		[x] now forwards to email
+		[x] forward email to slack channel 
+		[x] setup email forwarder 
+
 	audio for rapid long post understanding 
+
 	code rabbit 
 	Mobile development
 		Terminus 
@@ -43,7 +41,11 @@ Todo Workflow Improvement
 Journal
 
 Admin 
-	small 
+	GPU for text to Speech 
+		Run it on runpod or elsewhere with autodeploy 
+		https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+
+	Small 
 		[i] Keyboard key is broken 
 		return stuff on amazon
 		Do comp backup when you leave
@@ -53,15 +55,18 @@ Admin
 		Credit Card
 			order more backups for brazil
 			might be at river pig
+
+		Book Vegas 
+			message jess about laptop 
+			opens 1st 
+
 			
 	
 	[b] Social security card
 		phone number not working 
 
-	[x] Label airpods - buy some markers on amazon 
 
 	Insurance
-		[x] Longterm will be in US
 			Ask if ED minds paying off open market 
 			Find plan with internatonal 
 
@@ -75,16 +80,22 @@ Admin
 
 Tax 
 	todo all follow ups from julian 
-	[x] Setup meeting with Julian for international 
+	[i] tax - mailbox stuff 
+	[i] do books 
+	[i] expat taxes - julian to understand max
+	[i] get julian harsha's doc 
+	[i] maybe a good idea to look over travel expenses in get brandosme
+	[i] get him harsha's accounting doc for improv 
 	[i] Do end of the year contributions
 	[i] Check america mailbox daily
 		11/19 nothing 
+
 ED 
 	Check if posthog setting changed worked to get analytics data 
 
 Resume 
+	Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
 	Add about section 
-	[x] test gemin 3.0 issue fix ability / good for design not good for code quality
 	[1] Add domain name
 	Add links to projects 
 	[i] Make top nav /uplink say "contact" for clarity
@@ -94,6 +105,8 @@ Resume
 	add relevant media assets
 	remove media assets where not relevant
 	check on mobile 
+
+
 
 Reddit Bot
 	Might just use google to get it working 
@@ -150,4 +163,4 @@ FIwith.ai
 				[t] How to use chat to get and return data from the database
 
 Youtube Plugin 
-	Asses the market / obsidian 
+	Asses the market / obsidian: https://grok.com/c/733a4c2c-bcef-4e44-955d-b450000cff40
