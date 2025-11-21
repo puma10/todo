@@ -13,11 +13,6 @@ who’s building the infrastructure where models actually learn?
 Buy bitcoin 
 
 Dev workflow
-	[x] google voice text forwrding 
-		[x] now forwards to email
-		[x] forward email to slack channel 
-		[x] setup email forwarder 
-
 	audio for rapid long post understanding 
 
 	code rabbit 

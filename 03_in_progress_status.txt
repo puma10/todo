@@ -3,9 +3,6 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Super High Priority — 02.1_today.txt
-  	[i] tax - mailbox stuff
-
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
   		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
@@ -15,9 +12,16 @@ Admin — 02.1_today.txt
   
 
 Tax — 02.1_today.txt
+  	[i] tax - mailbox stuff
+  	[i] do books
+  	[i] expat taxes - julian to understand max
+  	[i] get julian harsha's doc
+  	[i] maybe a good idea to look over travel expenses in get brandosme
+  	[i] get him harsha's accounting doc for improv
   	[i] Do end of the year contributions
   	[i] Check america mailbox daily
   		11/19 nothing
+  
 
 Resume — 02.1_today.txt
   	[i] Make top nav /uplink say "contact" for clarity

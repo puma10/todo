@@ -75,6 +75,10 @@ Reddit Bot
 
 Dev workflow
 	[2025-11-12] [x] [02.1_today] Turntable in Illustrator - couldn't get working because corporate adobe account and not beta
+	[2025-11-21] [x] [02.1_today] google voice text forwrding
+	[2025-11-21] [x] [02.1_today] now forwards to email
+	[2025-11-21] [x] [02.1_today] forward email to slack channel
+	[2025-11-21] [x] [02.1_today] setup email forwarder
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
