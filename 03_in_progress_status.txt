@@ -3,12 +3,14 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
+Investing — 02.1_today.txt
+  	[i] Buy bitcoin
+  		butting money in 401k
+
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
   		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
   			retake might have stuff in it istill
-  
-  
   
 
 Tax — 02.1_today.txt
@@ -64,6 +66,9 @@ Social — projects/marketing
   
 
 ## Product — /Users/joshwardini/Documents/dev/fiwithai/todo.md
+              [i] Before launch you really need to go through this
+                  might want a feature flag to easily kill these if they get wild
+  
               [i] Need to set thresholds - see how grafana does it and simplify
                   Set notification frequency
   
@@ -73,3 +78,7 @@ Blocked
 Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
+  
+  
+  
+  		check what it costs to extend genki - is there one without cancellation terms

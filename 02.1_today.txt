@@ -10,16 +10,17 @@
 
 who’s building the infrastructure where models actually learn?
 
-Serpwatch 
-	Refine server for scale 
-	Add video 
+SERPWATCH
+	Add the conversion points
+	Design the onboarding and price structure 
+	Add promtion strategy 
+	Think through admin dash 
+	[x] Testing Strategy 
+	[x] Observability Stratgy 
+	[x] Refine server for scale 
+	Add explination video 
 	Add competitors - outrank
-	Add the article creator?
-	Design the onboarding and price structure
-	Add why we made design decisions
-	Offer tooling to help 
-		explain componets for llms 
-	https://gemini.google.com/app/045951bbf35bc0a3
+	[x] Add the article creator
 
 Dev workflow
 	need to be able to manually create a worktree for code adjustments 
