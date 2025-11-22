@@ -10,11 +10,19 @@
 
 who’s building the infrastructure where models actually learn?
 
-Buy bitcoin 
+Serpwatch 
+	Refine server for scale 
+	Add video 
+	Add competitors - outrank
+	Add the article creator?
+	Design the onboarding and price structure
+	Add why we made design decisions
+	Offer tooling to help 
+		explain componets for llms 
+	https://gemini.google.com/app/045951bbf35bc0a3
 
 Dev workflow
-	audio for rapid long post understanding 
-
+	need to be able to manually create a worktree for code adjustments 
 	code rabbit 
 	Mobile development
 		Terminus 
@@ -26,9 +34,12 @@ Dev workflow
 IRL
 
 Investing 
+	[i] Buy bitcoin 
+		butting money in 401k 
 	carve out time
 	sell adobe 
-		what are real world value stocks that are realizing ai gains 
+		what are real world value stocks that are realizing ai gains
+		feel pretty strongly they cant compete, how to research 
 
 
 Todo Workflow Improvement
@@ -61,18 +72,13 @@ Admin
 		phone number not working 
 
 
-	Insurance
-			Ask if ED minds paying off open market 
-			Find plan with internatonal 
 
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
 		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
 			retake might have stuff in it istill
-
 	
-
 Tax 
 	todo all follow ups from julian 
 	[i] tax - mailbox stuff 
@@ -89,9 +95,10 @@ ED
 	Check if posthog setting changed worked to get analytics data 
 
 Resume 
+	[1] Add domain name
+		Move it to hetzner 
 	Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
 	Add about section 
-	[1] Add domain name
 	Add links to projects 
 	[i] Make top nav /uplink say "contact" for clarity
 	[i] Refine Content
@@ -100,8 +107,6 @@ Resume
 	add relevant media assets
 	remove media assets where not relevant
 	check on mobile 
-
-
 
 Reddit Bot
 	Might just use google to get it working 
