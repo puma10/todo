@@ -7,54 +7,59 @@
 [b] = blocked waiting 
 [w] = waiting
 
+HIGH PRIORITY 
+	Mailbox 
+
 
 who’s building the infrastructure where models actually learn?
 
-SERPWATCH
-	Add the conversion points
-	Design the onboarding and price structure 
-	Add promtion strategy 
-	Think through admin dash 
-	[x] Testing Strategy 
-	[x] Observability Stratgy 
-	[x] Refine server for scale 
-	Add explination video 
-	Add competitors - outrank
-	[x] Add the article creator
-
 Dev workflow
-	need to be able to manually create a worktree for code adjustments 
-	code rabbit 
-	Mobile development
-		Terminus 
-		Code from telegram 
-			https://youtu.be/j2tI3YGVEz0?t=1097
-			consider setting up a staging env
-	Fix the bash issue with claude code 
+	[x] whisper flow https://www.youtube.com/watch?v=Bg0rdpFKCQI
+	buy apple vision pro  Vision Pro with M5.
+		go to pioneer place - no time to wait for delivery
+		might be able to return monitors  
+	gitworktree packages - https://grok.com/c/7c21837d-b7d8-4e2c-b43a-eee663b87fc4
+		so you can use many 
+		https://x.com/mckaywrigley/status/1937978348862578846
+		run gemini3 in parallel for frontend design
+		manually create a worktree for code adjustments
+	[x] MCP server to generate architectures of the code  
+	[x] Mobile development
+		[x] Terminus 
+	
 
 IRL
+	Fix jackets - $50 to take it anywhere 
+	Buy apple vision pro 
+
 
 Investing 
+	Get all other investments into one investment account 
 	[i] Buy bitcoin 
-		butting money in 401k 
+		putting money in 401k 
 	carve out time
 	sell adobe 
 		what are real world value stocks that are realizing ai gains
 		feel pretty strongly they cant compete, how to research 
 
-
 Todo Workflow Improvement
 
 Journal
 
-Admin 
-	GPU for text to Speech 
-		Run it on runpod or elsewhere with autodeploy 
-		https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+Learn 
+	Steering AI Agents 
 
+	Tam is all human labor 
+		Add to project launcher documentation
+		https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+		GPU for text to Speech 
+		Run it on runpod or elsewhere with autodeploy 
+Admin 
+	
 	Small 
 		[i] Keyboard key is broken 
 		return stuff on amazon
+		bring everything here 
 		Do comp backup when you leave
 
 	medium 
@@ -65,15 +70,10 @@ Admin
 
 		Book Vegas 
 			message jess about laptop 
-			opens 1st 
-
-			
+			opens 1st - 4th, stay with Jess until 5th 
 	
 	[b] Social security card
 		phone number not working 
-
-
-
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
@@ -81,11 +81,16 @@ Admin
 			retake might have stuff in it istill
 	
 Tax 
+	Pushback on costs with Julian 
+	get all documents from julian 
+	remove yourself from improv media before 2026
 	todo all follow ups from julian 
 	[i] tax - mailbox stuff 
 	[i] do books 
+		julian to look
 	[i] expat taxes - julian to understand max
 	[i] get julian harsha's doc 
+		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
 	[i] maybe a good idea to look over travel expenses in get brandosme
 	[i] get him harsha's accounting doc for improv 
 	[i] Do end of the year contributions
@@ -118,50 +123,71 @@ Reddit Bot
 	Switch to pydantic ai and logfire
 
 Artsmart
-	time to rebuild it
-	needs 1 week
+	Docs 
+		obsidian for doc changes
 
-FIwith.ai 
+	Issues 
+		Git not tracked 
+	Build Backend
+		Rbac and Full feature fences 
+			data persistence
+		How can you have community and chat?
+			live
+			teams want to work together
+		Image management
+			How to host the cloudflare images
+			Make it so they can self host
+	
+	Featuers
+		Community and Chat 
+			Make a profile
+
+		Quality of life
+			add grouping 
+		
+		Deterministic 
+			Shapes for design mockups
+
+		AI  
+			remove background
+
+			Add the combine feature for nano bananana 
+
+			inpaint and outpaint 
+				https://developer.ideogram.ai/api-reference/api-reference/reframe-v3
+				https://fal.ai/models/fal-ai/image-apps-v2/outpaint/playground
+
+	Market Research
+		Exceldraw.com
+		canva 
+		photoshop
+		agent 
+			https://app.superdesign.dev/
+	
+	Marketing and Content 
+		https://x.com/GoogleAIStudio/status/1992267030050083091
+		cms
+			https://statamic.com/
+	
+	Community Boards 
+		public boards where anyone with an account and username can interact 
+		https://aistudio.google.com/apps/drive/15a3v8DULlXANa9etp9ZpG4xFF5TtZ7mx?showAssistant=true&resourceKey=&showPreview=true
+
+
+
+FIwith.ai [paused]
 	Think through feature fences 
 		usage 
 		# of institutions added 
-
-	[I] Plaid integration - get real data working
-		Data is currently held in the positions table in the meta data - maybe we need a balance
 		
-		You're connecting bank information.  Make sure it's read only so it's safe
-		
-		Refine the Plaid UI to show more banks be default
-
 	[I] Add Anomaly Detection - testing for the observability stack
 
 		[I] Refine messaging and cadence - sends 3 of the same message  
 		
-		Add your final quality of life updates for connecting telegram
-			Generate a one-time code, send it to @fiwithaidemo, and we’ll connect this account to Telegram.
-			Add a Link
-			Remove the Login and Logout from telegram
-			Add to docs - track on the go from mobile web or telegram. Chat with it
 
 		Grafana
-			A few of the dashboards aren't working 
-			What do they mean 
-
-	observability
-		Opentelemetry thing you did really slowed things down on local  
+			[x] A few of the dashboards aren't working 
 
 
-	Clean up
-		database
-			can remove schema migrations: https://cln.sh/3gQDBCRk (old migration pattern)
-			portfolio history do? is it still used?
-			portfolio same q
 
 
-	## Product
-		### Features
-			#### Chat
-				[t] How to use chat to get and return data from the database
-
-Youtube Plugin 
-	Asses the market / obsidian: https://grok.com/c/733a4c2c-bcef-4e44-955d-b450000cff40

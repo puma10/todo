@@ -106,3 +106,7 @@ Resume
 	[2025-11-21] [x] [02.1_today] test gemin 3.0 issue fix ability / good for design not good for code quality
 
 SERPWATCH
+	[2025-11-22] [x] [02.1_today] Testing Strategy
+	[2025-11-22] [x] [02.1_today] Observability Stratgy
+	[2025-11-22] [x] [02.1_today] Refine server for scale
+	[2025-11-22] [x] [02.1_today] Add the article creator
