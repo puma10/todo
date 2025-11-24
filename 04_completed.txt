@@ -79,6 +79,10 @@ Dev workflow
 	[2025-11-21] [x] [02.1_today] now forwards to email
 	[2025-11-21] [x] [02.1_today] forward email to slack channel
 	[2025-11-21] [x] [02.1_today] setup email forwarder
+	[2025-11-24] [x] [02.1_today] whisper flow https://www.youtube.com/watch?v=Bg0rdpFKCQI
+	[2025-11-24] [x] [02.1_today] MCP server to generate architectures of the code
+	[2025-11-24] [x] [02.1_today] Mobile development
+	[2025-11-24] [x] [02.1_today] Terminus
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
@@ -110,3 +114,6 @@ SERPWATCH
 	[2025-11-22] [x] [02.1_today] Observability Stratgy
 	[2025-11-22] [x] [02.1_today] Refine server for scale
 	[2025-11-22] [x] [02.1_today] Add the article creator
+
+FIwith.ai [paused]
+	[2025-11-24] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Grafana / A few of the dashboards aren't working

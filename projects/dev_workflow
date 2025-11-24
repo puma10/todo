@@ -22,4 +22,14 @@ Code from telegram
 			https://youtu.be/j2tI3YGVEz0?t=1097
 			consider setting up a staging env
 
-Fix the bash issue with claude code 
+code rabbit 
+
+Brain machine interface 
+    EEG 
+        EMOTIV
+        OpenBCI
+        InteraXon (muse)
+        Wearable Sensing
+        NextMind
+
+    Seems current constrained by words per minute much slower then speech-to-text and typing.

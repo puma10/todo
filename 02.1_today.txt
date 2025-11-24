@@ -5,16 +5,15 @@
 [d] = delegate 
 [i] = in progress
 [b] = blocked waiting 
-[w] = waiting
+[x] = complete 
 
 HIGH PRIORITY 
 	Mailbox 
 
-
-who’s building the infrastructure where models actually learn?
-
 Dev workflow
-	[x] whisper flow https://www.youtube.com/watch?v=Bg0rdpFKCQI
+	[x] Fix the bash issue with claude code 
+	https://github.com/badlogic/pi-mono
+	https://pieces.app/
 	buy apple vision pro  Vision Pro with M5.
 		go to pioneer place - no time to wait for delivery
 		might be able to return monitors  
@@ -23,28 +22,18 @@ Dev workflow
 		https://x.com/mckaywrigley/status/1937978348862578846
 		run gemini3 in parallel for frontend design
 		manually create a worktree for code adjustments
-	[x] MCP server to generate architectures of the code  
-	[x] Mobile development
-		[x] Terminus 
+	
+	plaud 
+		[i] trying 
+	
+	
 	
 
 IRL
 	Fix jackets - $50 to take it anywhere 
 	Buy apple vision pro 
 
-
-Investing 
-	Get all other investments into one investment account 
-	[i] Buy bitcoin 
-		putting money in 401k 
-	carve out time
-	sell adobe 
-		what are real world value stocks that are realizing ai gains
-		feel pretty strongly they cant compete, how to research 
-
 Todo Workflow Improvement
-
-Journal
 
 Learn 
 	Steering AI Agents 
@@ -55,7 +44,6 @@ Learn
 		GPU for text to Speech 
 		Run it on runpod or elsewhere with autodeploy 
 Admin 
-	
 	Small 
 		[i] Keyboard key is broken 
 		return stuff on amazon
@@ -81,21 +69,27 @@ Admin
 			retake might have stuff in it istill
 	
 Tax 
-	Pushback on costs with Julian 
+	Verify who submits final papers
+	get all documents from max and julian 
+	Need to dup all conversations and documents
+	Pushback on costs with Julian
+		ask him why 
+			misinformed about the international stuff 
+
 	get all documents from julian 
-	remove yourself from improv media before 2026
+		let me do the calculations - you just stear me
+	[i] remove yourself from improv media before 2026
 	todo all follow ups from julian 
 	[i] tax - mailbox stuff 
+		11/24 - said we should be good for tomorrow 
 	[i] do books 
 		julian to look
 	[i] expat taxes - julian to understand max
 	[i] get julian harsha's doc 
 		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
-	[i] maybe a good idea to look over travel expenses in get brandosme
+	[i] maybe a good idea to look over travel expenses in getbrandosme
 	[i] get him harsha's accounting doc for improv 
 	[i] Do end of the year contributions
-	[i] Check america mailbox daily
-		11/19 nothing 
 
 ED 
 	Check if posthog setting changed worked to get analytics data 
@@ -103,16 +97,16 @@ ED
 Resume 
 	[1] Add domain name
 		Move it to hetzner 
-	Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
-	Add about section 
-	Add links to projects 
-	[i] Make top nav /uplink say "contact" for clarity
-	[i] Refine Content
-	Add skill summary - just summarize the aggregated skills
-	Add top nav to live chat josh.ai 
-	add relevant media assets
-	remove media assets where not relevant
-	check on mobile 
+		Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
+		Add about section 
+		Add links to projects 
+		[i] Make top nav /uplink say "contact" for clarity
+		[i] Refine Content
+		Add skill summary - just summarize the aggregated skills
+		Add top nav to live chat josh.ai 
+		add relevant media assets
+		remove media assets where not relevant
+		check on mobile 
 
 Reddit Bot
 	Might just use google to get it working 
@@ -123,71 +117,15 @@ Reddit Bot
 	Switch to pydantic ai and logfire
 
 Artsmart
-	Docs 
-		obsidian for doc changes
-
-	Issues 
-		Git not tracked 
-	Build Backend
-		Rbac and Full feature fences 
-			data persistence
-		How can you have community and chat?
-			live
-			teams want to work together
-		Image management
-			How to host the cloudflare images
-			Make it so they can self host
-	
-	Featuers
-		Community and Chat 
-			Make a profile
-
-		Quality of life
-			add grouping 
-		
-		Deterministic 
-			Shapes for design mockups
-
-		AI  
-			remove background
-
-			Add the combine feature for nano bananana 
-
-			inpaint and outpaint 
-				https://developer.ideogram.ai/api-reference/api-reference/reframe-v3
-				https://fal.ai/models/fal-ai/image-apps-v2/outpaint/playground
-
-	Market Research
-		Exceldraw.com
-		canva 
-		photoshop
-		agent 
-			https://app.superdesign.dev/
-	
-	Marketing and Content 
-		https://x.com/GoogleAIStudio/status/1992267030050083091
-		cms
-			https://statamic.com/
-	
-	Community Boards 
-		public boards where anyone with an account and username can interact 
-		https://aistudio.google.com/apps/drive/15a3v8DULlXANa9etp9ZpG4xFF5TtZ7mx?showAssistant=true&resourceKey=&showPreview=true
-
-
+	Architect
 
 FIwith.ai [paused]
-	Think through feature fences 
-		usage 
-		# of institutions added 
-		
-	[I] Add Anomaly Detection - testing for the observability stack
 
-		[I] Refine messaging and cadence - sends 3 of the same message  
-		
-
-		Grafana
-			[x] A few of the dashboards aren't working 
-
-
-
-
+Investing 
+	Get all other investments into one investment account 
+	[i] Buy bitcoin 
+		putting money in 401k 
+	carve out time
+	sell adobe 
+		what are real world value stocks that are realizing ai gains
+		feel pretty strongly they cant compete, how to research 

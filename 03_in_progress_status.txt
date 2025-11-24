@@ -5,7 +5,7 @@ In Progress
 -----------
 Investing — 02.1_today.txt
   	[i] Buy bitcoin
-  		butting money in 401k
+  		putting money in 401k
 
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
@@ -16,8 +16,10 @@ Admin — 02.1_today.txt
 Tax — 02.1_today.txt
   	[i] tax - mailbox stuff
   	[i] do books
+  		julian to look
   	[i] expat taxes - julian to understand max
   	[i] get julian harsha's doc
+  		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
   	[i] maybe a good idea to look over travel expenses in get brandosme
   	[i] get him harsha's accounting doc for improv
   	[i] Do end of the year contributions
@@ -29,27 +31,13 @@ Resume — 02.1_today.txt
   	[i] Make top nav /uplink say "contact" for clarity
   	[i] Refine Content
 
-FIwith.ai — 02.1_today.txt
-  	[I] Plaid integration - get real data working
-  		Data is currently held in the positions table in the meta data - maybe we need a balance
-  
-  		You're connecting bank information.  Make sure it's read only so it's safe
-  
-  		Refine the Plaid UI to show more banks be default
-  
+FIwith.ai [paused] — 02.1_today.txt
   	[I] Add Anomaly Detection - testing for the observability stack
   
   		[I] Refine messaging and cadence - sends 3 of the same message
   
-  		Add your final quality of life updates for connecting telegram
-  			Generate a one-time code, send it to @fiwithaidemo, and we’ll connect this account to Telegram.
-  			Add a Link
-  			Remove the Login and Logout from telegram
-  			Add to docs - track on the go from mobile web or telegram. Chat with it
   
   		Grafana
-  			A few of the dashboards aren't working
-  			What do they mean
   
 
 Serpwatch — 02.3_next_week
@@ -78,7 +66,4 @@ Blocked
 Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
-  
-  
-  
   		check what it costs to extend genki - is there one without cancellation terms
