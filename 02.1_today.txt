@@ -5,13 +5,11 @@
 [d] = delegate 
 [i] = in progress
 [b] = blocked waiting 
-[x] = complete 
 
 HIGH PRIORITY 
 	Mailbox 
 
 Dev workflow
-	[x] Fix the bash issue with claude code 
 	https://github.com/badlogic/pi-mono
 	https://pieces.app/
 	buy apple vision pro  Vision Pro with M5.
@@ -45,7 +43,7 @@ Learn
 		Run it on runpod or elsewhere with autodeploy 
 Admin 
 	Small 
-		[i] Keyboard key is broken 
+		[x] macbook Keyboard key is broken 
 		return stuff on amazon
 		bring everything here 
 		Do comp backup when you leave
@@ -119,7 +117,7 @@ Reddit Bot
 Artsmart
 	Architect
 
-FIwith.ai [paused]
+
 
 Investing 
 	Get all other investments into one investment account 
@@ -128,4 +126,10 @@ Investing
 	carve out time
 	sell adobe 
 		what are real world value stocks that are realizing ai gains
-		feel pretty strongly they cant compete, how to research 
+		feel pretty strongly they cant compete, how to research
+
+FIwith.ai
+	## Product
+		### Features
+			#### Chat
+				[t] How to use chat to get and return data from the database

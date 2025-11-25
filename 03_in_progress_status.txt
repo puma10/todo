@@ -3,9 +3,12 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Investing — 02.1_today.txt
-  	[i] Buy bitcoin
-  		putting money in 401k
+Dev workflow — 02.1_today.txt
+  		[i] trying
+  
+  
+  
+  
 
 Admin — 02.1_today.txt
   		[i] Keyboard key is broken
@@ -14,31 +17,26 @@ Admin — 02.1_today.txt
   
 
 Tax — 02.1_today.txt
+  	[i] remove yourself from improv media before 2026
   	[i] tax - mailbox stuff
+  		11/24 - said we should be good for tomorrow
   	[i] do books
   		julian to look
   	[i] expat taxes - julian to understand max
   	[i] get julian harsha's doc
   		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
-  	[i] maybe a good idea to look over travel expenses in get brandosme
+  	[i] maybe a good idea to look over travel expenses in getbrandosme
   	[i] get him harsha's accounting doc for improv
   	[i] Do end of the year contributions
-  	[i] Check america mailbox daily
-  		11/19 nothing
   
 
 Resume — 02.1_today.txt
-  	[i] Make top nav /uplink say "contact" for clarity
-  	[i] Refine Content
+  		[i] Make top nav /uplink say "contact" for clarity
+  		[i] Refine Content
 
-FIwith.ai [paused] — 02.1_today.txt
-  	[I] Add Anomaly Detection - testing for the observability stack
-  
-  		[I] Refine messaging and cadence - sends 3 of the same message
-  
-  
-  		Grafana
-  
+Investing — 02.1_today.txt
+  	[i] Buy bitcoin
+  		putting money in 401k
 
 Serpwatch — 02.3_next_week
   		[i] Scope the Link Exchange Feasiblity /linkexchange

@@ -83,6 +83,7 @@ Dev workflow
 	[2025-11-24] [x] [02.1_today] MCP server to generate architectures of the code
 	[2025-11-24] [x] [02.1_today] Mobile development
 	[2025-11-24] [x] [02.1_today] Terminus
+	[2025-11-24] [x] [02.1_today] Fix the bash issue with claude code
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
@@ -117,3 +118,6 @@ SERPWATCH
 
 FIwith.ai [paused]
 	[2025-11-24] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Grafana / A few of the dashboards aren't working
+
+[b] = blocked waiting
+	[2025-11-24] [x] [02.1_today] = complete
