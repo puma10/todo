@@ -1,0 +1,34 @@
+Here are the commands to export your Pieces data:
+
+  # Create a timestamped backup of all your Pieces data
+  cp -R ~/Library/com.pieces.os/production ~/Desktop/pieces-backup-$(date
+  +%Y%m%d)
+
+  Or if you want a compressed archive:
+
+  # Create a compressed zip archive
+  zip -r ~/Desktop/pieces-backup-$(date +%Y%m%d).zip
+  ~/Library/com.pieces.os/production
+
+  To extract and read individual saved pieces:
+
+  # List all your saved pieces
+  ls ~/Library/com.pieces.os/production/Pieces/Formats/
+
+  # Decompress a specific piece to view its contents
+  gunzip -c ~/Library/com.pieces.os/production/Pieces/Formats/<uuid>.piece
+
+  To query the database directly:
+
+  # Open the SQLite database
+  sqlite3
+  ~/Library/com.pieces.os/production/Pieces/couchbase.cblite2/db.sqlite3
+
+  # Once inside, list tables with:
+  .tables
+
+  # Export a table to CSV:
+  .mode csv
+  .output ~/Desktop/pieces-tags.csv
+  SELECT * FROM "kv_.tags";
+  .quit

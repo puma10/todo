@@ -1,4 +1,4 @@
-.PHONY: sync priority status stats
+.PHONY: sync priority status stats focus
 
 sync:
 	@if [ -n "$$(git status --porcelain)" ]; then \
@@ -18,3 +18,6 @@ status:
 
 stats:
 	python3 task_stats.py
+
+focus:
+	python3 focus_today.py

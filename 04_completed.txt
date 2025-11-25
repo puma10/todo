@@ -122,3 +122,8 @@ FIwith.ai [paused]
 
 [b] = blocked waiting
 	[2025-11-24] [x] [02.1_today] = complete
+
+Learn
+	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Add to project launcher documentation
+	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / GPU for text to Speech
+	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Run it on runpod or elsewhere with autodeploy

@@ -9,11 +9,22 @@
 HIGH PRIORITY 
 	Mailbox 
 
+Sort
+	Talk to Corey
+	Buy some clothes 
+	Need a way to fast deploy apps in my own infra - some generic Docker setup.
+	Keyboard and underwear from Amazon.
+	
+
+Brazil hire assistant 
+	will probably save you on the housing alone 
+
 Dev workflow
 		Todo 
 			a way to clear the in progress
 			a way to see only high priority 
 	[i] https://pieces.app/
+		exportable 
 	[1] buy apple vision pro  Vision Pro with M5.
 			go to pioneer place - no time to wait for delivery
 			might be able to return monitors  
@@ -25,13 +36,21 @@ Dev workflow
 	
 	[i] plaud 
 		[i] trying 
+	[i] pieces
+		where is my memory, can I export it later?
+			/Users/joshwardini/Library/com.pieces.os/
+
+	[1] time blocking - PRD: projects/adaptive_time_blocking.md 
+
+	[1] setup yolo for codex, gemini and claude
 	
 	
 	
 
-IRL
-	Fix jackets - $50 to take it anywhere 
-	Buy apple vision pro 
+[i] IRL
+		Fix jackets - $50 to take it anywhere 
+		Buy apple vision pro 
+		might be at river pig
 
 Todo Workflow Improvement
 
@@ -39,9 +58,6 @@ Learn
 	[1] Tam is all human labor 
 		1 hour 
 		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
-			[x] Add to project launcher documentation
-			[x] GPU for text to Speech 
-			[x] Run it on runpod or elsewhere with autodeploy 
 Admin 
 	Small 
 		return stuff on amazon
@@ -53,33 +69,38 @@ Admin
 		Credit Card
 			order more backups for brazil
 			might be at river pig
+			add personal to phone 
 
-		Book Vegas 
-			message jess about laptop 
-			opens 1st - 4th, stay with Jess until 5th 
+		[1] Book Vegas 
+				message jess about laptop 
+				opens 1st - 4th, stay with Jess until 5th 
 	
 	[b] Social security card
 		phone number not working 
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
-		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
+		[1] take pics - https://drpittella.com/en/quotation-felipe-pittella/
 			retake might have stuff in it istill
 	
-Tax 
+[1] Tax 
+	[1] Get zcash setup 
+	Decide if it even makes sense to report 
+		By being on the corp but never taking money is there anything reportable?
 	Verify who submits final papers
-	get all documents from max and julian 
-	Need to dup all conversations and documents
+	Get all documents from max and julian 
+	Need to dump all conversations and documents
 	Pushback on costs with Julian
 		ask him why 
 			misinformed about the international stuff 
 
 	get all documents from julian 
 		let me do the calculations - you just stear me
-	[i] remove yourself from improv media before 2026
+	[1] remove yourself from improv media before 2026
 	todo all follow ups from julian 
-	[i] tax - mailbox stuff 
-		11/24 - said we should be good for tomorrow 
+	[b] tax - mailbox stuff 
+		11/24 - said we should be good for tomorrow.
+		11/24 - all good waiting for them to open
 	[i] do books 
 		julian to look
 	[i] expat taxes - julian to understand max
@@ -94,17 +115,9 @@ ED
 
 Resume 
 	[1] Add domain name
-		Move it to hetzner 
-		Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
-		Add about section 
-		Add links to projects 
-		[i] Make top nav /uplink say "contact" for clarity
-		[i] Refine Content
-		Add skill summary - just summarize the aggregated skills
-		Add top nav to live chat josh.ai 
-		add relevant media assets
-		remove media assets where not relevant
-		check on mobile 
+	[1] good chance to learn docker 
+	[1] begin outreach
+	[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur		
 
 Reddit Bot
 	Might just use google to get it working 
@@ -115,9 +128,7 @@ Reddit Bot
 	Switch to pydantic ai and logfire
 
 Artsmart
-	Architect
-
-
+	[1] Architect
 
 Investing 
 	Get all other investments into one investment account 

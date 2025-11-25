@@ -4,6 +4,8 @@ In Progress (incl. Blocked)
 In Progress
 -----------
 Dev workflow — 02.1_today.txt
+  	[i] https://pieces.app/
+  	[i] plaud
   		[i] trying
   
   
