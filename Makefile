@@ -1,4 +1,4 @@
-.PHONY: sync priority status
+.PHONY: sync priority status stats
 
 sync:
 	@if [ -n "$$(git status --porcelain)" ]; then \
@@ -15,3 +15,6 @@ priority:
 
 status:
 	python3 task_status_view.py $(if $(STATUS),--status $(STATUS),)
+
+stats:
+	python3 task_stats.py

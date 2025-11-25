@@ -10,18 +10,20 @@ HIGH PRIORITY
 	Mailbox 
 
 Dev workflow
-	https://github.com/badlogic/pi-mono
-	https://pieces.app/
-	buy apple vision pro  Vision Pro with M5.
-		go to pioneer place - no time to wait for delivery
-		might be able to return monitors  
-	gitworktree packages - https://grok.com/c/7c21837d-b7d8-4e2c-b43a-eee663b87fc4
-		so you can use many 
-		https://x.com/mckaywrigley/status/1937978348862578846
-		run gemini3 in parallel for frontend design
-		manually create a worktree for code adjustments
+		Todo 
+			a way to clear the in progress
+			a way to see only high priority 
+	[i] https://pieces.app/
+	[1] buy apple vision pro  Vision Pro with M5.
+			go to pioneer place - no time to wait for delivery
+			might be able to return monitors  
+	[1] gitworktree packages - https://grok.com/c/7c21837d-b7d8-4e2c-b43a-eee663b87fc4
+			so you can use many 
+			https://x.com/mckaywrigley/status/1937978348862578846
+			run gemini3 in parallel for frontend design
+			manually create a worktree for code adjustments
 	
-	plaud 
+	[i] plaud 
 		[i] trying 
 	
 	
@@ -34,16 +36,14 @@ IRL
 Todo Workflow Improvement
 
 Learn 
-	Steering AI Agents 
-
-	Tam is all human labor 
-		Add to project launcher documentation
-		https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
-		GPU for text to Speech 
-		Run it on runpod or elsewhere with autodeploy 
+	[1] Tam is all human labor 
+		1 hour 
+		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+			[x] Add to project launcher documentation
+			[x] GPU for text to Speech 
+			[x] Run it on runpod or elsewhere with autodeploy 
 Admin 
 	Small 
-		[x] macbook Keyboard key is broken 
 		return stuff on amazon
 		bring everything here 
 		Do comp backup when you leave

@@ -11,7 +11,6 @@ Dev workflow — 02.1_today.txt
   
 
 Admin — 02.1_today.txt
-  		[i] Keyboard key is broken
   		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
   			retake might have stuff in it istill
   

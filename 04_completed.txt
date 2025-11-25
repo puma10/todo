@@ -17,6 +17,7 @@ Admin
 	[2025-11-19] [x] [02.1_today] order once you get in
 	[2025-11-21] [x] [02.1_today] Label airpods - buy some markers on amazon
 	[2025-11-21] [x] [02.1_today] Insurance / Longterm will be in US
+	[2025-11-24] [x] [02.1_today] Small / macbook Keyboard key is broken
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
