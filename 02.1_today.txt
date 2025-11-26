@@ -9,9 +9,21 @@
 HIGH PRIORITY 
 	Mailbox 
 
+Todo
+	copy on the pop-up 
+	gong call 
+	analytics setup with tag manger 
+	ai agent directory
+	monday 
+
+4-7 black tap in venetian 
+shifts 
+
+https://www.instagram.com/dr.felipepittella/
+	
+
 Sort
-	Talk to Corey
-	Buy some clothes 
+	[i} Talk to Corey
 	Need a way to fast deploy apps in my own infra - some generic Docker setup.
 	Keyboard and underwear from Amazon.
 	
@@ -80,8 +92,9 @@ Admin
 		check what it costs to extend genki - is there one without cancellation terms
 	
 	hair 
-		[1] take pics - https://drpittella.com/en/quotation-felipe-pittella/
-			retake might have stuff in it istill
+		[i] schedule appointment 
+		[x] take pics - https://drpittella.com/en/quotation-felipe-pittella/
+
 	
 [1] Tax 
 	[1] Get zcash setup 

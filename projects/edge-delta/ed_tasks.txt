@@ -14,19 +14,23 @@ what is the event schedule
 Meeting This Week 
 	[1] AI visibility tool 
 
-	Marketing Meeting 
-		Dog fooding
-	Installed Grafana on demo app
-		Promtheus for Metrics 
-		Loki and (logtail?)
-		Tempo for Traces
+		Marketing Meeting 
+			Dog fooding
+		Installed Grafana on demo app
+			Promtheus for Metrics 
+			Loki and (logtail?)
+			Tempo for Traces
 
-	Status of Ads
-		Raj and Tom have finalized pages and can begin running ads
-			Kickoff after marketing meeting tomorrow 
+		Status of Ads
+			Raj and Tom have finalized pages and can begin running ads
+				Kickoff after marketing meeting tomorrow 
 
-	Slack: 
-		[1] Setup and ready for promotion 
+		Slack: 
+			[1] Setup and ready for promotion 
+				website 
+				onboarding 
+				Newsletters
+				in app 
 
 	[1] Website 
 		[1] Gokhan wants to use contentful because hosted service
