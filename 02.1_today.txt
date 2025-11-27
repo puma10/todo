@@ -10,11 +10,9 @@ HIGH PRIORITY
 	Mailbox 
 
 Todo
-	copy on the pop-up 
-	gong call 
+	pop-up 
 	analytics setup with tag manger 
-	ai agent directory
-	monday 
+	
 
 4-7 black tap in venetian 
 shifts 
@@ -23,7 +21,7 @@ https://www.instagram.com/dr.felipepittella/
 	
 
 Sort
-	[i} Talk to Corey
+	[i] Talk to Corey
 	Need a way to fast deploy apps in my own infra - some generic Docker setup.
 	Keyboard and underwear from Amazon.
 	
@@ -60,9 +58,9 @@ Dev workflow
 	
 
 [i] IRL
-		Fix jackets - $50 to take it anywhere 
-		Buy apple vision pro 
-		might be at river pig
+		[x] Fix jackets - $50 to take it anywhere 
+		[x] Buy apple vision pro 
+		[x] might be at river pig
 
 Todo Workflow Improvement
 
@@ -72,8 +70,8 @@ Learn
 		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
 Admin 
 	Small 
+		get new card 
 		return stuff on amazon
-		bring everything here 
 		Do comp backup when you leave
 
 	medium 
@@ -93,25 +91,119 @@ Admin
 	
 	hair 
 		[i] schedule appointment 
-		[x] take pics - https://drpittella.com/en/quotation-felipe-pittella/
 
 	
-[1] Tax 
-	[1] Get zcash setup 
-	Decide if it even makes sense to report 
+[1] Tax - only this focus on it 
+	
+	Memory for everything 
+		Data Sources 
+			whatsapp
+			slack 
+			notion 
+			google drive 
+			later 
+				chatgpt 
+				claude
+			All relevant discussions from ai chats
+
+
+	Get clear on all issues 
+		Sticking with Julian 
+			said no to cost seg
+
+		Deductions 
+			how to make this bullet proof
+		
+		Filing or not Filing 5471 
+			Background 
+				
+			If yes
+			If no 
+				Cryptographic timestamp of memo documented
+				Let sleeping dogs lie 
+				https://claude.ai/chat/e42a192a-19d9-4059-bfc4-61bb9dcac0b9
+				save the required cash 
+
+		Who is filing the personal return 
+			notebook llm to summarize 
+
+			
+
+		W2 or Not 
+			reference 
+				https://www.tryshortcut.ai/shortcut?session_id=cs_live_b1s2ixwrNP4hakwzs2AxmtviaATeWP8Bt4zYrggJqh1mBysTFDIGUXjWf3&file-id=dd4252df-6f4b-4f82-9ca4-619bc380186e
+				https://grok.com/c/88afec88-43ab-4ff3-8a78-0bd3f5f0adae
+			looks like w2 makes the most sense 
+			consider writeoffs 
+			going to brazil how to justify 
+				just need to verify accuracy
+			drop in other llm with screenshot 
+				Anything else I'm not thinking of?
+
+		Who is filing the personal return ultimately?
+		
+
+		Outsourced CPA 
+			Get someone fulltime
+			https://grok.com/c/74d4138b-c702-4f71-9aa6-7aaa76a638fc
+
+		Reduces Tax Complexity
+			Do before 2026 if so 
+			Shutdown serpwatch LLC
+				no filing 
+				stripe billing hard
+			Sell it 
+
+		Life Plan
+			Edge Delta ends 
+			Oregon / Washington / Florida / Brazil / Long Term
+				If not what is the motivatin for Brazil
+
+
+	Goal here is to simplify 
+		Scenarios to model
+			employee match is very important 
+			Likely 401k
+			Moving it to personal is much easier 
+				prompt
+					I'm trying to calculate if I should become a w2 employee or continue receiving the salary to my corporation instead. The amount is $250k a year.
+
+					Upside of w2 is I don't pay self employment tax I guess and get contribution to a 401k as well as health insurance benefits of about $12k per year.
+
+					Upside of taking it to the s-corp is I can do a solo 401k and offset costs.
+
+					I have about $60k that comes in from a side business unrelated to this regardless.
+		
+		Ask your chat to look into this 
+			They have financial planners 
+				https://www.linkedin.com/company/toaglobal/people/
+
+	Corporate Shutdown 
+		https://grok.com/c/0230a341-2634-4ca4-9df7-32160d03825c
+
+	Employee vs Employer 
+
+	[i] Payroll reclassification 
+		[i] Julian says still requires state 
+
+	[1] Decide if it even makes sense to report 
 		By being on the corp but never taking money is there anything reportable?
-	Verify who submits final papers
+
+
+	[1] Verify who submits final papers
+
+	Debate with julian 
+		he doesn't know foreign
+		let me do the calculations - you just stear me
+			show the studio
+
 	Get all documents from max and julian 
 	Need to dump all conversations and documents
 	Pushback on costs with Julian
 		ask him why 
 			misinformed about the international stuff 
 
-	get all documents from julian 
-		let me do the calculations - you just stear me
-	[1] remove yourself from improv media before 2026
-	todo all follow ups from julian 
-	[b] tax - mailbox stuff 
+	[x] tax - mailbox stuff 
 		11/24 - said we should be good for tomorrow.
 		11/24 - all good waiting for them to open
 	[i] do books 
@@ -144,6 +236,7 @@ Artsmart
 	[1] Architect
 
 Investing 
+	Buy into tryshortcut secondries 
 	Get all other investments into one investment account 
 	[i] Buy bitcoin 
 		putting money in 401k 

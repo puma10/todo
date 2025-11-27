@@ -5,22 +5,25 @@ In Progress
 -----------
 Dev workflow — 02.1_today.txt
   	[i] https://pieces.app/
+  		exportable
   	[i] plaud
   		[i] trying
+  	[i] pieces
+  		where is my memory, can I export it later?
+  			/Users/joshwardini/Library/com.pieces.os/
   
-  
-  
+  [i] IRL
+  		Fix jackets - $50 to take it anywhere
+  		Buy apple vision pro
+  		might be at river pig
   
 
 Admin — 02.1_today.txt
-  		[i] take pics - https://drpittella.com/en/quotation-felipe-pittella/
-  			retake might have stuff in it istill
+  		[i] schedule appointment
+  
   
 
-Tax — 02.1_today.txt
-  	[i] remove yourself from improv media before 2026
-  	[i] tax - mailbox stuff
-  		11/24 - said we should be good for tomorrow
+[1] Tax — 02.1_today.txt
   	[i] do books
   		julian to look
   	[i] expat taxes - julian to understand max
@@ -30,10 +33,6 @@ Tax — 02.1_today.txt
   	[i] get him harsha's accounting doc for improv
   	[i] Do end of the year contributions
   
-
-Resume — 02.1_today.txt
-  		[i] Make top nav /uplink say "contact" for clarity
-  		[i] Refine Content
 
 Investing — 02.1_today.txt
   	[i] Buy bitcoin
@@ -47,6 +46,10 @@ Serpwatch — 02.3_next_week
   				what is the actual outcome we need to be sure it works
   		[i] content strategy
   
+
+Later — 02.3_next_week
+      [i] Make top nav /uplink say "contact" for clarity
+      [i] Refine Content
 
 Social — projects/marketing
           [i] Reddit Bot
@@ -66,3 +69,9 @@ Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
   		check what it costs to extend genki - is there one without cancellation terms
+  
+
+[1] Tax — 02.1_today.txt
+  	[b] tax - mailbox stuff
+  		11/24 - said we should be good for tomorrow.
+  		11/24 - all good waiting for them to open
