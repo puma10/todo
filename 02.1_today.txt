@@ -10,29 +10,15 @@ HIGH PRIORITY
 	Mailbox 
 
 Todo
-	pop-up 
-	analytics setup with tag manger 
-	
-
-4-7 black tap in venetian 
-shifts 
-
-https://www.instagram.com/dr.felipepittella/
-	
-
-Sort
-	[i] Talk to Corey
-	Need a way to fast deploy apps in my own infra - some generic Docker setup.
-	Keyboard and underwear from Amazon.
-	
 
 Brazil hire assistant 
 	will probably save you on the housing alone 
 
 Dev workflow
-		Todo 
-			a way to clear the in progress
-			a way to see only high priority 
+	[i] Screenshot work flow 
+	Todo 
+		a way to clear the in progress
+		a way to see only high priority 
 	[i] https://pieces.app/
 		exportable 
 	[1] buy apple vision pro  Vision Pro with M5.
@@ -43,7 +29,9 @@ Dev workflow
 			https://x.com/mckaywrigley/status/1937978348862578846
 			run gemini3 in parallel for frontend design
 			manually create a worktree for code adjustments
-	
+
+	Set up a super fast model for CLI
+
 	[i] plaud 
 		[i] trying 
 	[i] pieces
@@ -51,11 +39,9 @@ Dev workflow
 			/Users/joshwardini/Library/com.pieces.os/
 
 	[1] time blocking - PRD: projects/adaptive_time_blocking.md 
+	Need a way to fast deploy apps in my own infra - some generic Docker setup.
 
-	[x] setup yolo for codex, gemini and claude
-	
-	
-	
+
 
 [i] IRL
 	toothbrush 
@@ -68,10 +54,15 @@ Learn
 		1 hour 
 		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
 Admin 
+	Important 
+		See Vegas tasks 
+
 	Small 
 		get new card 
 		return stuff on amazon
 		Do comp backup when you leave
+		Keyboard
+		underwear from Amazon
 
 	medium 
 		Lean Ventures - already paid
@@ -92,9 +83,16 @@ Admin
 		[i] schedule appointment 
 
 	
-[1] Tax - only this focus on it 
+[1] Tax - only this focus on it
+	
 	
 	Memory for everything 
+		Data important is happening 
+		try kotemon 
+			if it sucks for rag build your own UI 
+			"tell me about taxes in dubai" 
+				kotemon has all the data ingestion and such 
+
 		all documents from max and julian 
 
 		Data Sources 
@@ -156,6 +154,7 @@ Admin
 				no filing 
 				stripe billing hard
 			Sell it 
+				pay serpwatch corporate 
 
 		Life Plan
 			Edge Delta ends 
@@ -163,7 +162,6 @@ Admin
 				If not what is the motivatin for Brazil
 
 	[i] Payroll reclassification 
-		[x] Julian says still requires state 
 
 
 	Debate with julian 
@@ -188,13 +186,19 @@ ED
 	Check if posthog setting changed worked to get analytics data 
 
 Resume 
-	[1] Add domain name 
+	[x] Add domain name 
+		Add about sction 
+		Add API key with rate limiting
+		It was an email from the portfolio, and the email is received
+		Make sure the email is secure, and we're not giving access to the actual email data security issue.
+		Set up deployment workflow
 	[1] begin outreach
 	[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur		
 
 Reddit Bot
-	Might just use google to get it working 
-	Improve Quality of Response 
+	Might just use google to get it working
+		after learning rag it will work  
+	Improve Quality of Response
 		steerable agents - see doc
 
 	Got a ruff idea of how langfuse observabiliy works 

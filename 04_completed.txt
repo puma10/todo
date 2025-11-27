@@ -86,6 +86,7 @@ Dev workflow
 	[2025-11-24] [x] [02.1_today] Mobile development
 	[2025-11-24] [x] [02.1_today] Terminus
 	[2025-11-24] [x] [02.1_today] Fix the bash issue with claude code
+	[2025-11-26] [x] [02.1_today] setup yolo for codex, gemini and claude
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
@@ -136,3 +137,4 @@ Learn
 
 [1] Tax - only this focus on it
 	[2025-11-26] [x] [02.1_today] tax - mailbox stuff
+	[2025-11-26] [x] [02.1_today] [i] Payroll reclassification / Julian says still requires state
