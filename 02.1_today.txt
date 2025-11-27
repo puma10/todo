@@ -58,9 +58,11 @@ Dev workflow
 	
 
 [i] IRL
-		[x] Fix jackets - $50 to take it anywhere 
-		[x] Buy apple vision pro 
-		[x] might be at river pig
+	[x] Fix jackets - $50 to take it anywhere 
+	[x] Buy apple vision pro 
+	[x] might be at river pig
+	toothbrush 
+	amazon groceries
 
 Todo Workflow Improvement
 
