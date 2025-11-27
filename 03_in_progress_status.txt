@@ -3,6 +3,9 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
+Sort — 02.1_today.txt
+  	[i] Talk to Corey
+
 Dev workflow — 02.1_today.txt
   	[i] https://pieces.app/
   		exportable
@@ -13,9 +16,8 @@ Dev workflow — 02.1_today.txt
   			/Users/joshwardini/Library/com.pieces.os/
   
   [i] IRL
-  		Fix jackets - $50 to take it anywhere
-  		Buy apple vision pro
-  		might be at river pig
+  	toothbrush
+  	amazon groceries
   
 
 Admin — 02.1_today.txt
@@ -23,7 +25,10 @@ Admin — 02.1_today.txt
   
   
 
-[1] Tax — 02.1_today.txt
+[1] Tax - only this focus on it — 02.1_today.txt
+  	[i] Payroll reclassification
+  		[i] Julian says still requires state
+  
   	[i] do books
   		julian to look
   	[i] expat taxes - julian to understand max
@@ -69,9 +74,3 @@ Admin — 02.1_today.txt
   	[b] Social security card
   		phone number not working
   		check what it costs to extend genki - is there one without cancellation terms
-  
-
-[1] Tax — 02.1_today.txt
-  	[b] tax - mailbox stuff
-  		11/24 - said we should be good for tomorrow.
-  		11/24 - all good waiting for them to open

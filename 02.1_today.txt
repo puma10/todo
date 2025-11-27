@@ -52,15 +52,12 @@ Dev workflow
 
 	[1] time blocking - PRD: projects/adaptive_time_blocking.md 
 
-	[1] setup yolo for codex, gemini and claude
+	[x] setup yolo for codex, gemini and claude
 	
 	
 	
 
 [i] IRL
-	[x] Fix jackets - $50 to take it anywhere 
-	[x] Buy apple vision pro 
-	[x] might be at river pig
 	toothbrush 
 	amazon groceries
 
@@ -98,6 +95,8 @@ Admin
 [1] Tax - only this focus on it 
 	
 	Memory for everything 
+		all documents from max and julian 
+
 		Data Sources 
 			whatsapp
 			slack 
@@ -148,6 +147,8 @@ Admin
 		Outsourced CPA 
 			Get someone fulltime
 			https://grok.com/c/74d4138b-c702-4f71-9aa6-7aaa76a638fc
+			They have financial planners 
+				https://www.linkedin.com/company/toaglobal/people/
 
 		Reduces Tax Complexity
 			Do before 2026 if so 
@@ -161,68 +162,33 @@ Admin
 			Oregon / Washington / Florida / Brazil / Long Term
 				If not what is the motivatin for Brazil
 
-
-	Goal here is to simplify 
-		Scenarios to model
-			employee match is very important 
-			Likely 401k
-			Moving it to personal is much easier 
-				prompt
-					I'm trying to calculate if I should become a w2 employee or continue receiving the salary to my corporation instead. The amount is $250k a year.
-
-					Upside of w2 is I don't pay self employment tax I guess and get contribution to a 401k as well as health insurance benefits of about $12k per year.
-
-					Upside of taking it to the s-corp is I can do a solo 401k and offset costs.
-
-					I have about $60k that comes in from a side business unrelated to this regardless.
-		
-		Ask your chat to look into this 
-			They have financial planners 
-				https://www.linkedin.com/company/toaglobal/people/
-
-	Corporate Shutdown 
-		https://grok.com/c/0230a341-2634-4ca4-9df7-32160d03825c
-
-	Employee vs Employer 
-
 	[i] Payroll reclassification 
-		[i] Julian says still requires state 
+		[x] Julian says still requires state 
 
-	[1] Decide if it even makes sense to report 
-		By being on the corp but never taking money is there anything reportable?
-
-
-	[1] Verify who submits final papers
 
 	Debate with julian 
 		he doesn't know foreign
 		let me do the calculations - you just stear me
 			show the studio
 
-	Get all documents from max and julian 
-	Need to dump all conversations and documents
-	Pushback on costs with Julian
-		ask him why 
-			misinformed about the international stuff 
+	Reclassification Finished?
 
-	[x] tax - mailbox stuff 
-		11/24 - said we should be good for tomorrow.
-		11/24 - all good waiting for them to open
-	[i] do books 
+	Do books 
 		julian to look
-	[i] expat taxes - julian to understand max
+
 	[i] get julian harsha's doc 
 		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
 	[i] maybe a good idea to look over travel expenses in getbrandosme
 	[i] get him harsha's accounting doc for improv 
-	[i] Do end of the year contributions
+
+	Migrate off Carry 
+
 
 ED 
 	Check if posthog setting changed worked to get analytics data 
 
 Resume 
-	[1] Add domain name
-	[1] good chance to learn docker 
+	[1] Add domain name 
 	[1] begin outreach
 	[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur		
 

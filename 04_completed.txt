@@ -128,3 +128,11 @@ Learn
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Add to project launcher documentation
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / GPU for text to Speech
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Run it on runpod or elsewhere with autodeploy
+
+[i] IRL
+	[2025-11-26] [x] [02.1_today] Fix jackets - $50 to take it anywhere
+	[2025-11-26] [x] [02.1_today] Buy apple vision pro
+	[2025-11-26] [x] [02.1_today] might be at river pig
+
+[1] Tax - only this focus on it
+	[2025-11-26] [x] [02.1_today] tax - mailbox stuff
