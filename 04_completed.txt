@@ -19,6 +19,7 @@ Admin
 	[2025-11-21] [x] [02.1_today] Insurance / Longterm will be in US
 	[2025-11-24] [x] [02.1_today] Small / macbook Keyboard key is broken
 	[2025-11-26] [x] [02.1_today] hair / take pics - https://drpittella.com/en/quotation-felipe-pittella/
+	[2025-11-28] [x] [02.1_today] Small / underwear from Amazon
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -135,6 +136,7 @@ Learn
 	[2025-11-26] [x] [02.1_today] Fix jackets - $50 to take it anywhere
 	[2025-11-26] [x] [02.1_today] Buy apple vision pro
 	[2025-11-26] [x] [02.1_today] might be at river pig
+	[2025-11-28] [x] [02.1_today] toothbrush
 
 [1] Tax - only this focus on it
 	[2025-11-26] [x] [02.1_today] tax - mailbox stuff

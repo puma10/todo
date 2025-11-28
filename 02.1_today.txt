@@ -11,8 +11,7 @@ HIGH PRIORITY
 
 Todo
 
-Brazil hire assistant 
-	will probably save you on the housing alone 
+
 
 Dev workflow
 	My SMS accounts aren't linked between my phone and my desktop
@@ -22,7 +21,6 @@ Dev workflow
 
 
 [i] IRL
-	[x] toothbrush 
 
 Todo Workflow Improvement
 
@@ -36,10 +34,11 @@ Admin
 
 	Small 
 		get new card 
-		return stuff on amazon
+		[i] return stuff on amazon
 		Do comp backup when you leave
-		Keyboard
-		[x] underwear from Amazon
+		[i] Keyboard
+		Brazil 
+		
 
 	medium 
 		Lean Ventures - already paid
@@ -48,9 +47,8 @@ Admin
 			might be at river pig
 			add personal to phone 
 
-		[1] Book Vegas 
-				message jess about laptop 
-				opens 1st - 4th, stay with Jess until 5th 
+		[x] Book Vegas 
+		message jess about laptop 
 	
 	[b] Social security card
 		phone number not working 
