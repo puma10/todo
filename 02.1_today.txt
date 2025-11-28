@@ -15,37 +15,14 @@ Brazil hire assistant
 	will probably save you on the housing alone 
 
 Dev workflow
-	[i] Screenshot work flow 
-	Todo 
-		a way to clear the in progress
-		a way to see only high priority 
-	[i] https://pieces.app/
-		exportable 
-	[1] buy apple vision pro  Vision Pro with M5.
-			go to pioneer place - no time to wait for delivery
-			might be able to return monitors  
-	[1] gitworktree packages - https://grok.com/c/7c21837d-b7d8-4e2c-b43a-eee663b87fc4
-			so you can use many 
-			https://x.com/mckaywrigley/status/1937978348862578846
-			run gemini3 in parallel for frontend design
-			manually create a worktree for code adjustments
-
-	Set up a super fast model for CLI
-
-	[i] plaud 
-		[i] trying 
-	[i] pieces
-		where is my memory, can I export it later?
-			/Users/joshwardini/Library/com.pieces.os/
-
-	[1] time blocking - PRD: projects/adaptive_time_blocking.md 
-	Need a way to fast deploy apps in my own infra - some generic Docker setup.
+	My SMS accounts aren't linked between my phone and my desktop
+	MCP for multiple calendars
+	Fix the E key 
 
 
 
 [i] IRL
-	toothbrush 
-	amazon groceries
+	[x] toothbrush 
 
 Todo Workflow Improvement
 
@@ -62,7 +39,7 @@ Admin
 		return stuff on amazon
 		Do comp backup when you leave
 		Keyboard
-		underwear from Amazon
+		[x] underwear from Amazon
 
 	medium 
 		Lean Ventures - already paid
@@ -82,8 +59,12 @@ Admin
 	hair 
 		[i] schedule appointment 
 
-	
+Edge delta 
+	Remove the Slack integration from Lean Machine in the external channel.
+
 [1] Tax - only this focus on it
+
+	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
 	
 	Memory for everything 
@@ -186,14 +167,17 @@ ED
 	Check if posthog setting changed worked to get analytics data 
 
 Resume 
-	[x] Add domain name 
-		Add about sction 
-		Add API key with rate limiting
+		Launch 
+			[1] begin outreach
+			[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
+			Add about sction 
+			Add API key with rate limiting
+		
 		It was an email from the portfolio, and the email is received
 		Make sure the email is secure, and we're not giving access to the actual email data security issue.
 		Set up deployment workflow
-	[1] begin outreach
-	[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur		
+	
+	
 
 Reddit Bot
 	Might just use google to get it working

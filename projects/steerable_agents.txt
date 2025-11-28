@@ -1,3 +1,18 @@
+Memory 
+    R2R (Best for your "Unlimited Docs")
+            R2R is designed to build a Knowledge Graph from your data. This is the "true" GraphRAG you likely need for complex topics.
+
+            The Engine: R2R natively integrates a specialized open-source model called Triplex. This model is trained specifically to extract "knowledge triples" (Entity A -> Relationship -> Entity B) from unstructured text.
+
+            The Advantage: Building knowledge graphs usually requires expensive models like GPT-4. R2R's Triplex model reduces this cost by 98%, allowing you to turn thousands of local documents into a graph without a massive API bill or sending data to OpenAI.
+
+            Capability: It enables "Global Search." Instead of just finding a specific keyword (Vector Search), R2R can answer high-level questions like "What are the conflicting arguments across these 50 papers?" by traversing the relationships it built between documents.
+    
+    Mem0 (Best for "User Context")
+        Mem0 uses Graph Memory primarily to map you and your interactions.
+
+        The Engine: Mem0 extracts entities from your conversations (not necessarily your static files) to map relationships between users, agents, and session topics.
+
 End to end agents
     https://www.youtube.com/watch?v=i5kwX7jeWL8
     

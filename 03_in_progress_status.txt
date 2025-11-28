@@ -3,10 +3,8 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Sort — 02.1_today.txt
-  	[i] Talk to Corey
-
 Dev workflow — 02.1_today.txt
+  	[i] Screenshot work flow
   	[i] https://pieces.app/
   		exportable
   	[i] plaud
@@ -46,6 +44,10 @@ Serpwatch — 02.3_next_week
   				scrape a 100 sites and find cross relations
   				what is the actual outcome we need to be sure it works
   		[i] content strategy
+  
+
+Insurance — 02.3_next_week
+  [i] Talk to Corey
   
 
 Later — 02.3_next_week

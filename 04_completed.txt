@@ -112,6 +112,7 @@ Todo Workflow Improvement
 Resume
 	[2025-11-20] [x] [02.1_today] Add career history
 	[2025-11-21] [x] [02.1_today] test gemin 3.0 issue fix ability / good for design not good for code quality
+	[2025-11-27] [x] [02.1_today] Add domain name
 
 SERPWATCH
 	[2025-11-22] [x] [02.1_today] Testing Strategy
