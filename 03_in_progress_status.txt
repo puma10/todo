@@ -8,6 +8,8 @@ Dev workflow — 02.1_today.txt
   
 
 Admin — 02.1_today.txt
+  		[i] return stuff on amazon
+  		[i] Keyboard
   		[i] schedule appointment
   
 

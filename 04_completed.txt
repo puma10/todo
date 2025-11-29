@@ -20,6 +20,7 @@ Admin
 	[2025-11-24] [x] [02.1_today] Small / macbook Keyboard key is broken
 	[2025-11-26] [x] [02.1_today] hair / take pics - https://drpittella.com/en/quotation-felipe-pittella/
 	[2025-11-28] [x] [02.1_today] Small / underwear from Amazon
+	[2025-11-28] [x] [02.1_today] medium / Book Vegas
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working

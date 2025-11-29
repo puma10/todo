@@ -9,20 +9,13 @@
 HIGH PRIORITY 
 	Mailbox 
 
-Todo
-
-
-
 Dev workflow
 	My SMS accounts aren't linked between my phone and my desktop
 	MCP for multiple calendars
 	Fix the E key 
-
-
+	Add to AppleCare devices.
 
 [i] IRL
-
-Todo Workflow Improvement
 
 Learn 
 	[1] Tam is all human labor 
@@ -31,8 +24,11 @@ Learn
 Admin 
 	Important 
 		See Vegas tasks 
+	
 
 	Small 
+		[x] 2FA auth Brex
+		Workout routine add it to your workflow
 		get new card 
 		[i] return stuff on amazon
 		Do comp backup when you leave
@@ -47,18 +43,20 @@ Admin
 			might be at river pig
 			add personal to phone 
 
-		[x] Book Vegas 
 		message jess about laptop 
 	
 	[b] Social security card
 		phone number not working 
 		check what it costs to extend genki - is there one without cancellation terms
 	
-	hair 
-		[i] schedule appointment 
+	[i] hair 
+		[i] schedule appointment
+			Send damp photos 
 
 Edge delta 
 	Remove the Slack integration from Lean Machine in the external channel.
+
+Remember everything
 
 [1] Tax - only this focus on it
 
