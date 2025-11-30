@@ -11,7 +11,6 @@ HIGH PRIORITY
 
 Dev workflow
 	[2] My SMS accounts aren't linked between my phone and my desktop
-	[x] Add to AppleCare devices.
 	[1] download runpod pod 
 	[2] try to install Happy
 
@@ -38,14 +37,12 @@ Admin
 		[2] Lean Ventures - already paid
 		Credit Card
 			order more backups for brazil
-			[x] might be at river pig
 			add personal to phone 
 
-		[x] message jess about laptop 
 	
 	[i] hair 
-		[i] schedule appointment
-			Send damp photos 
+		[x] schedule appointment
+			[x] Send damp photos 
 
 Edge delta 
 	[2] Remove the Slack integration from Lean Machine in the external channel.
@@ -53,7 +50,10 @@ Edge delta
 Remember everything
 
 [1] Tax - only this focus on it
-	Julian's calculations are maybe wrong.
+	
+	Julian's calculations maybe wrong
+		[1] input how much you actually are claiming for 2024
+			https://www.tryshortcut.ai/?file-id=a0478cb3-5ef3-46df-8811-4d49a8e60386
 
 	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
@@ -103,6 +103,7 @@ Remember everything
 
 ED 
 	Check if posthog setting changed worked to get analytics data
+	Remove Airbyt
 
 
 FIwith.ai

@@ -3,31 +3,25 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Dev workflow — 02.1_today.txt
-  [i] IRL
-  
-
 Admin — 02.1_today.txt
   		[i] return stuff on amazon
   		[i] Keyboard
+  
   	[i] hair
   		[i] schedule appointment
   			Send damp photos
   
 
 [1] Tax - only this focus on it — 02.1_today.txt
-  	[i] Payroll reclassification
-  
-  
   	[i] get julian harsha's doc
   		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
   	[i] maybe a good idea to look over travel expenses in getbrandosme
   	[i] get him harsha's accounting doc for improv
   
 
-Investing — 02.1_today.txt
-  	[i] Buy bitcoin
-  		putting money in 401k
+Investing — 02.2_tomorrow
+  		[i] Buy bitcoin
+  			putting money in 401k
 
 Serpwatch — 02.3_next_week
   		[i] Scope the Link Exchange Feasiblity /linkexchange
@@ -60,7 +54,7 @@ Social — projects/marketing
 
 Blocked
 -------
-Admin — 02.1_today.txt
+Admin — 02.2_tomorrow
   	[b] Social security card
   		phone number not working
   		check what it costs to extend genki - is there one without cancellation terms

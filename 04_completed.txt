@@ -22,6 +22,8 @@ Admin
 	[2025-11-28] [x] [02.1_today] Small / underwear from Amazon
 	[2025-11-28] [x] [02.1_today] medium / Book Vegas
 	[2025-11-29] [x] [02.1_today] Small / 2FA auth Brex
+	[2025-11-30] [x] [02.1_today] Medium / Credit Card / might be at river pig
+	[2025-11-30] [x] [02.1_today] Medium / message jess about laptop
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -90,6 +92,7 @@ Dev workflow
 	[2025-11-24] [x] [02.1_today] Terminus
 	[2025-11-24] [x] [02.1_today] Fix the bash issue with claude code
 	[2025-11-26] [x] [02.1_today] setup yolo for codex, gemini and claude
+	[2025-11-30] [x] [02.1_today] Add to AppleCare devices.
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
