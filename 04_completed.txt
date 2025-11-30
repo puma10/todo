@@ -21,6 +21,7 @@ Admin
 	[2025-11-26] [x] [02.1_today] hair / take pics - https://drpittella.com/en/quotation-felipe-pittella/
 	[2025-11-28] [x] [02.1_today] Small / underwear from Amazon
 	[2025-11-28] [x] [02.1_today] medium / Book Vegas
+	[2025-11-29] [x] [02.1_today] Small / 2FA auth Brex
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working

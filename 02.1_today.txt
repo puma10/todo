@@ -7,58 +7,53 @@
 [b] = blocked waiting 
 
 HIGH PRIORITY 
-	Mailbox 
+	Mailbox
 
 Dev workflow
-	My SMS accounts aren't linked between my phone and my desktop
-	MCP for multiple calendars
-	Fix the E key 
-	Add to AppleCare devices.
+	[2] My SMS accounts aren't linked between my phone and my desktop
+	[x] Add to AppleCare devices.
+	[1] download runpod pod 
+	[2] try to install Happy
 
-[i] IRL
+IRL
+	[1] pack for vegas 
+	[1] Go to mom and dads and gt the MacBook keys
+	[1] Get clothes for Vegas and pack 
+	[1] get cash
+	[1] Fix the E key - do it at offic
+	[1] get monitor to return
 
 Learn 
 	[1] Tam is all human labor 
-		1 hour 
 		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
 Admin 
 	Important 
 		See Vegas tasks 
-	
-
 	Small 
-		[x] 2FA auth Brex
-		Workout routine add it to your workflow
-		get new card 
 		[i] return stuff on amazon
-		Do comp backup when you leave
-		[i] Keyboard
-		Brazil 
-		
+		[1] Do comp backup when you leave
+		[i] Keyboard 
 
-	medium 
-		Lean Ventures - already paid
+	Medium 
+		[2] Lean Ventures - already paid
 		Credit Card
 			order more backups for brazil
-			might be at river pig
+			[x] might be at river pig
 			add personal to phone 
 
-		message jess about laptop 
-	
-	[b] Social security card
-		phone number not working 
-		check what it costs to extend genki - is there one without cancellation terms
+		[x] message jess about laptop 
 	
 	[i] hair 
 		[i] schedule appointment
 			Send damp photos 
 
 Edge delta 
-	Remove the Slack integration from Lean Machine in the external channel.
+	[2] Remove the Slack integration from Lean Machine in the external channel.
 
 Remember everything
 
 [1] Tax - only this focus on it
+	Julian's calculations are maybe wrong.
 
 	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
@@ -70,27 +65,10 @@ Remember everything
 			"tell me about taxes in dubai" 
 				kotemon has all the data ingestion and such 
 
-		all documents from max and julian 
-
-		Data Sources 
-			whatsapp
-			slack 
-			notion 
-			google drive 
-			later 
-				chatgpt 
-				claude
-			All relevant discussions from ai chats
-
-
-	Get clear on all issues 
-		Sticking with Julian 
-			said no to cost seg
-
-		Deductions 
+		[1] Deductions 
 			how to make this bullet proof
 		
-		Filing or not Filing 5471 
+		[1] Filing or not Filing 5471 
 			Background 
 				
 			If yes
@@ -100,53 +78,20 @@ Remember everything
 				https://claude.ai/chat/e42a192a-19d9-4059-bfc4-61bb9dcac0b9
 				save the required cash 
 
-		Who is filing the personal return 
+		[1] Who is filing the personal return 
 			notebook llm to summarize 
 
-			
+		[1] Who is filing the personal return ultimately?
+			Looks like Max
 
-		W2 or Not 
-			reference 
-				https://www.tryshortcut.ai/shortcut?session_id=cs_live_b1s2ixwrNP4hakwzs2AxmtviaATeWP8Bt4zYrggJqh1mBysTFDIGUXjWf3&file-id=dd4252df-6f4b-4f82-9ca4-619bc380186e
-				https://grok.com/c/88afec88-43ab-4ff3-8a78-0bd3f5f0adae
-			looks like w2 makes the most sense 
-			consider writeoffs 
-			going to brazil how to justify 
-				just need to verify accuracy
-			drop in other llm with screenshot 
-				Anything else I'm not thinking of?
-
-		Who is filing the personal return ultimately?
-		
-
-		Outsourced CPA 
-			Get someone fulltime
-			https://grok.com/c/74d4138b-c702-4f71-9aa6-7aaa76a638fc
-			They have financial planners 
-				https://www.linkedin.com/company/toaglobal/people/
-
-		Reduces Tax Complexity
-			Do before 2026 if so 
-			Shutdown serpwatch LLC
-				no filing 
-				stripe billing hard
-			Sell it 
-				pay serpwatch corporate 
-
-		Life Plan
-			Edge Delta ends 
-			Oregon / Washington / Florida / Brazil / Long Term
-				If not what is the motivatin for Brazil
-
-	[i] Payroll reclassification 
+	[1] Payroll reclassification 
+		is it done?
 
 
-	Debate with julian 
+	[1] Debate with julian 
 		he doesn't know foreign
 		let me do the calculations - you just stear me
 			show the studio
-
-	Reclassification Finished?
 
 	Do books 
 		julian to look
@@ -156,46 +101,9 @@ Remember everything
 	[i] maybe a good idea to look over travel expenses in getbrandosme
 	[i] get him harsha's accounting doc for improv 
 
-	Migrate off Carry 
-
-
 ED 
-	Check if posthog setting changed worked to get analytics data 
+	Check if posthog setting changed worked to get analytics data
 
-Resume 
-		Launch 
-			[1] begin outreach
-			[1] Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
-			Add about sction 
-			Add API key with rate limiting
-		
-		It was an email from the portfolio, and the email is received
-		Make sure the email is secure, and we're not giving access to the actual email data security issue.
-		Set up deployment workflow
-	
-	
-
-Reddit Bot
-	Might just use google to get it working
-		after learning rag it will work  
-	Improve Quality of Response
-		steerable agents - see doc
-
-	Got a ruff idea of how langfuse observabiliy works 
-	Switch to pydantic ai and logfire
-
-Artsmart
-	[1] Architect
-
-Investing 
-	Buy into tryshortcut secondries 
-	Get all other investments into one investment account 
-	[i] Buy bitcoin 
-		putting money in 401k 
-	carve out time
-	sell adobe 
-		what are real world value stocks that are realizing ai gains
-		feel pretty strongly they cant compete, how to research
 
 FIwith.ai
 	## Product
