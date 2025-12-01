@@ -24,6 +24,8 @@ Admin
 	[2025-11-29] [x] [02.1_today] Small / 2FA auth Brex
 	[2025-11-30] [x] [02.1_today] Medium / Credit Card / might be at river pig
 	[2025-11-30] [x] [02.1_today] Medium / message jess about laptop
+	[2025-11-30] [x] [02.1_today] [i] hair / schedule appointment
+	[2025-11-30] [x] [02.1_today] [i] hair / Send damp photos
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working

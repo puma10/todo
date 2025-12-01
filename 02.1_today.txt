@@ -15,12 +15,13 @@ Dev workflow
 	[2] try to install Happy
 
 IRL
+	[1] Go to Apple in Vegas and fix the MacBook key.
 	[1] pack for vegas 
-	[1] Go to mom and dads and gt the MacBook keys
+	[x] Go to mom and dads and gt the MacBook keys
 	[1] Get clothes for Vegas and pack 
-	[1] get cash
-	[1] Fix the E key - do it at offic
-	[1] get monitor to return
+	[x] get cash
+	[x] Fix the E key - do it at offic
+	
 
 Learn 
 	[1] Tam is all human labor 
@@ -31,21 +32,19 @@ Admin
 	Small 
 		[i] return stuff on amazon
 		[1] Do comp backup when you leave
-		[i] Keyboard 
+		[i] wireless Keyboard 
 
 	Medium 
 		[2] Lean Ventures - already paid
 		Credit Card
 			order more backups for brazil
-			add personal to phone 
-
+			add personal to phone
 	
-	[i] hair 
-		[x] schedule appointment
-			[x] Send damp photos 
 
 Edge delta 
 	[2] Remove the Slack integration from Lean Machine in the external channel.
+	Check if posthog setting changed worked to get analytics data
+	Remove Airbyt
 
 Remember everything
 
@@ -84,7 +83,7 @@ Remember everything
 		[1] Who is filing the personal return ultimately?
 			Looks like Max
 
-	[1] Payroll reclassification 
+	[x] Payroll reclassification 
 		is it done?
 
 
@@ -96,14 +95,9 @@ Remember everything
 	Do books 
 		julian to look
 
-	[i] get julian harsha's doc 
-		https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
-	[i] maybe a good idea to look over travel expenses in getbrandosme
-	[i] get him harsha's accounting doc for improv 
-
-ED 
-	Check if posthog setting changed worked to get analytics data
-	Remove Airbyt
+	[x] get julian harsha's doc 
+		[x] https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
+	[1] maybe a good idea to look over travel expenses in getbrandosme
 
 
 FIwith.ai
