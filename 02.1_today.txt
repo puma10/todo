@@ -11,40 +11,38 @@ HIGH PRIORITY
 
 Dev workflow
 	[2] My SMS accounts aren't linked between my phone and my desktop
-	[1] download runpod pod 
+	[2] download runpod pod 
 	[2] try to install Happy
 
 IRL
-	[1] Go to Apple in Vegas and fix the MacBook key.
+	[x] Go to Apple in Vegas and fix the MacBook key and phone they might give you a new one with the new Apple care
 	[1] pack for vegas 
-	[x] Go to mom and dads and gt the MacBook keys
-	[1] Get clothes for Vegas and pack 
-	[x] get cash
-	[x] Fix the E key - do it at offic
 	
 
-Learn 
-	[1] Tam is all human labor 
-		[1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+Learn
+	[2] Tam is all human labor 
+		[2] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+
 Admin 
 	Important 
 		See Vegas tasks 
 	Small 
-		[i] return stuff on amazon
 		[1] Do comp backup when you leave
-		[i] wireless Keyboard 
+		[1] wireless Keyboard 
+		[2] car was towed
 
 	Medium 
 		[2] Lean Ventures - already paid
 		Credit Card
+			virtual card 
 			order more backups for brazil
 			add personal to phone
 	
 
 Edge delta 
-	[2] Remove the Slack integration from Lean Machine in the external channel.
+	[2] Remove the Slack integration from Lean Machine in the external channel Airbyte
 	Check if posthog setting changed worked to get analytics data
-	Remove Airbyt
+		See you at MRS Talk
 
 Remember everything
 
@@ -83,7 +81,6 @@ Remember everything
 		[1] Who is filing the personal return ultimately?
 			Looks like Max
 
-	[x] Payroll reclassification 
 		is it done?
 
 
@@ -95,8 +92,6 @@ Remember everything
 	Do books 
 		julian to look
 
-	[x] get julian harsha's doc 
-		[x] https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
 	[1] maybe a good idea to look over travel expenses in getbrandosme
 
 
