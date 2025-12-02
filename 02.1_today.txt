@@ -10,13 +10,10 @@ HIGH PRIORITY
 	Mailbox
 
 Dev workflow
-	[2] My SMS accounts aren't linked between my phone and my desktop
-	[2] download runpod pod 
-	[2] try to install Happy
+	[x] download runpod pod 
 
 IRL
-	[x] Go to Apple in Vegas and fix the MacBook key and phone they might give you a new one with the new Apple care
-	[1] pack for vegas 
+	[x] pack for vegas 
 	
 
 Learn
@@ -26,13 +23,14 @@ Learn
 Admin 
 	Important 
 		See Vegas tasks 
+
 	Small 
-		[1] Do comp backup when you leave
-		[1] wireless Keyboard 
+		[x] wireless Keyboard 
 		[2] car was towed
 
 	Medium 
 		[2] Lean Ventures - already paid
+		
 		Credit Card
 			virtual card 
 			order more backups for brazil
@@ -47,10 +45,11 @@ Edge delta
 Remember everything
 
 [1] Tax - only this focus on it
+	domicile issue 
 	
-	Julian's calculations maybe wrong
-		[1] input how much you actually are claiming for 2024
-			https://www.tryshortcut.ai/?file-id=a0478cb3-5ef3-46df-8811-4d49a8e60386
+	[x] Julian's calculations maybe wrong
+		[x] input how much you actually are claiming for 2024
+			[x] https://www.tryshortcut.ai/?file-id=a0478cb3-5ef3-46df-8811-4d49a8e60386
 
 	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
@@ -84,15 +83,14 @@ Remember everything
 		is it done?
 
 
-	[1] Debate with julian 
-		he doesn't know foreign
-		let me do the calculations - you just stear me
-			show the studio
+	[x] Debate with julian 
+		[x] he doesn't know foreign
+		[x] let me do the calculations - you just stear me
 
 	Do books 
 		julian to look
 
-	[1] maybe a good idea to look over travel expenses in getbrandosme
+	maybe a good idea to look over travel expenses in getbrandosme
 
 
 FIwith.ai

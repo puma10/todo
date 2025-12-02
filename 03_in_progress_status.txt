@@ -3,11 +3,6 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Admin — 02.1_today.txt
-  		[i] return stuff on amazon
-  		[i] wireless Keyboard
-  
-
 Admin — 02.2_tomorrow
   	[i] hair
   

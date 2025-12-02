@@ -115,6 +115,7 @@ IRL
 	[2025-11-30] [x] [02.1_today] Go to mom and dads and gt the MacBook keys
 	[2025-11-30] [x] [02.1_today] get cash
 	[2025-11-30] [x] [02.1_today] Fix the E key - do it at offic
+	[2025-11-30] [x] [02.1_today] Go to Apple in Vegas and fix the MacBook key and phone they might give you a new one with the new Apple care
 
 Todo Workflow Improvement
 	[2025-11-19] [x] [02.1_today] add closing task from in progress, blocked, tomorrow and next week
