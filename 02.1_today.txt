@@ -10,12 +10,9 @@ HIGH PRIORITY
 	Mailbox
 
 Dev workflow
-	[x] download runpod pod 
 
 IRL
-	[x] pack for vegas 
 	
-
 Learn
 	[2] Tam is all human labor 
 		[2] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
@@ -25,8 +22,7 @@ Admin
 		See Vegas tasks 
 
 	Small 
-		[x] wireless Keyboard 
-		[2] car was towed
+		[1] car was towed
 
 	Medium 
 		[2] Lean Ventures - already paid
@@ -47,19 +43,16 @@ Remember everything
 [1] Tax - only this focus on it
 	domicile issue 
 	
-	[x] Julian's calculations maybe wrong
-		[x] input how much you actually are claiming for 2024
-			[x] https://www.tryshortcut.ai/?file-id=a0478cb3-5ef3-46df-8811-4d49a8e60386
 
 	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
 	
 	Memory for everything 
+		Using piping from Kotemon
 		Data important is happening 
-		try kotemon 
-			if it sucks for rag build your own UI 
-			"tell me about taxes in dubai" 
-				kotemon has all the data ingestion and such 
+		[x] try kotemon 
+			[x] if it sucks for rag build your own UI 
+
 
 		[1] Deductions 
 			how to make this bullet proof
@@ -83,9 +76,6 @@ Remember everything
 		is it done?
 
 
-	[x] Debate with julian 
-		[x] he doesn't know foreign
-		[x] let me do the calculations - you just stear me
 
 	Do books 
 		julian to look

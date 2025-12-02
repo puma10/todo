@@ -26,6 +26,7 @@ Admin
 	[2025-11-30] [x] [02.1_today] Medium / message jess about laptop
 	[2025-11-30] [x] [02.1_today] [i] hair / schedule appointment
 	[2025-11-30] [x] [02.1_today] [i] hair / Send damp photos
+	[2025-12-02] [x] [02.1_today] Small / wireless Keyboard
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -95,6 +96,7 @@ Dev workflow
 	[2025-11-24] [x] [02.1_today] Fix the bash issue with claude code
 	[2025-11-26] [x] [02.1_today] setup yolo for codex, gemini and claude
 	[2025-11-30] [x] [02.1_today] Add to AppleCare devices.
+	[2025-12-02] [x] [02.1_today] download runpod pod
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
@@ -116,6 +118,7 @@ IRL
 	[2025-11-30] [x] [02.1_today] get cash
 	[2025-11-30] [x] [02.1_today] Fix the E key - do it at offic
 	[2025-11-30] [x] [02.1_today] Go to Apple in Vegas and fix the MacBook key and phone they might give you a new one with the new Apple care
+	[2025-12-02] [x] [02.1_today] pack for vegas
 
 Todo Workflow Improvement
 	[2025-11-19] [x] [02.1_today] add closing task from in progress, blocked, tomorrow and next week
@@ -155,3 +158,9 @@ Learn
 	[2025-11-30] [x] [02.1_today] Payroll reclassification
 	[2025-11-30] [x] [02.1_today] get julian harsha's doc
 	[2025-11-30] [x] [02.1_today] https://docs.google.com/spreadsheets/d/1kX6QJGw3ZNf3boAQdFLRwH5ixHRn_KH6VAuQiyJsliE/edit?gid=1008834744#gid=1008834744
+	[2025-12-02] [x] [02.1_today] Julian's calculations maybe wrong
+	[2025-12-02] [x] [02.1_today] input how much you actually are claiming for 2024
+	[2025-12-02] [x] [02.1_today] https://www.tryshortcut.ai/?file-id=a0478cb3-5ef3-46df-8811-4d49a8e60386
+	[2025-12-02] [x] [02.1_today] Debate with julian
+	[2025-12-02] [x] [02.1_today] he doesn't know foreign
+	[2025-12-02] [x] [02.1_today] let me do the calculations - you just stear me
