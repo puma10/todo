@@ -164,3 +164,5 @@ Learn
 	[2025-12-02] [x] [02.1_today] Debate with julian
 	[2025-12-02] [x] [02.1_today] he doesn't know foreign
 	[2025-12-02] [x] [02.1_today] let me do the calculations - you just stear me
+	[2025-12-02] [x] [02.1_today] Memory for everything / try kotemon
+	[2025-12-02] [x] [02.1_today] Memory for everything / if it sucks for rag build your own UI

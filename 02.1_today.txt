@@ -7,7 +7,11 @@
 [b] = blocked waiting 
 
 HIGH PRIORITY 
-	Mailbox
+	Car in impound 
+		executive towing 
+		speed towing 
+		14333 NE Whitaker Way 
+		Portland, OR 97230 
 
 Dev workflow
 
@@ -24,9 +28,7 @@ Admin
 	Small 
 		[1] car was towed
 
-	Medium 
-		[2] Lean Ventures - already paid
-		
+	Medium 	
 		Credit Card
 			virtual card 
 			order more backups for brazil
@@ -34,25 +36,21 @@ Admin
 	
 
 Edge delta 
-	[2] Remove the Slack integration from Lean Machine in the external channel Airbyte
 	Check if posthog setting changed worked to get analytics data
-		See you at MRS Talk
 
 Remember everything
 
-[1] Tax - only this focus on it
-	domicile issue 
-	
-
-	https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
+[i] Tax - only this focus on it
+	[x] domicile issue - follow up with julian 
+			https://claude.ai/chat/03e46fd7-5ef5-4eea-a924-6c7398fa1986
+				coworking might work 
+	billing is failing 
+		https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
 	
 	
 	Memory for everything 
 		Using piping from Kotemon
 		Data important is happening 
-		[x] try kotemon 
-			[x] if it sucks for rag build your own UI 
-
 
 		[1] Deductions 
 			how to make this bullet proof
@@ -61,6 +59,7 @@ Remember everything
 			Background 
 				
 			If yes
+
 			If no 
 				Cryptographic timestamp of memo documented
 				Let sleeping dogs lie 
@@ -74,8 +73,6 @@ Remember everything
 			Looks like Max
 
 		is it done?
-
-
 
 	Do books 
 		julian to look
