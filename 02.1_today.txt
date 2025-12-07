@@ -7,46 +7,78 @@
 [b] = blocked waiting 
 
 HIGH PRIORITY 
-	Car in impound 
-		executive towing 
-		speed towing 
-		14333 NE Whitaker Way 
-		Portland, OR 97230 
+	[x] Car in impound 
+		[x] executive towing 
+		[x] speed towing 
+		[x] 14333 NE Whitaker Way 
+		[x] Portland, OR 97230 
+
+Sort 
+	Car towed bidding scraper 
 
 Dev workflow
+
+	Putting in a banana and then writing a newsletter about it
 
 IRL
 	
 Learn
 	[2] Tam is all human labor 
 		[2] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
+	
 
 Admin 
 	Important 
-		See Vegas tasks 
+		Insurance 
+			Will jess let me buy off the open market with international 
+
 
 	Small 
-		[1] car was towed
+		[i] car was towed
+			[x] get follow up pictures and clarify you were parked in the wrong spot 
+			[x] 12/7 emailed them 
+				leave a review 
+
+		setup zapier to forward emails of invoices to kate (anthropic $100 a month)
+			https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzczchRdrSdjxBrLcHJqxvjvh
+
+		groceries
+			olive oil 
+			soy sauce 
+			garlic powder 
+			jelly 
+
+
 
 	Medium 	
 		Credit Card
-			virtual card 
+			personal card on phone working 
+				lost personal card though
+			getbrandsome debit card not working
 			order more backups for brazil
+				have to call
 			add personal to phone
-	
+
+
+Artsmart 
+	Rebuild it for temporary 
+		https://aistudio.google.com/apps/drive/11POJb6yUV2T9KY0ldQhC5X4p2jm5ot3c?showAssistant=true&showPreview=true&resourceKey=
+
+	Discuss longterm
+		testing so we can confidently push to production without issues 
+		gotta migrate over to react so we can use gemini 
+			do we need the same backend?
+			clean out all the old stuff 
+		Photoshop and Illustrator in the browser
+
 
 Edge delta 
 	Check if posthog setting changed worked to get analytics data
 
-Remember everything
-
 [i] Tax - only this focus on it
-	[x] domicile issue - follow up with julian 
-			https://claude.ai/chat/03e46fd7-5ef5-4eea-a924-6c7398fa1986
-				coworking might work 
-	billing is failing 
-		https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
-	
+	Flor remove from Dubai 
+		Clarify with Harsha
+			12/4 followed up 
 	
 	Memory for everything 
 		Using piping from Kotemon

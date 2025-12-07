@@ -3,6 +3,47 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
+Remember everything — 02.1_today.txt
+  [i] Tax - only this focus on it
+  			https://claude.ai/chat/03e46fd7-5ef5-4eea-a924-6c7398fa1986
+  				coworking might work
+  	billing is failing
+  		https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
+  
+  
+  	Memory for everything
+  		Using piping from Kotemon
+  		Data important is happening
+  
+  		[1] Deductions
+  			how to make this bullet proof
+  
+  		[1] Filing or not Filing 5471
+  			Background
+  
+  			If yes
+  
+  			If no
+  				Cryptographic timestamp of memo documented
+  				Let sleeping dogs lie
+  				https://claude.ai/chat/e42a192a-19d9-4059-bfc4-61bb9dcac0b9
+  				save the required cash
+  
+  		[1] Who is filing the personal return
+  			notebook llm to summarize
+  
+  		[1] Who is filing the personal return ultimately?
+  			Looks like Max
+  
+  		is it done?
+  
+  	Do books
+  		julian to look
+  
+  	maybe a good idea to look over travel expenses in getbrandosme
+  
+  
+
 Admin — 02.2_tomorrow
   	[i] hair
   

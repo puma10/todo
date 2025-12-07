@@ -166,3 +166,6 @@ Learn
 	[2025-12-02] [x] [02.1_today] let me do the calculations - you just stear me
 	[2025-12-02] [x] [02.1_today] Memory for everything / try kotemon
 	[2025-12-02] [x] [02.1_today] Memory for everything / if it sucks for rag build your own UI
+
+[i] Tax - only this focus on it
+	[2025-12-04] [x] [02.1_today] domicile issue - follow up with julian
