@@ -1,10 +1,18 @@
+ Switch to Google for job outreach 
+ 
  Add about section 
     Resume has a few issues
-    [x] Add links to projects 
-    [x] Make top nav /uplink say "contact" for clarity
-    [x] Refine Content
     Add more projects
     Refine skill summary - just summarize the aggregated skills
     add relevant media assets
     remove media assets where not relevant
     check on mobile
+    [x] Add about section
+    [x] Add API key with rate limiting
+
+    Launch 
+        Begin outreach for roles
+	    Setup new email - sketchy to have gmail: https://dashboard.emailjs.com/admin/templates/81kohur
+		It was an email from the portfolio, and the email is received
+		Make sure the email is secure, and we're not giving access to the actual email data security issue.
+		Set up deployment workflow

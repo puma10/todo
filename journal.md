@@ -5,7 +5,6 @@ Staregy:
 Journal 
     11/17
 		Work
-			[x] improved the todo list to sync with external files 
 		Personal 
 			carlee messaged 
 
@@ -59,5 +58,4 @@ Journal
         Personal
             Hung out with Maraliz, grandma and her baby.  Odd situation.  She seems interested but concerned about her stability and I'm likely leaving soon. 
 
-            Looking and just overspending and get an apartment - 50% increase in cost for short term.  Probably good for sanity. 
-        
+            Looking and just overspending and get an apartment - 50% increase in cost for short term.  Probably good for sanity.

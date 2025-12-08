@@ -29,6 +29,10 @@ Admin
 	[2025-12-02] [x] [02.1_today] Small / wireless Keyboard
 	[2025-12-07] [x] [02.1_today] Small / [i] car was towed / get follow up pictures and clarify you were parked in the wrong spot
 	[2025-12-07] [x] [02.1_today] Small / [i] car was towed / 12/7 emailed them
+	[2025-12-08] [x] [02] amazon groceries
+	[2025-12-08] [x] [02] Rename Airpods for clarity of connection
+	[2025-12-08] [x] [02] buy new keyboard
+	[2025-12-08] [x] [02] cancel landing before one year
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -102,6 +106,7 @@ Dev workflow
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
+	[2025-12-08] [x] [journal] 11/17 / Work / improved the todo list to sync with external files
 
 ED
 	[2025-11-14] [x] [02.1_today] Kate realisic linkedin images
@@ -140,21 +145,19 @@ SERPWATCH
 FIwith.ai [paused]
 	[2025-11-24] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Grafana / A few of the dashboards aren't working
 
-[b] = blocked waiting
-	[2025-11-24] [x] [02.1_today] = complete
 
 Learn
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Add to project launcher documentation
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / GPU for text to Speech
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Run it on runpod or elsewhere with autodeploy
 
-[i] IRL
+IRL
 	[2025-11-26] [x] [02.1_today] Fix jackets - $50 to take it anywhere
 	[2025-11-26] [x] [02.1_today] Buy apple vision pro
 	[2025-11-26] [x] [02.1_today] might be at river pig
 	[2025-11-28] [x] [02.1_today] toothbrush
 
-[1] Tax - only this focus on it
+Tax - only this focus on it
 	[2025-11-26] [x] [02.1_today] tax - mailbox stuff
 	[2025-11-26] [x] [02.1_today] [i] Payroll reclassification / Julian says still requires state
 	[2025-11-30] [x] [02.1_today] Payroll reclassification
@@ -169,7 +172,7 @@ Learn
 	[2025-12-02] [x] [02.1_today] Memory for everything / try kotemon
 	[2025-12-02] [x] [02.1_today] Memory for everything / if it sucks for rag build your own UI
 
-[i] Tax - only this focus on it
+Tax - only this focus on it
 	[2025-12-04] [x] [02.1_today] domicile issue - follow up with julian
 
 HIGH PRIORITY
@@ -178,3 +181,20 @@ HIGH PRIORITY
 	[2025-12-07] [x] [02.1_today] speed towing
 	[2025-12-07] [x] [02.1_today] 14333 NE Whitaker Way
 	[2025-12-07] [x] [02.1_today] Portland, OR 97230
+
+FiwithAI
+	[2025-12-08] [x] [02] Claude keeps happening: Exit code 126
+
+Serpwatch
+	[2025-12-08] [x] [02] Cancel outrank
+
+Todo System
+	[2025-12-08] [x] [dev_workflow] Higher priority / in progress
+
+PLG
+	[2025-12-08] [x] [ed_tasks] Nuture flow
+
+resume
+	[2025-12-08] [x] [resume] Add about section / Add links to projects
+	[2025-12-08] [x] [resume] Add about section / Make top nav /uplink say "contact" for clarity
+	[2025-12-08] [x] [resume] Add about section / Refine Content

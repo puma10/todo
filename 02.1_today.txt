@@ -15,8 +15,13 @@ Dev workflow
 	Putting in a banana and then writing a newsletter about it
 	learn sqs 
 IRL
+	Apple Store
+		Return Spare Battery 
+		Fix iphone 
 	
 Learn
+	Claude agent sdk harness 
+
 	[2] Tam is all human labor 
 		[2] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
 	
@@ -43,12 +48,25 @@ Distribution
 	reddit / linkedin / twitter 
 
 Admin 
+
+	To Buy 
+		[i] Battery case for phone 
+		Batteries for Findmy Devices 
+
+	[2] Add pics to Jess's album 
+		https://www.icloud.com/photos/#/icloudlinks/085UW48t0VzLfcSCXzXz4FTBQ/25/
+	
+	[x] Do calculation of how many days in Oregon and when to leave to brazil 
+
 	Newsletter 
 		Develop this  
 
-	Batteries for Findmy Devices 
+	Openai Learn AI program
+		https://x.com/imadeiyamu/status/1996595355375538665?s=46
 
-	Chat with Masud
+	
+
+	[i] Chat with Masud
 
 	Small 
 		[i] car was towed
@@ -76,6 +94,10 @@ Admin
 
 
 Artsmart 
+	Meeting 
+		Show canvas 
+		put flux 2 and vEO 3.1
+
 	How to handle letting new girl with the demos
 		Vercel or replit offers login and db - shalwa can do this
 		Tell sandy what wordpress changes we need to make 
@@ -97,46 +119,32 @@ Edge delta
 	Check if posthog setting changed worked to get analytics data
 
 Finance
+	Billing Issue 
+		Lean Ventures - already paid
+		serpwatch https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
+
 	Cleanup paypal accounts 
 		https://lean-machine-group.slack.com/archives/C02BE1C24CV/p1764365802896199
 
 	Tax - only this focus on it
+		Priority Tasks 
+			[i] Button everything up between Julian and Max 
+			[i] Send extension amount paid do we expect a refund 
+			[i] Migrate off Carry 
+			[i] 2% bonus to Robinhood 
+			[i] Setup Payroll - do we need to.  Might want to get the full amount into the 401k 
+			[i] Tell max I removed myself for interional company 
+
 		Flor remove from Dubai 
 			Clarify with Harsha
 				12/4 followed up 
+				12/8 quoted at $1200
+
 	
-	Do books 
-		Julian to look
-		$10,861.50 Payroll Tax Liability offset 
-		2025 payroll docs are now complete. They are in your Payroll Docs Folder under 2025
-	
-	Memory for everything 
-		Using piping from Kotemon
-		Data important is happening 
-
-		[1] Deductions 
-			how to make this bullet proof
-		
-		[1] Filing or not Filing 5471 
-			Background 
-				
-			If yes
-
-			If no 
-				Cryptographic timestamp of memo documented
-				Let sleeping dogs lie 
-				https://claude.ai/chat/e42a192a-19d9-4059-bfc4-61bb9dcac0b9
-				save the required cash 
-
-		[1] Who is filing the personal return 
-			notebook llm to summarize 
-
-		[1] Who is filing the personal return ultimately?
-			Looks like Max
-
-		is it done?
-
-	Maybe a good idea to look over travel expenses in getbrandsome
+		Do books 
+			Julian to look
+			$10,861.50 Payroll Tax Liability offset 
+			2025 payroll docs are now complete. They are in your Payroll Docs Folder under 2025
 
 
 FIwith.ai

@@ -1,2 +1,9 @@
 Wire it streaming to slack and Auto Posts to Reddit
 Plan what to do with multilogin - kate's infra
+Might just use google to get it working
+			after learning rag it will work  
+		Improve Quality of Response
+			steerable agents - see doc
+
+		Got a ruff idea of how langfuse observabiliy works 
+		Switch to pydantic ai and logfire

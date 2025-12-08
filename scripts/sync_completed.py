@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Move checked tasks from today, tomorrow, strategy, and in-progress lists into 04_completed.txt.
+Move checked tasks from all non-Python files into 04_completed.txt.
 """
 
 from __future__ import annotations
@@ -14,17 +14,11 @@ from pathlib import Path
 from typing import Dict, List, Sequence, Set, Tuple
 
 ROOT = Path(__file__).resolve().parent.parent
-TODAY_FILE = ROOT / "02.1_today.txt"
-TOMORROW_FILE = ROOT / "02.2_tomorrow"
-IN_PROGRESS_FILE = ROOT / "03_in_progress"
-STRATEGY_FILE = ROOT / "strategy"
 COMPLETED_FILE = ROOT / "04_completed.txt"
-SOURCE_FILES: Sequence[Path] = (
-    TODAY_FILE,
-    TOMORROW_FILE,
-    IN_PROGRESS_FILE,
-    STRATEGY_FILE,
-)
+
+# Directories/files to exclude
+EXCLUDE_DIRS = {"__pycache__", "scripts", ".git"}
+EXCLUDE_FILES = {COMPLETED_FILE.name}
 
 TASK_REGEX = re.compile(r"\[x\]\s*(.*)", re.IGNORECASE)
 BULLET_PREFIX_REGEX = re.compile(r"^(?:[-*+]\s+|\d+[.)]\s+)")
@@ -155,19 +149,51 @@ def extract_tasks_from_lines(lines: List[str], file_path: Path) -> List[TaskEntr
     return tasks
 
 
+def find_source_files() -> List[Path]:
+    """Find all non-Python files in the repo, excluding certain directories."""
+    source_files: List[Path] = []
+    
+    for item in ROOT.rglob("*"):
+        # Skip directories
+        if item.is_dir():
+            continue
+            
+        # Skip if it's a Python file
+        if item.suffix == ".py":
+            continue
+            
+        # Skip if filename is in exclude list
+        if item.name in EXCLUDE_FILES:
+            continue
+            
+        # Skip if any parent directory is in exclude list
+        if any(part in EXCLUDE_DIRS for part in item.parts):
+            continue
+            
+        # Only process regular files
+        if item.is_file():
+            source_files.append(item)
+    
+    return sorted(source_files)
+
+
 def gather_source_tasks() -> Tuple[Dict[Path, List[str]], List[TaskEntry]]:
     sources: Dict[Path, List[str]] = {}
     tasks: List[TaskEntry] = []
+    
+    source_files = find_source_files()
+    
+    if not source_files:
+        return sources, tasks
 
-    if not TODAY_FILE.exists():
-        raise FileNotFoundError(f"Could not find {TODAY_FILE}")
-
-    for file_path in SOURCE_FILES:
-        if not file_path.exists():
+    for file_path in source_files:
+        try:
+            lines = file_path.read_text(encoding="utf-8").splitlines()
+            sources[file_path] = lines
+            tasks.extend(extract_tasks_from_lines(lines, file_path))
+        except (UnicodeDecodeError, PermissionError):
+            # Skip binary files or files we can't read
             continue
-        lines = file_path.read_text().splitlines()
-        sources[file_path] = lines
-        tasks.extend(extract_tasks_from_lines(lines, file_path))
 
     return sources, tasks
 
@@ -188,9 +214,9 @@ def remove_tasks_from_sources(
         new_lines = [line for idx, line in enumerate(lines) if idx not in indexes]
         content = "\n".join(new_lines).rstrip()
         if content:
-            file_path.write_text(content + "\n")
+            file_path.write_text(content + "\n", encoding="utf-8")
         else:
-            file_path.write_text("")
+            file_path.write_text("", encoding="utf-8")
         removal_counts[file_path] = len(indexes)
 
     return removal_counts
@@ -234,7 +260,7 @@ def sync_completed() -> Tuple[int, int, List[Tuple[str, str, str]], Dict[Path, i
                 lines.append(entry_out.rstrip())
             if idx != len(section_order) - 1:
                 lines.append("")
-        COMPLETED_FILE.write_text("\n".join(lines).rstrip() + "\n")
+        COMPLETED_FILE.write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
 
     removal_counts = remove_tasks_from_sources(sources, tasks)
     return total_found, len(tasks_added), tasks_added, removal_counts

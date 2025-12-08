@@ -8,45 +8,6 @@ Admin — 02.1_today.txt
   				leave a review
   
 
-Edge delta — 02.1_today.txt
-  [i] Tax - only this focus on it
-  	Flor remove from Dubai
-  		Clarify with Harsha
-  			12/4 followed up
-  
-  	Memory for everything
-  		Using piping from Kotemon
-  		Data important is happening
-  
-  		[1] Deductions
-  			how to make this bullet proof
-  
-  		[1] Filing or not Filing 5471
-  			Background
-  
-  			If yes
-  
-  			If no
-  				Cryptographic timestamp of memo documented
-  				Let sleeping dogs lie
-  				https://claude.ai/chat/e42a192a-19d9-4059-bfc4-61bb9dcac0b9
-  				save the required cash
-  
-  		[1] Who is filing the personal return
-  			notebook llm to summarize
-  
-  		[1] Who is filing the personal return ultimately?
-  			Looks like Max
-  
-  		is it done?
-  
-  	Do books
-  		julian to look
-  
-  	maybe a good idea to look over travel expenses in getbrandosme
-  
-  
-
 Admin — 02.2_tomorrow
   	[i] hair
   
@@ -55,22 +16,8 @@ Investing — 02.2_tomorrow
   		[i] Buy bitcoin
   			putting money in 401k
 
-Serpwatch — 02.3_next_week
-  		[i] Scope the Link Exchange Feasiblity /linkexchange
-  			real world use case small
-  				rough idea of cost
-  				scrape a 100 sites and find cross relations
-  				what is the actual outcome we need to be sure it works
-  		[i] content strategy
-  
-
-Insurance — 02.3_next_week
+Text to Speech Model — 02.3_next_week
   [i] Talk to Corey
-  
-
-Later — 02.3_next_week
-      [i] Make top nav /uplink say "contact" for clarity
-      [i] Refine Content
 
 Social — projects/marketing
           [i] Reddit Bot

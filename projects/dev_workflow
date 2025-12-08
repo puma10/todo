@@ -1,7 +1,6 @@
 Todo System
     Higher priority 
         set weekly goals to stay focused
-        [x] in progress
             add a way to better view it 
         blocked 
 
@@ -9,6 +8,10 @@ Todo System
 
         journal 
             add to the journal 
+
+
+Try https://cloud.google.com/run
+    This is how replit hosts their environments 
 
 [2] try to install Happy
 [2] My SMS accounts aren't linked between my phone and my desktop

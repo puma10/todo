@@ -138,7 +138,6 @@ PLG
 		Initial Page 
 			Doesn't seem accurate
 
-	[x] Nuture flow
 		sequences 
 			welcome email 
 				general nuture
@@ -156,6 +155,4 @@ Experiments
 
 Later: 
 	Discuss affiliates
-	utm-parameters 
-	
-
+	utm-parameters
