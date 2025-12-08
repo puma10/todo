@@ -48,6 +48,7 @@ Distribution
 	reddit / linkedin / twitter 
 
 Admin 
+	Look at in progress
 
 	To Buy 
 		[i] Battery case for phone 
@@ -56,30 +57,26 @@ Admin
 	[2] Add pics to Jess's album 
 		https://www.icloud.com/photos/#/icloudlinks/085UW48t0VzLfcSCXzXz4FTBQ/25/
 	
-	[x] Do calculation of how many days in Oregon and when to leave to brazil 
 
 	Newsletter 
 		Develop this  
 
 	Openai Learn AI program
 		https://x.com/imadeiyamu/status/1996595355375538665?s=46
-
-	
+		blocked by resume 
+		only accepts pdfs 
 
 	[i] Chat with Masud
 
 	Small 
-		[i] car was towed
-				leave a review 
-
-		setup zapier to forward emails of invoices to kate (anthropic $100 a month)
+		[2] setup zapier to forward emails of invoices to kate (anthropic $100 a month)
 			https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzczchRdrSdjxBrLcHJqxvjvh
 
-		groceries
-			olive oil 
-			soy sauce 
-			garlic powder 
-			jelly 
+		[x] groceries
+			[x] olive oil 
+			[x] soy sauce 
+			[x] garlic powder 
+			[x] jelly 
 
 
 

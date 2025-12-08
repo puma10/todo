@@ -33,6 +33,7 @@ Admin
 	[2025-12-08] [x] [02] Rename Airpods for clarity of connection
 	[2025-12-08] [x] [02] buy new keyboard
 	[2025-12-08] [x] [02] cancel landing before one year
+	[2025-12-08] [x] [02.1_today] Do calculation of how many days in Oregon and when to leave to brazil
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -126,6 +127,10 @@ IRL
 	[2025-11-30] [x] [02.1_today] Fix the E key - do it at offic
 	[2025-11-30] [x] [02.1_today] Go to Apple in Vegas and fix the MacBook key and phone they might give you a new one with the new Apple care
 	[2025-12-02] [x] [02.1_today] pack for vegas
+	[2025-11-26] [x] [02.1_today] Fix jackets - $50 to take it anywhere
+	[2025-11-26] [x] [02.1_today] Buy apple vision pro
+	[2025-11-26] [x] [02.1_today] might be at river pig
+	[2025-11-28] [x] [02.1_today] toothbrush
 
 Todo Workflow Improvement
 	[2025-11-19] [x] [02.1_today] add closing task from in progress, blocked, tomorrow and next week
@@ -145,17 +150,10 @@ SERPWATCH
 FIwith.ai [paused]
 	[2025-11-24] [x] [02.1_today] [I] Add Anomaly Detection - testing for the observability stack / Grafana / A few of the dashboards aren't working
 
-
 Learn
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Add to project launcher documentation
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / GPU for text to Speech
 	[2025-11-25] [x] [02.1_today] [1] Tam is all human labor / [1] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0 / Run it on runpod or elsewhere with autodeploy
-
-IRL
-	[2025-11-26] [x] [02.1_today] Fix jackets - $50 to take it anywhere
-	[2025-11-26] [x] [02.1_today] Buy apple vision pro
-	[2025-11-26] [x] [02.1_today] might be at river pig
-	[2025-11-28] [x] [02.1_today] toothbrush
 
 Tax - only this focus on it
 	[2025-11-26] [x] [02.1_today] tax - mailbox stuff
@@ -171,8 +169,6 @@ Tax - only this focus on it
 	[2025-12-02] [x] [02.1_today] let me do the calculations - you just stear me
 	[2025-12-02] [x] [02.1_today] Memory for everything / try kotemon
 	[2025-12-02] [x] [02.1_today] Memory for everything / if it sucks for rag build your own UI
-
-Tax - only this focus on it
 	[2025-12-04] [x] [02.1_today] domicile issue - follow up with julian
 
 HIGH PRIORITY
@@ -198,3 +194,5 @@ resume
 	[2025-12-08] [x] [resume] Add about section / Add links to projects
 	[2025-12-08] [x] [resume] Add about section / Make top nav /uplink say "contact" for clarity
 	[2025-12-08] [x] [resume] Add about section / Refine Content
+	[2025-12-08] [x] [resume] Add about section / Add about section
+	[2025-12-08] [x] [resume] Add about section / Add API key with rate limiting

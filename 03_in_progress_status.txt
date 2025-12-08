@@ -4,20 +4,33 @@ In Progress (incl. Blocked)
 In Progress
 -----------
 Admin — 02.1_today.txt
+  		[i] Battery case for phone
+  	[i] Chat with Masud
+  
   		[i] car was towed
   				leave a review
   
 
-Admin — 02.2_tomorrow
-  	[i] hair
+Finance — 02.1_today.txt
+  			[i] Button everything up between Julian and Max
+  			[i] Send extension amount paid do we expect a refund
+  			[i] Migrate off Carry
+  			[i] 2% bonus to Robinhood
+  			[i] Setup Payroll - do we need to.  Might want to get the full amount into the 401k
+  			[i] Tell max I removed myself for interional company
   
 
-Investing — 02.2_tomorrow
+Admin — 02.2_tomorrow
+  	[i] hair
+  		Brazil guy too expensive, look for alternatives
+  
+
+Robotics - https://arxiv.org/abs/2406.09246 — 02.3_next_week
+  [i] Talk to Corey
+
+Investing — projects/investing
   		[i] Buy bitcoin
   			putting money in 401k
-
-Text to Speech Model — 02.3_next_week
-  [i] Talk to Corey
 
 Social — projects/marketing
           [i] Reddit Bot
