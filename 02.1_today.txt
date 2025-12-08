@@ -6,37 +6,52 @@
 [i] = in progress
 [b] = blocked waiting 
 
-HIGH PRIORITY 
-	[x] Car in impound 
-		[x] executive towing 
-		[x] speed towing 
-		[x] 14333 NE Whitaker Way 
-		[x] Portland, OR 97230 
+HIGH PRIORITY
 
 Sort 
-	Car towed bidding scraper 
 
 Dev workflow
-
+	YT - make it so you can run multiple summaries at the same time 
 	Putting in a banana and then writing a newsletter about it
-
+	learn sqs 
 IRL
 	
 Learn
 	[2] Tam is all human labor 
 		[2] https://docs.google.com/document/d/1mMt2svCg16g4Hyf7FHndrPAVk5w5Wy0BC0G85cWjrSM/edit?tab=t.0
 	
+	Post-training because Surge AI is a $1b company bootstrapped 
+		https://grok.com/c/eb38b0e7-f3f1-4b59-9083-ee0279badfd2?rid=02943dcf-70c6-4f01-8829-51d648789328
+
+	RL - reinforcement learning 
+		https://techcrunch.com/2025/09/03/coreweave-acquires-agent-training-startup-openpipe/
+		https://github.com/OpenPipe/ART
+		https://veris.ai/
+		https://www.cloudcruise.com/
+		https://www.dwarkesh.com/p/andrej-karpathy
+		
+		RL training 
+		https://github.com/Farama-Foundation/Gymnasium
+		https://docs.ray.io/en/latest/rllib/index.html
+		https://github.com/hud-evals/hud-python
+		https://www.primeintellect.ai/
+		https://osmosis.ai/
+		https://appliedcompute.com/
+
+
+Distribution 
+	reddit / linkedin / twitter 
 
 Admin 
-	Important 
-		Insurance 
-			Will jess let me buy off the open market with international 
+	Newsletter 
+		Develop this  
 
+	Batteries for Findmy Devices 
+
+	Chat with Masud
 
 	Small 
 		[i] car was towed
-			[x] get follow up pictures and clarify you were parked in the wrong spot 
-			[x] 12/7 emailed them 
 				leave a review 
 
 		setup zapier to forward emails of invoices to kate (anthropic $100 a month)
@@ -61,6 +76,12 @@ Admin
 
 
 Artsmart 
+	How to handle letting new girl with the demos
+		Vercel or replit offers login and db - shalwa can do this
+		Tell sandy what wordpress changes we need to make 
+
+	Migrate and Kill wordpress 
+
 	Rebuild it for temporary 
 		https://aistudio.google.com/apps/drive/11POJb6yUV2T9KY0ldQhC5X4p2jm5ot3c?showAssistant=true&showPreview=true&resourceKey=
 
@@ -75,10 +96,19 @@ Artsmart
 Edge delta 
 	Check if posthog setting changed worked to get analytics data
 
-[i] Tax - only this focus on it
-	Flor remove from Dubai 
-		Clarify with Harsha
-			12/4 followed up 
+Finance
+	Cleanup paypal accounts 
+		https://lean-machine-group.slack.com/archives/C02BE1C24CV/p1764365802896199
+
+	Tax - only this focus on it
+		Flor remove from Dubai 
+			Clarify with Harsha
+				12/4 followed up 
+	
+	Do books 
+		Julian to look
+		$10,861.50 Payroll Tax Liability offset 
+		2025 payroll docs are now complete. They are in your Payroll Docs Folder under 2025
 	
 	Memory for everything 
 		Using piping from Kotemon
@@ -106,10 +136,7 @@ Edge delta
 
 		is it done?
 
-	Do books 
-		julian to look
-
-	maybe a good idea to look over travel expenses in getbrandosme
+	Maybe a good idea to look over travel expenses in getbrandsome
 
 
 FIwith.ai

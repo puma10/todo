@@ -27,6 +27,8 @@ Admin
 	[2025-11-30] [x] [02.1_today] [i] hair / schedule appointment
 	[2025-11-30] [x] [02.1_today] [i] hair / Send damp photos
 	[2025-12-02] [x] [02.1_today] Small / wireless Keyboard
+	[2025-12-07] [x] [02.1_today] Small / [i] car was towed / get follow up pictures and clarify you were parked in the wrong spot
+	[2025-12-07] [x] [02.1_today] Small / [i] car was towed / 12/7 emailed them
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -169,3 +171,10 @@ Learn
 
 [i] Tax - only this focus on it
 	[2025-12-04] [x] [02.1_today] domicile issue - follow up with julian
+
+HIGH PRIORITY
+	[2025-12-07] [x] [02.1_today] Car in impound
+	[2025-12-07] [x] [02.1_today] executive towing
+	[2025-12-07] [x] [02.1_today] speed towing
+	[2025-12-07] [x] [02.1_today] 14333 NE Whitaker Way
+	[2025-12-07] [x] [02.1_today] Portland, OR 97230

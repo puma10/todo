@@ -10,7 +10,7 @@ from collections import defaultdict
 from datetime import datetime
 from typing import Dict
 
-COMPLETED_FILE = Path(__file__).resolve().parent / "04_completed.txt"
+COMPLETED_FILE = Path(__file__).resolve().parent.parent / "04_completed.txt"
 DATE_PATTERN = re.compile(r'\[(\d{4}-\d{2}-\d{2})\]')
 
 
@@ -94,6 +94,7 @@ def main() -> int:
 
 if __name__ == "__main__":
     sys.exit(main())
+
 
 
 

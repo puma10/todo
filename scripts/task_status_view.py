@@ -60,15 +60,17 @@ STATUS_ALIASES = {
     "transfer": "transfer",
 }
 
+ROOT = Path(__file__).resolve().parent.parent
+
 DEFAULT_SOURCES = [
-    Path("02.1_today.txt"),
-    Path("02.2_tomorrow"),
-    Path("02.3_next_week"),
-    Path("03_in_progress"),
+    ROOT / "02.1_today.txt",
+    ROOT / "02.2_tomorrow",
+    ROOT / "02.3_next_week",
+    ROOT / "03_in_progress",
 ]
 
-PROJECTS_DIR = Path("projects")
-CONFIG_FILE = Path("task_sources.json")
+PROJECTS_DIR = ROOT / "projects"
+CONFIG_FILE = ROOT / "scripts" / "task_sources.json"
 
 
 @dataclass
@@ -172,16 +174,16 @@ def gather_sources(root: Path) -> Tuple[List[Path], Dict[str, Any]]:
         seen.add(path)
         sources.append(path)
 
-    for relative in DEFAULT_SOURCES:
-        add_path((root / relative).resolve())
+    for source_path in DEFAULT_SOURCES:
+        add_path(source_path.resolve())
 
-    projects_dir = (root / PROJECTS_DIR).resolve()
+    projects_dir = PROJECTS_DIR.resolve()
     if projects_dir.is_dir():
         for child in sorted(projects_dir.iterdir()):
             if child.is_file():
                 add_path(child.resolve())
 
-    config_path = (root / CONFIG_FILE).resolve()
+    config_path = CONFIG_FILE.resolve()
     try:
         config = load_config(config_path)
     except Exception as exc:  # pylint: disable=broad-except
@@ -476,7 +478,7 @@ def output(tasks_by_status: Dict[str, List[TaskEntry]], root: Path, selected: Li
 
 def main() -> int:
     args = parse_args()
-    root = Path(__file__).resolve().parent
+    root = ROOT
     sources, config = gather_sources(root)
 
     if args.list_sources:

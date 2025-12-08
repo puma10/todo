@@ -8,7 +8,7 @@ import re
 import sys
 from typing import Dict, List, Tuple
 
-TODAY_FILE = Path(__file__).resolve().parent / "02.1_today.txt"
+TODAY_FILE = Path(__file__).resolve().parent.parent / "02.1_today.txt"
 PRIORITY_PATTERN = re.compile(r'^\s*\[([123])\]\s*(.*)$')
 
 

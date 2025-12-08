@@ -9,7 +9,7 @@ import sys
 from typing import List, Tuple
 
 
-TODAY_FILE = Path(__file__).resolve().parent / "02.1_today.txt"
+TODAY_FILE = Path(__file__).resolve().parent.parent / "02.1_today.txt"
 PRIORITY_1_PATTERN = re.compile(r'^\s*\[1\]\s*(.*)$')
 
 

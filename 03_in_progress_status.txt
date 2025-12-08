@@ -3,13 +3,16 @@ In Progress (incl. Blocked)
 
 In Progress
 -----------
-Remember everything — 02.1_today.txt
-  [i] Tax - only this focus on it
-  			https://claude.ai/chat/03e46fd7-5ef5-4eea-a924-6c7398fa1986
-  				coworking might work
-  	billing is failing
-  		https://app.wyomingllcattorney.com/v2/auth?redirect=%2Fv2%2Fhome%2Fcompanies%2F39540%2Fbilling
+Admin — 02.1_today.txt
+  		[i] car was towed
+  				leave a review
   
+
+Edge delta — 02.1_today.txt
+  [i] Tax - only this focus on it
+  	Flor remove from Dubai
+  		Clarify with Harsha
+  			12/4 followed up
   
   	Memory for everything
   		Using piping from Kotemon

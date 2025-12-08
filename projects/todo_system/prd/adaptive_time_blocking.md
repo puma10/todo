@@ -210,7 +210,7 @@ learn:
 
 ## Future Enhancements
 
-- Integration with task completion tracking (sync_completed.py)
+- Integration with task completion tracking (scripts/sync_completed.py)
 - Multi-day planning (schedule tasks across week)
 - Energy level prediction based on sleep/activity data
 - Conflict resolution (reschedule if conflicts arise)
@@ -223,6 +223,7 @@ learn:
 - How to handle tasks that span multiple days?
 - Should system reschedule if tasks run over?
 - Integration with other productivity tools?
+
 
 
 

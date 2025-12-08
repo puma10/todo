@@ -1,0 +1,20 @@
+2025-12-08 Depth Issue 
+    Background: 
+        Google changed the pagination so you couldn't set the default value to 100. So we have to now paginate using a proxy crawl for every single page. This increased their proxy cost 10x
+
+    Decision: 
+        We decided to continue to give the same pricing to recurring users for now - increased our monthly cost fro $1.5 to $15
+        For AppSumo we are required to increase as it would take our costs from about $60/month to $600/month
+
+    Reference: 
+        conversation link https://lean-machine-group.slack.com/archives/C018RKLHQES/p1762953767591789
+        calculations: https://docs.google.com/spreadsheets/d/1VMqzgUzAecXJSe250yEFnLtUp4pAXh3ziaVj_KALpgw/edit?gid=0#gid=0
+
+    Convo summary:
+        @Kate, @Josh Wardini, and @Sandi Sahdewo discussed the impact of Google's change to limit search results to 10 per page, and how to handle this change for AppSumo and recurring users.
+
+        @Kate noted that the depth increase will use more Keyword Checks for AppSumo users, and they may need to upgrade to a paid plan [1]
+        @Josh Wardini suggested only applying the depth change for AppSumo users and not messaging other users about it [2]
+        @Sandi Sahdewo analyzed the potential cost impact, estimating an additional $2-$5 per month for the user with the most keywords [3]
+        @Josh Wardini requested a 25% discount for AppSumo users upgrading to a paid plan [4]
+        @Sandi Sahdewo implemented the 25% AppSumo discount coupon [5]

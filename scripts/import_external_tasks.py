@@ -11,14 +11,13 @@ from pathlib import Path
 from typing import Any, Dict, List, Sequence
 
 from task_status_view import (  # type: ignore
-    CONFIG_FILE,
     TaskEntry,
     load_config,
     normalize_status_filters,
     parse_file,
 )
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 TODAY_FILE = ROOT / "02.1_today.txt"
 DEFAULT_SECTION = "Imported"
 DEFAULT_STATUS_FILTER = ["in-progress", "blocked"]
@@ -395,7 +394,7 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> int:
     args = parse_args()
-    config = load_config((ROOT / CONFIG_FILE).resolve())
+    config = load_config((ROOT / "scripts" / "task_sources.json").resolve())
     target_specs = build_config_targets(config)
 
     specs: List[ImportSpec] = []

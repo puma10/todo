@@ -13,7 +13,7 @@ from datetime import date
 from pathlib import Path
 from typing import Dict, List, Sequence, Set, Tuple
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 TODAY_FILE = ROOT / "02.1_today.txt"
 TOMORROW_FILE = ROOT / "02.2_tomorrow"
 IN_PROGRESS_FILE = ROOT / "03_in_progress"
