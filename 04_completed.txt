@@ -39,6 +39,7 @@ Admin
 	[2025-12-08] [x] [02.1_today] Small / soy sauce
 	[2025-12-08] [x] [02.1_today] Small / garlic powder
 	[2025-12-08] [x] [02.1_today] Small / jelly
+	[2025-12-10] [x] [02.1_today] To Buy / Batteries for Findmy Devices
 
 FiWithAi
 	[2025-11-10] [x] [02.1_today] plaid integration / sandbox working
@@ -109,6 +110,7 @@ Dev workflow
 	[2025-11-26] [x] [02.1_today] setup yolo for codex, gemini and claude
 	[2025-11-30] [x] [02.1_today] Add to AppleCare devices.
 	[2025-12-02] [x] [02.1_today] download runpod pod
+	[2025-12-10] [x] [02.1_today] YT - make it so you can run multiple summaries at the same time
 
 Journal
 	[2025-11-14] [x] [02.1_today] Journal Done
@@ -182,6 +184,7 @@ HIGH PRIORITY
 	[2025-12-07] [x] [02.1_today] speed towing
 	[2025-12-07] [x] [02.1_today] 14333 NE Whitaker Way
 	[2025-12-07] [x] [02.1_today] Portland, OR 97230
+	[2025-12-10] [x] [02.1_today] Get Kate access to serpwatch quickbooks
 
 FiwithAI
 	[2025-12-08] [x] [02] Claude keeps happening: Exit code 126

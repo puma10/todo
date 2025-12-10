@@ -5,6 +5,8 @@ In Progress
 -----------
 Admin — 02.1_today.txt
   		[i] Battery case for phone
+  			try to fix at apple first
+  
   	[i] Chat with Masud
   
 

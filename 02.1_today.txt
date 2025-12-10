@@ -7,14 +7,16 @@
 [b] = blocked waiting 
 
 HIGH PRIORITY
-	Tax finalization - max needs to make the adjustments 
-	[x] Get Kate access to serpwatch quickbooks 
+	Tax finalization - max needs to make the adjustments
+	Reddit App
+	Newsletter 
 
 Sort 
 
 Dev workflow
-	[x] YT - make it so you can run multiple summaries at the same time 
-	learn sqs 
+	Try Gemini Ultra and Grok Ultra 
+	
+
 IRL
 	Apple Store
 		Return Spare Battery 
@@ -53,10 +55,11 @@ Distribution
 Admin 
 	Look at in progress
 
+	[x] pay serpwatch corporate 
+
 	To Buy 
 		[i] Battery case for phone 
 			try to fix at apple first 
-		[x] Batteries for Findmy Devices 
 
 	[2] Add pics to Jess's album 
 		https://www.icloud.com/photos/#/icloudlinks/085UW48t0VzLfcSCXzXz4FTBQ/25/
