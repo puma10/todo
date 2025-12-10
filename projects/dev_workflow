@@ -1,14 +1,10 @@
 Todo System
-    Higher priority 
-        set weekly goals to stay focused
-            add a way to better view it 
-        blocked 
 
-        templates for daily 
+[1] Claude agent sdk harness - long running agent tasks
+		https://www.youtube.com/watch?v=usQ2HBTTWxs
 
-        journal 
-            add to the journal 
-
+[2] setup zapier to forward emails of invoices to kate (anthropic $100 a month)
+			https://mail.google.com/mail/u/0/#inbox/FMfcgzQdzczchRdrSdjxBrLcHJqxvjvh
 
 Try https://cloud.google.com/run
     This is how replit hosts their environments 

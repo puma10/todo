@@ -7,9 +7,6 @@ Admin — 02.1_today.txt
   		[i] Battery case for phone
   	[i] Chat with Masud
   
-  		[i] car was towed
-  				leave a review
-  
 
 Finance — 02.1_today.txt
   			[i] Button everything up between Julian and Max

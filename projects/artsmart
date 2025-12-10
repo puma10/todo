@@ -1,4 +1,7 @@
 	Fast Fixes
+		artsmart - the credits system is credits, tunes, tune image credits confusing.
+			Make the whole system follow a baseline credit system 
+			
 		Image iteration is very valuable without huge lift 
 			how do we iterate on the existing code base 
 				playground setup is currently weird
